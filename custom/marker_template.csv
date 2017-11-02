@@ -1,0 +1,5 @@
+icon_size,icon_shape,icon_colour,name,latitude,longitude,address,special,special_1,special_2
+large,circle,red,,,,,relevant,information,goes here
+medium,square,blue,,,,,,,
+small,,green,,,,,,,
+,,#000000,,,,,,,

@@ -1,0 +1,76 @@
+icon_size,type,name,latitude,longitude,special,address,special_1,special_2
+medium,heliport,Canmore Municipal Heliport,51.07780075,-115.3379974,Elevation: 4296 ft.,Canmore,,CEW9
+medium,heliport,Edmonton / St. Albert (Delta Helicopters) Heliport,53.68669436,-113.6873388,Elevation: 2265 ft.,Edmonton,,CES3
+medium,heliport,Kananaskis/Nakoda,51.103333,-115.012222,Elevation: 4260 ft.,Kananaskis,,CNK7
+medium,heliport,Wainwright / Camp Wainwright Field,52.82793368,-110.9042788,Elevation: 2170 ft.,Wainwright,,CFF7
+medium,heliport,Banff (Park Compound Heliport) Heliport,51.19169998,-115.5579987,Elevation: 4570 ft.,Banff,,CBP2
+medium,heliport,Barrhead (Healthcare Centre) Heliport,54.11828206,-114.4000661,Elevation: 2121 ft.,Barrhead,,CHC3
+medium,heliport,Bassano (Health Centre) Heliport,50.79029846,-112.4609985,Elevation: 2606 ft.,Bassano,,CBL4
+medium,heliport,Black Diamond (Oilfields General Hospital) Heliport,50.67890167,-114.2340012,Elevation: 3906 ft.,Black Diamond,,CFL3
+medium,heliport,Blairmore (Crowsnest Pass Hospital) Heliport,49.61610031,-114.4570007,Elevation: 4292 ft.,Blairmore,,CBS9
+medium,heliport,Blairmore (Forestry) Heliport,49.60860062,-114.4509964,Elevation: 4224 ft.,Blairmore,,CEK4
+medium,heliport,Boyle (Healthcare Centre) Heliport,54.58330154,-112.8000031,Elevation: 2150 ft.,Boyle,,CHJ4
+medium,heliport,Brooks (Community Health Centre) Heliport,50.56940079,-111.8889999,Elevation: 2496 ft.,Brooks,,CFV8
+medium,heliport,Calgary (City / Bow River) Heliport,51.05283429,-114.0788434,Elevation: 3443 ft.,Calgary,,CEL2
+medium,heliport,Calgary (Rockyview Hospital) Heliport,50.9882787,-114.0983015,Elevation: 3590 ft.,Calgary,,CEM2
+medium,heliport,Calgary (Bow Crow) Heliport,51.10316489,-114.2149615,Elevation: 3540 ft.,Calgary,,CEP2
+medium,heliport,Calgary (Foothills Hospital) Heliport,51.0655723,-114.1331877,Elevation: 3635 ft.,Calgary,,CFP3
+medium,heliport,Camrose / St Mary's Hospital Heliport,53.01513825,-112.8301692,Elevation: 2413 ft.,Camrose,,CMR6
+medium,heliport,Castor (Our Lady of the Rosary Hospital) Heliport,52.22350134,-111.9065773,Elevation: 2678 ft.,Castor,,CCR7
+medium,heliport,Claresholm (General Hospital) Heliport,50.01860046,-113.5830002,Elevation: 3394 ft.,Claresholm,,CFV7
+medium,heliport,Cline River Heliport,52.17890167,-116.4789963,Elevation: 4386 ft.,Cline River,,CCR5
+medium,heliport,Coronation (Health Centre) Heliport,52.09607263,-111.4597535,Elevation: 2614 ft.,Coronation,,CRH2
+medium,heliport,Daysland Health Centre Heliport,52.8689003,-112.2730026,Elevation: 2307 ft.,Daysland,,CDL3
+medium,heliport,Drayton Valley (Health Centre) Heliport,53.21170044,-114.9710007,Elevation: 2879 ft.,Drayton Valley,,CFV9
+medium,heliport,Drumheller (Health Centre) Heliport,51.46911051,-112.7281863,Elevation: 2246 ft.,Drumheller,,CDH2
+medium,heliport,Edmonton (Eastport) Heliport,53.50830078,-113.3330002,Elevation: 2320 ft.,Edmonton,,CEP8
+medium,heliport,Edmonton (Grey Nuns Community Hospital) Heliport,53.46225053,-113.427764,Elevation: 2274 ft.,Edmonton,,CES8
+medium,heliport,Edmonton / University of Alberta (Stollery Children's Hospital Mahi) Heliport,53.52042413,-113.5250464,Elevation: 2367 ft.,Edmonton,,CEW7
+medium,heliport,Edmonton (Royal Alexandra Hospital) Heliport,53.5579086,-113.4965587,Elevation: 2247 ft.,Edmonton,,CFH7
+medium,heliport,Edmonton / Misericordia (Community Hospital) Heliport,53.52037709,-113.6110555,Elevation: 2320 ft.,Edmonton,,CMC2
+medium,heliport,Edmonton (CFB Namao) Heliport,53.6679343,-113.4725475,Elevation: 2257 ft.,Edmonton,,CYED
+medium,heliport,Fort Saskatchewan (General Hospital) Heliport,53.70379642,-113.2231611,Elevation: 2047 ft.,Fort Saskatchewan,,CSV4
+medium,heliport,Country Gardens B&B Heliport,58.3506012,-115.9489975,Elevation: 915 ft.,Fort Vermilion,,CKV9
+medium,heliport,Grande Prairie (Forestry) Heliport,55.15359879,-118.822998,Elevation: 2151 ft.,Grande Prairie,,CEZ9
+medium,heliport,Hanna (District Ambulance Heliport) Heliport,51.65112568,-111.9292903,Elevation: 2687 ft.,Hanna,,CHD3
+medium,heliport,Kananaskis Village Helistop,50.92279816,-115.1439972,Elevation: 5027 ft.,Kananaskis Village,,CFE7
+medium,heliport,Lethbridge (Regional Hospital) Heliport,49.68596847,-112.8156316,Elevation: 2993 ft.,Lethbridge,,CLH4
+medium,heliport,Mayerthorpe (Healthcare Centre) Heliport,53.94871141,-115.1330173,Elevation: 2432 ft.,Mayerthorpe,,CMC3
+medium,heliport,Olds (Hospital) Heliport,51.8014085,-114.1168866,Elevation: 3360 ft.,Olds,,CFU9
+medium,heliport,Pincher Creek (Hospital) Heliport,49.49250031,-113.9469986,Elevation: 3754 ft.,Pincher Creek,,CPR8
+medium,heliport,Ponoka (Hospital & Care Centre) Heliport,52.68529892,-113.5889969,Elevation: 2676 ft.,Ponoka,,CHC4
+medium,heliport,Red Deer Regional Hospital Centre Heliport,52.26190186,-113.8160019,Elevation: 2877 ft.,Red Deer,,CRD3
+medium,heliport,Rimbey (Hospital & Care Centre) Heliport,52.6406156,-114.247781,Elevation: 3067 ft.,Rimbey,,CRH5
+medium,heliport,Rocky Mountain House (General Hospital) Heliport,52.37860107,-114.9199982,Elevation: 3323 ft.,Rocky Mountain House,,CEU4
+medium,heliport,Shunda (Fire Base) Heliport,52.48830032,-115.7549973,Elevation: 4700 ft.,Shunda,,CDA7
+medium,heliport,Smoky Lake (George Mcdougall Health Centre) Heliport,54.12189865,-112.4660034,Elevation: 2200 ft.,Smoky Lake,,CGM2
+medium,heliport,St. Paul (Health Care Centre) Heliport,53.98809814,-111.2910004,Elevation: 2113 ft.,St. Paul,,CTP5
+medium,heliport,Stettler (Health Centre) Heliport,52.32315356,-112.7252573,Elevation: 2694 ft.,Stettler,,CLH2
+medium,heliport,Stony Plain (Westview Health Centre) Heliport,53.53733462,-113.9783129,Elevation: 2311 ft.,Stony Plain,,CSP2
+medium,heliport,Suffield Heliport,50.26670074,-111.1829987,Elevation: 2525 ft.,Suffield,YSD,CYSD
+medium,heliport,Sundre (Hospital & Health Care Centre) Heliport,51.8071653,-114.6365404,Elevation: 3589 ft.,Sundre,,CSD2
+medium,heliport,Taber (Health Centre) Heliport,49.78559875,-112.1660004,Elevation: 2669 ft.,Taber,,CTB7
+medium,heliport,Three Hills (Hospital) Heliport,51.70880243,-113.2520163,Elevation: 3000 ft.,Three Hills,,CFA8
+medium,heliport,Vegreville (St. Joseph's General Hospital) Heliport,53.4939003,-112.0329971,Elevation: 2079 ft.,Vegreville,,CVG8
+medium,heliport,Vermilion Health Centre Heliport,53.35580063,-110.8720016,Elevation: 2011 ft.,Vermilion,,CVH2
+medium,heliport,Vulcan (Hospital) Heliport,50.39579107,-113.2595587,Elevation: 3451 ft.,Vulcan,,CVH7
+medium,heliport,Wainwright (Health Centre) Heliport,52.84297853,-110.8647349,Elevation: 2262 ft.,Wainwright,,CWH2
+medium,heliport,Wetaskiwin (Hospital & Care Centre) Heliport,52.98843413,-113.3680701,Elevation: 2494 ft.,Wetaskiwin,,CWC4
+medium,heliport,Lacombe (Mustang Helicopters),52.37888718,-113.8225021,Elevation: 2889 ft.,,,CMH3
+medium,heliport,Redwater (Heliworks),53.91925243,-113.104248,Elevation: 2200 ft.,,,CRW2
+medium,heliport,Edmonton / Kelsonae Heliport,53.3666101,-113.837505,Elevation: 2325 ft.,,,CSG6
+medium,heliport,Edmonton / Sturgeon Community Hospital Heliport,53.65457807,-113.6273606,Elevation: 2251 ft.,,,CSA3
+medium,heliport,Anzac (long Lake) Heliport,56.42432195,-110.964489,Elevation: 1612 ft.,,,CNZ2
+medium,heliport,Alhambra / Ahlstrom Heliport,52.34623992,-114.6708834,Elevation: 3212 ft.,,,CA-0445
+medium,heliport,Viking Health Centre Helipad,53.10045339,-111.7765975,Elevation: 2240 ft.,,,CVK2
+medium,heliport,Two Hills (Health Centre) Heliport,53.71361874,-111.7308712,Elevation: 2075 ft.,,,CA-0513
+medium,heliport,Hespero / Safron Residence Heliport,52.28044172,-114.4278002,Elevation: 3192 ft.,,,CTS6
+medium,heliport,Leslieville / W. Pidhirney Residence Heliport,52.35927414,-114.5713466,Elevation: 3130 ft.,,,cwp3
+medium,heliport,Calgary (Aerial Recon) Heliport,50.868,-114.138,Elevation: 3820 ft.,,,CA-0522
+medium,heliport,Calgary / Blue-Con Heliport,50.99696384,-113.893889,Elevation: 3440 ft.,Calgary,,CBC6
+medium,heliport,Calgary (Peter Lougheed Centre) Heliport,51.07819559,-113.98633,Elevation: 3562 ft.,Calgary,,CLC3
+medium,heliport,Calgary (Alberta Children's Hospital),51.07582625,-114.1477078,Elevation: 3670 ft.,Calgary,,CAC6
+medium,heliport,Calgary (Eastlake) Heliport,50.95501131,-113.9728667,Elevation: 3418 ft.,Calgary,,CEL9
+medium,heliport,Fort Macleod (Hospital) Heliport,49.72576576,-113.3921778,Elevation: 3095 ft.,Fort Macleod,,CFM9
+medium,heliport,Edmonton / Leduc,53.25317246,-113.5425988,Elevation: 2411 ft.,Leduc,,CLD2
+medium,heliport,Nordegg / Ahlstrom Heliport,52.4893136,-116.0795689,Elevation: 4411 ft.,Nordegg,,ceg6

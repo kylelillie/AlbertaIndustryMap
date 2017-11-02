@@ -1,0 +1,203 @@
+icon_size,name,latitude,longitude,address,special,special_1,special_2
+large,Calgary International Airport,51.11389923,-114.0199966,"15 St NE, Calgary, AB T2E 8E5",Elevation: 3557 ft.,IATA: YYC,ICAO: CYYC
+large,Edmonton International Airport,53.30970001,-113.5800018,"1000 Airport Rd, Nisku, AB T9E 0V3",Elevation: 2373 ft.,IATA: YEG,ICAO: CYEG
+medium,Calgary / Springbank Airport,51.10309982,-114.3740005,"170 MacLaurin Dr, Calgary, AB T3Z 3S4",Elevation: 3940 ft.,,ICAO: CYBW
+medium,Red Deer Regional Airport,52.18220139,-113.8939972,"3801 Airport Dr, Springbrook, AB T4S 2G4",Elevation: 2968 ft.,IATA: YQF,ICAO: CYQF
+medium,Lethbridge County Airport,49.63029861,-112.8000031,"Kenyon Dr, Welling, AB T0K 2N0",Elevation: 3048 ft.,IATA: YQL,ICAO: CYQL
+medium,Grande Prairie Airport,55.17969894,-118.8850021,"10910 Airport Dr Unit 102, Grande Prairie, AB T8V 7Z5",Elevation: 2195 ft.,IATA: YQU,ICAO: CYQU
+medium,Fort McMurray Airport,56.65330124,-111.2220001,"Snow Eagle Dr, Fort McMurray, AB T9H 0B6",Elevation: 1211 ft.,IATA: YMM,ICAO: CYMM
+medium,Medicine Hat Airport,50.01890182,-110.7210007,"49 Viscount Ave SW, Medicine Hat, AB T1A 5G4",Elevation: 2352 ft.,IATA: YXH,ICAO: CYXH
+medium,Lloydminster Airport,53.30920029,-110.072998,"Township Rd 502, Blackfoot, AB T0B 0L0",Elevation: 2193 ft.,IATA: YLL,ICAO: CYLL
+medium,CFB Cold Lake,54.40499878,-110.2789993,"Hangar Ln, Cherry Grove, AB T0A 0T0",Elevation: 1775 ft.,IATA: YOD,ICAO: CYOD
+medium,High Level Airport,58.62139893,-117.1650009,"Range Rd 194B, Clairmont, AB T0H",Elevation: 1110 ft.,IATA: YOJ,ICAO: CYOJ
+medium,Peace River Airport,56.22689819,-117.4469986,"AB-2, Grimshaw, AB T0H 1W0",Elevation: 1873 ft.,IATA: YPE,ICAO: CYPE
+medium,Slave Lake Airport,55.29309845,-114.7770004,"404 10 Ave NW, Slave Lake, AB T0G 2A1",Elevation: 1912 ft.,IATA: YZH,ICAO: CYZH
+medium,Edson Airport,53.57889938,-116.4649963,"6615-6627 Glenaire Rd, Edson, AB T7E",Elevation: 3043 ft.,IATA: YET,ICAO: CYET
+medium,Pincher Creek Airport,49.52059937,-113.9970016,"Pincher Creek Airport, Pincher Creek, AB T0K 1W0",Elevation: 3903 ft.,IATA: WPC,ICAO: CZPC
+medium,Fort Chipewyan Airport,58.76720047,-111.1169968,"Fort Chipewyan Airport (YPY), Fort Chipewyan, AB T0P",Elevation: 761 ft.,IATA: YPY,ICAO: CYPY
+medium,Whitecourt Airport,54.14390182,-115.7870026,"Unnamed Road, Woodlands County, AB T0E",Elevation: 2567 ft.,IATA: YZU,ICAO: CYZU
+medium,Rainbow Lake Airport,58.49140167,-119.4079971,"45 Home Rd, Rainbow Lake, AB T0H 2Y0",Elevation: 1759 ft.,IATA: YOP,ICAO: CYOP
+medium,Bonnyville Airport,54.30419922,-110.7440033,"Bonnyville Airport (YBY), Buffalo Trail, Bonnyville, AB T9N 0B6",Elevation: 1836 ft.,IATA: YBY,ICAO: CYBF
+small,Edmonton/Cooking Lake Seaplane Base,53.42559398,-113.105793,"51412 Range Rd 220, Sherwood Park, AB T8E 1H1",Elevation: 2419 ft.,,ICAO: CEE7
+small,High Level/Footner Lake Seaplane Base,58.61669922,-117.1829987,"Unnamed Road, Clairmont, AB T0H",Elevation: 1084 ft.,,ICAO: CEK7
+small,Fort McMurray Seaplane Base,56.73329926,-111.3669968,"9903 Morimoto Dr, Fort McMurray, AB T9H 5E3",Elevation: 795 ft.,,ICAO: CES7
+small,Drumheller Municipal Airport,51.49639893,-112.7490005,"Range Rd 203, Drumheller, AB T0J 0Y0",Elevation: 2597 ft.,,ICAO: CEG4
+small,Wetaskiwin Regional Airport,52.96500015,-113.4110031,"6215 46 Ave, Wetaskiwin, AB T9A 3S1",Elevation: 2509 ft.,,ICAO: CEX3
+small,High River Airport,50.53329849,-113.8330002,"120 St E, Foothills No. 31, AB",Elevation: 3431 ft.,,ICAO: CEN4
+small,Edmonton / Villeneuve Airport,53.66749954,-113.8539963,"Township Road 542A, Calahoo, AB T0G 0J0",Elevation: 2256 ft.,,ICAO: CZVL
+small,Camrose Airport,53.04029846,-112.8160019,"4400 55 Ave, Camrose, AB T4V 4P4",Elevation: 2426 ft.,,ICAO: CEQ3
+small,Lac La Biche Airport,54.77030182,-112.0319977,"Lac La Biche Airport (YLB), Lac la Biche, AB T0A 2C0",Elevation: 1884 ft.,IATA: YLB,ICAO: CYLB
+small,Rocky Mountain House Airport,52.42969894,-114.9039993,"Unnamed Road, Alhambra, AB T0M 0C0",Elevation: 3244 ft.,IATA: YRM,ICAO: CYRM
+small,Athabasca Airport,54.74309921,-113.2050018,"Range Rd 221, Athabasca, AB T9S 1M6",Elevation: 1971 ft.,,ICAO: CYWM
+small,Edmonton / Cooking Lake Airport,53.42750168,-113.1159973,"Unnamed Road, Sherwood Park, AB T8E 1H1",Elevation: 2437 ft.,,ICAO: CEZ3
+small,Olds-Didsbury Airport,51.7118988,-114.1070023,"1408 Township Rd 320, Mountain View County, AB T0M 0W0",Elevation: 3360 ft.,,ICAO: CEA3
+small,Airdrie Airport,51.26390076,-113.9339981,"290231 Township Rd 270, Airdrie, BC T4B 2A4",Elevation: 3648 ft.,,ICAO: CEF4
+small,Calgary / Okotoks Air Park,50.73529816,-113.9349976,"38 Billy Haynes Trail, Okotoks, AB T1S 2N9",Elevation: 3601 ft.,,ICAO: CFX2
+small,Claresholm Industrial Airport,50.00469971,-113.6299973,"Claresholm Indus Airport, Claresholm, AB T0L 0T0",Elevation: 3325 ft.,,ICAO: CEJ4
+small,Brooks Regional,50.63359833,-111.9260025,"Brooks Airport (YBP), Duchess, AB T0J 0Z0",Elevation: 2490 ft.,,ICAO: CYBP
+small,Ponoka Industrial Airport,52.65169907,-113.6060028,"AB-2A, Clive, AB T0C 0Y0",Elevation: 2669 ft.,,ICAO: CEH3
+small,Vulcan Airport,50.40470123,-113.2829971,"1042 10 Ave N, Vulcan, AB T0L 2B0",Elevation: 3437 ft.,,ICAO: CFX6
+small,Banff Airport,51.20734047,-115.5418611,"AB-1, Improvement District No. 9, AB T0L",Elevation: 4583 ft.,IATA: YBA,ICAO: CYBA
+small,Edmonton / Josephburg Airport,53.72799803,-113.0865669,"Josephburg, Fort Saskatchewan, AB T8L 4B9",Elevation: 2069 ft.,,ICAO: CFB6
+small,Hinton/Jasper-Hinton Airport,53.31919861,-117.7529984,"Jasper-Hinton, Yellowhead County, AB T0E",Elevation: 4006 ft.,IATA: YJP,ICAO: CEC4
+small,Sundre Airport,51.77420044,-114.677002,"32351 Range Rd 55, Sundre, AB T0M",Elevation: 3656 ft.,,ICAO: CFN7
+small,Vermilion Airport,53.35580063,-110.8239975,"3905-3913 52 Ave, Vermilion, AB T9X 1H7",Elevation: 2025 ft.,IATA: YVG,ICAO: CYVG
+small,Westlock Airport,54.14220047,-113.7409973,"Range Rd 260, Clyde, AB T0G 0P0",Elevation: 2214 ft.,,ICAO: CES4
+small,Fort Vermilion Airport,58.40420151,-115.9509964,"Fort Vermilion Airport, Fort Vermilion, AB T0H 1N0",Elevation: 836 ft.,,ICAO: CEZ4
+small,Innisfail Airport,52.07860184,-114.0270004,"Township Rd 361, Markerville, AB T0M 1M0",Elevation: 3017 ft.,,ICAO: CEM4
+small,Lacombe Airport,52.48830032,-113.711998,"76 Terrace Heights Dr Unit 18, Lacombe, AB T4L 0E5",Elevation: 2783 ft.,,ICAO: CEG3
+small,Manning Airport,56.95080185,-117.6439972,"Range Rd 234, Notikewin, AB T0H 2V0",Elevation: 1612 ft.,,ICAO: CFX4
+small,Provost Airport,52.33810043,-110.2789993,"Range Rd 25, Provost, AB T0B 3S0",Elevation: 2197 ft.,,ICAO: CEH6
+small,Three Hills Airport,51.69670105,-113.2089996,"Three Hills Airport, Three Hills, AB T0M 2A0",Elevation: 2975 ft.,,ICAO: CEN3
+small,Vegreville Airport,53.51440048,-112.0270004,"Vegreville Airport, Lavoy, AB T0B 2S0",Elevation: 2072 ft.,,ICAO: CEV3
+small,Beiseker Airport,51.3932991,-113.4720001,"Range Rd 254, Beiseker, AB T0M 0G0",Elevation: 3036 ft.,,ICAO: CFV2
+small,High Prairie Airport,55.39360046,-116.4749985,"Unnamed Road, High Prairie, AB T0G 1E0",Elevation: 1974 ft.,IATA: ZHP,ICAO: CZHP
+small,Jean Lake Airport,57.48329926,-113.8830032,"Wood Buffalo, AB",Elevation: 2370 ft.,,ICAO: CFF3
+small,St. Paul Airport,53.99330139,-111.3799973,"AB-29, St. Paul, AB T0A 3A0",Elevation: 2147 ft.,IATA: ZSP,ICAO: CEW3
+small,Taber Airport,49.8266983,-112.1849976,"Taber Airport, Barnwell, AB T0K 0B0",Elevation: 2648 ft.,,ICAO: CED5
+small,Fort MacKay/Albian Aerodrome,57.22389984,-111.4189987,"Unnamed Road, Wood Buffalo, AB T0P",Elevation: 1048 ft.,IATA: JHL,ICAO: CAL4
+small,Barrhead Airport,54.09999847,-114.4329987,"Range Rd 35, Barrhead, AB T7N 1G8",Elevation: 2121 ft.,,ICAO: CEP3
+small,Cu Nim Airport,50.72249985,-114.1790009,"Range Rd 22, Black Diamond, AB T0L 0H0",Elevation: 3700 ft.,,ICAO: CEH2
+small,Cold Lake Regional Airport,54.47750092,-110.2689972,"Township Rd 634, Cherry Grove, AB T0A 0T0",Elevation: 1786 ft.,,ICAO: CEN5
+small,Conklin (Leismer) Airport,55.69530106,-111.2789993,"Conklin (Leismer) Airport, Conklin, AB T0P 1H0",Elevation: 1930 ft.,,ICAO: CET2
+small,De Winton South Calgary Airport,50.82189941,-113.8239975,"112173 2253 Dr E, Aldersyde, AB T0L 0A0",Elevation: 3355 ft.,,ICAO: CEH4
+small,Elk Point Airport,53.89310074,-110.7720032,"AB-646, Lindbergh, AB T0A 2J0",Elevation: 1981 ft.,,ICAO: CEJ6
+small,S.I.R.Bernard Forestburg Airpark,52.5746994,-112.0839996,"Forestburg Airport, Forestburg, AB T0B 1N0",Elevation: 2334 ft.,,ICAO: CEF6
+small,Fort Mackay / Horizon Airport,57.38169861,-111.7009964,"Unnamed Road, Wood Buffalo, AB T0P",Elevation: 916 ft.,IATA: HZP,ICAO: CYNR
+small,Grande Cache Airport,53.91690063,-118.8740005,"Grand Cache Airport (YGC), Greenview No. 16, AB T0E",Elevation: 4117 ft.,IATA: YGC,ICAO: CEQ5
+small,Hanna Airport,51.63140106,-111.9039993,"AB-9, Hanna, AB T0J 1P0",Elevation: 2738 ft.,,ICAO: CEL4
+small,Winters Aire Park Airport,50.90481901,-113.7962151,"AB-22X, Rocky View No. 44, AB T1X 0J2",Elevation: 3370 ft.,,ICAO: CFY4
+small,Killam-Sedgewick Airport,52.79999924,-111.7669983,"Killam-Sedgewick, Sedgewick, AB T0B 4C0",Elevation: 2182 ft.,,ICAO: CEK6
+small,Liege / CNRL Airport,57.00189972,-113.1940002,"Opportunity No. 17, AB",Elevation: 1728 ft.,,ICAO: CLG3
+small,Paramount Bistcho Airport,59.63809967,-118.3330002,"Mackenzie No. 23, AB",Elevation: 1969 ft.,,ICAO: CPB8
+small,Spirit River Airport,55.78359985,-118.8399963,"Spirit River Highway, Spirit River, AB T0H 3G0",Elevation: 2044 ft.,,ICAO: CFS5
+small,Steen River Airport,59.633301,-117.167,"MacKenzie Hwy, Meander River, AB T0H 2P0",Elevation: 996 ft.,,ICAO: CFB7
+small,Stettler Airport,52.31000137,-112.7539978,"Carlisle Rd, Stettler, AB T0C 2L0",Elevation: 2686 ft.,,ICAO: CEJ3
+small,Two Hills Airport,53.70000076,-111.7829971,"Range Rd 131, Two Hills, AB T0B 4K0",Elevation: 2010 ft.,,ICAO: CEL6
+small,Valleyview Airport,55.03250122,-117.2959976,"Range Rd 224, Greenview No. 16, AB",Elevation: 2435 ft.,,ICAO: CEL5
+small,Viking Airport,53.10896853,-111.8649387,"Range Rd 134, Viking, AB T0B 4N0",Elevation: 2260 ft.,,ICAO: CEE8
+small,Wabasca Airport,55.9618988,-113.8190002,"Unnamed Road, Wabasca-Desmarais, AB T0G",Elevation: 1827 ft.,,ICAO: CEE5
+small,Wainwright Airport,52.79579926,-110.8570023,"Wainwright Airport (YWV), Wainwright, AB T0B 1B0",Elevation: 2230 ft.,,ICAO: CYWV
+small,Bassano Airport,50.79999924,-112.4670029,"Tigermoth Ave, Bassano, AB T0J 0B0",Elevation: 2613 ft.,,ICAO: CEN2
+small,Birch Mountain Airport,57.70000076,-111.8330002,"Wood Buffalo, AB",Elevation: 2600 ft.,,ICAO: CFM2
+small,Wilderman Farm Airport,50.55243475,-113.5831833,"Range Rd 270, Blackie, AB T0L 0J0",Elevation: 3350 ft.,,ICAO: CFT2
+small,Bow Island Airport,49.88330078,-111.3330002,"Range Rd 104, Bow Island, AB T0K 0G0",Elevation: 2634 ft.,,ICAO: CEF3
+small,Cardston Airport,49.16249847,-113.2409973,"Range Rd 252, Aetna, AB T0K 1Y0",Elevation: 3887 ft.,,ICAO: CEA6
+small,Bishell's Airport,51.58280182,-114.052002,"30202-30332 Range Rd 12, Carstairs, AB T0M 0N0",Elevation: 3400 ft.,,ICAO: CGB2
+small,Consort Airport,52.01670074,-110.75,"Range Rd 61, Consort, AB T0C 1B0",Elevation: 2499 ft.,,ICAO: CFG3
+small,Coronation Airport,52.07500076,-111.4449997,"Coronation Airport (YCT), Coronation, AB T0C 1C0",Elevation: 2595 ft.,IATA: YCT,ICAO: CYCT
+small,Fort McMurray / Mildred Lake Airport,57.05559921,-111.5739975,"AB-63, Wood Buffalo, AB T0P",Elevation: 1046 ft.,IATA: NML,ICAO: CER4
+small,Janvier Airport,55.90000153,-110.7330017,"102 Oppertunity Way, Chard, AB T0P 1G0",Elevation: 1575 ft.,,ICAO: CEP5
+small,La Crete Airport,58.1728752,-116.3379192,"La Crete Airport, La Crête, AB T0H 2H0",Elevation: 1046 ft.,,ICAO: CFN5
+small,Pelican Airport,56.16080093,-113.473999,"Unnamed Road, Slave Lake, AB T0G",Elevation: 2059 ft.,,ICAO: CFT8
+small,Edmonton / Calmar (Maplelane Farm),53.18465461,-113.7382364,"49073 Range Rd 263, Leduc County, AB T0B 3M1",Elevation: 2520 ft.,,ICAO: CMF2
+small,Calgary / Okotoks (Rowland Field),50.76472222,-113.9580556,"17200 316 Ave E, Foothills No. 31, AB T0L 0X0",Elevation: 3800 ft.,,ICAO: CRF4
+small,Linden,51.5943219,-113.4802294,"324 3 Ave NE, Linden, AB T0M 1J0",Elevation: 2930 ft.,,ICAO: CA-0503
+small,Fort Mackay / Firebag,57.27583333,-110.9766667,"Aerodrome Rd, Wood Buffalo, AB T0P",Elevation: 1762 ft.,IATA: YFI,ICAO: CFG6
+small,Bashaw Airport,52.55749893,-112.9649963,"Bashaw Airport, Range Road 213, Bashaw, AB T0B 0H0",Elevation: 2610 ft.,,ICAO: CFK2
+small,Bawlf (Blackwells) Airport,52.90000153,-112.5500031,"Township Rd 454, Bawlf, AB T0B 0J0",Elevation: 2325 ft.,,ICAO: CFR2
+small,Beaverlodge Airport,55.18420029,-119.447998,"Unnamed Road, Beaverlodge, AB T0H 0C0",Elevation: 2289 ft.,,ICAO: CEU2
+small,Boyle Airport,54.57329941,-112.8199997,"Unnamed Road, Athabasca County No. 12, AB T0A 0M0",Elevation: 2154 ft.,,ICAO: CFM7
+small,Calling Lake Airport,55.31669998,-113.25,"Unnamed Road, Slave Lake, AB T0G",Elevation: 2092 ft.,,ICAO: CFK4
+small,Castor Airport,52.22092492,-111.926887,"Range Rd 143, Castor, AB T0C 0X0",Elevation: 2704 ft.,,ICAO: CER2
+small,Cheadle Airport,51.05749893,-113.6240005,"Range Rd 270, Lyalta, AB T0J 1Y0",Elevation: 3300 ft.,IATA: TIL,ICAO: CFQ4
+small,Chestermere (Kirkby Field) Airport,51.04169846,-113.7519989,"275037 Range Rd 275, Rocky View No. 44, AB T0J 1X0",Elevation: 3339 ft.,,ICAO: CFX8
+small,Chipewyan Lake Airport,56.95249939,-113.4960022,"Unnamed Road, Slave Lake, AB T0G",Elevation: 1800 ft.,,ICAO: CEG5
+small,Chipman Airport,53.71670151,-112.6330032,"Township Rd 550, Chipman, AB T0B 0W0",Elevation: 2195 ft.,,ICAO: CFU3
+small,Ross International Airport,48.99870485,-111.9754143,"Cemetary Rd, Sweet Grass, MT 59484, USA",Elevation: 3550 ft.,,ICAO: CEP4
+small,Cowley Airport,49.63639832,-114.0940018,"Cowley (YYM), Lundbreck, AB T0K 1H0",Elevation: 3876 ft.,IATA: YYM,ICAO: CYYM
+small,Donnelly Airport,55.70940018,-117.0940018,"4712 3 St, Donnelly, AB T0H 1G0",Elevation: 1949 ft.,,ICAO: CFM4
+small,Drayton Valley Industrial Airport,53.26580048,-114.9599991,"Drayton Valley Industrial Airport (YDC), Rocky Rapids, AB T0E 1Z0",Elevation: 2776 ft.,IATA: YDC,ICAO: CER3
+small,Ostergard's Airport,51.29439926,-112.6139984,"AB-569, East Coulee, AB T0J 1B0",Elevation: 2900 ft.,,ICAO: CDO2
+small,Eaglesham (South) Airport,55.67110062,-117.935997,"Range Rd 262, Eaglesham, AB T0H 1H0",Elevation: 1920 ft.,,ICAO: CGL4
+small,Edmonton / Twin Island Airpark,53.47109985,-113.1539993,"Twin Island Airpark, Sherwood Park, AB T8C 1A6",Elevation: 2435 ft.,,ICAO: CEE6
+small,Empress Airport,50.93330002,-110.0130005,"Empress Airport (YEA), Empress, AB T0J 1E0",Elevation: 2211 ft.,,ICAO: CYEA
+small,Fairview Airport,56.08140183,-118.4349976,"Range Rd 35, Fairview, AB T0H 1L0",Elevation: 2166 ft.,IATA: ZFW,ICAO: CEB5
+small,Fort Macleod Airport,49.70000076,-113.4169998,"1 Ave, Fort MacLeod, AB T0L 0Z0",Elevation: 3138 ft.,,ICAO: CEY3
+small,Fox Creek Airport,54.38000107,-116.7659988,"Airport Rd, Fox Creek, AB",Elevation: 2842 ft.,,ICAO: CED4
+small,Fox Lake Airport,58.47330093,-114.5429993,"Nanooch Rd, Fox Lake, AB T0H 1R0",Elevation: 850 ft.,,ICAO: CEC3
+small,Garden River Airport,58.71390152,-113.8759995,"Unnamed Road, Improvement District No. 24, AB",Elevation: 790 ft.,,ICAO: CFU4
+small,Grande Airport,56.29999924,-112.2330017,"Wood Buffalo, AB",Elevation: 1750 ft.,,ICAO: CFA5
+small,Grist Lake Airport,55.40000153,-110.4830017,"Unnamed Road, Wood Buffalo, AB T0P",Elevation: 2000 ft.,,ICAO: CFY2
+small,Hardisty Airport,52.64690018,-111.3840027,"Range Rd 103, Hardisty, AB T0B 1V0",Elevation: 2326 ft.,,ICAO: CEA5
+small,John D'Or Prairie Airport,58.49140167,-115.1380005,"John D'or Prairie Airport, John D'Or Prairie, AB T0G",Elevation: 950 ft.,,ICAO: CFG5
+small,Kirby Lake Airport,55.35559845,-110.637001,"Unnamed Road, Wood Buffalo, AB T0P",Elevation: 2260 ft.,,ICAO: CRL4
+small,Loon River Airport,57.14189911,-115.0749969,"Unnamed Road, Slave Lake, AB T0G",Elevation: 1550 ft.,,ICAO: CFS6
+small,Margaret Lake Airport,58.9458023,-115.2565384,"Mackenzie No. 23, AB",Elevation: 2750 ft.,,ICAO: CFV6
+small,Mayerthorpe Airport,53.9375,-115.1790009,"Unnamed Road, Mayerthorpe, AB T0E 1N0",Elevation: 2432 ft.,,ICAO: CEV5
+small,Muskeg Tower Airport,57.13750076,-110.8929977,"Aerodrome Rd, Wood Buffalo, AB T0P",Elevation: 2020 ft.,,ICAO: CFW4
+small,Namur Lake Airport,57.38330078,-112.8000031,"Wood Buffalo, AB",Elevation: 2560 ft.,,ICAO: CFB5
+small,Olds (Netook) Airport,51.84999847,-114.0670013,"Township Rd 334, Bowden, AB T0M 0K0",Elevation: 3330 ft.,,ICAO: CFK6
+small,Oyen Municipal Airport,51.33420181,-110.4909973,"Main St, Oyen, AB T0J 2J0",Elevation: 2498 ft.,,ICAO: CED3
+small,Red Deer Forestry Airport,51.65140152,-115.2389984,"Township Rd 312B, Clearwater County, AB T0M",Elevation: 4646 ft.,,ICAO: CFR7
+small,Red Earth Creek Airport,56.54639816,-115.2740021,"Transportation Rd, Red Earth Creek, AB T0G 1X0",Elevation: 1790 ft.,,ICAO: CEH5
+small,Rockyford Airport,51.26670074,-113.1169968,"Range Rd 232, Rockyford, AB T0J 2R0",Elevation: 2860 ft.,,ICAO: CFC6
+small,Steen Tower Airport,59.63330078,-117.7829971,"Unnamed Road, Mackenzie No. 23, AB T0H",Elevation: 2320 ft.,,ICAO: CFG7
+small,Swan Hills Airport,54.67079926,-115.4150009,"Unnamed Road, Swan Hills, AB T0G 2C0",Elevation: 3473 ft.,,ICAO: CEM5
+small,Tofield Airport,53.37110138,-112.6969986,"Hwy 14, Tofield, AB T0B 4J0",Elevation: 2311 ft.,,ICAO: CEV7
+small,Vauxhall Airport,50.03329849,-112.0830002,"Vauxall Airport, Vauxhall, AB T0K 2K0",Elevation: 2579 ft.,,ICAO: CEN6
+small,Warner Airport,49.29330063,-112.189003,"AB-504, Warner, AB T0K 2L0",Elevation: 3319 ft.,,ICAO: CEP6
+small,Zama Lake Airport,59.06389999,-118.8899994,"Zama Lake Airport, Mackenzie No. 23, AB T0H",Elevation: 1242 ft.,,ICAO: CFT9
+small,Christina Lake,55.62838361,-110.7511139,"Unnamed Road, Wood Buffalo, AB T0P",Elevation: 1905 ft.,,ICAO: CCL3
+small,Parkland Airport,53.473846,-113.828487,"52111 Range Rd 270, Spruce Grove, AB T7X 3M2",Elevation: 2324 ft.,,ICAO: CPL6
+small,Acme Airport,51.45640182,-113.5149994,"Acme Airport, Acme, AB T0M 0A0",Elevation: 3035 ft.,,ICAO: CEG2
+small,Hamburg Airport,57.35528447,-119.7653103,"Apache/Hamburg Airport, Clear Hills No. 21, AB T0H",Elevation: 2540 ft.,,ICAO: CFM5
+small,Bjorgum Farm Airport,53.08330154,-112.8030014,"Bjorgum Farm Airport, Armena, AB T0B 0G0",Elevation: 2415 ft.,,ICAO: CFD9
+small,Brant (Dixon Farm) Airport,50.41939926,-113.5410004,"Brant (Dixon Farm) Airport, Brant, AB T0L 0L0",Elevation: 3342 ft.,,ICAO: CEX9
+small,Cayley A J Flying Ranch Airport,50.45000076,-113.75,"28101-28131 658 Ave E, Cayley, AB T0L 0P0",Elevation: 3450 ft.,,ICAO: CAJ7
+small,Christina Basin Airport,55.59000015,-111.822998,"Conklin Rd, Wandering River, AB T0A 3M0",Elevation: 2365 ft.,,ICAO: CFF2
+small,Clearwater River Airport,51.98809814,-115.2279968,"35035-35101 AB-591, Caroline, AB T0M 0M0",Elevation: 4100 ft.,,ICAO: CFS8
+small,Arkayla Springs Airport,51.20470047,-114.7740021,"Cochrane/Arkayla Springs Airport, AB-1A, Bighorn No. 8, AB T0L",Elevation: 4000 ft.,,ICAO: CKY8
+small,Highwood Airport,50.80189896,-113.8889999,"29001-29015 274 Ave, De Winton, AB T0L 0X0",Elevation: 3450 ft.,,ICAO: CED6
+small,Debolt Airport,55.23329926,-118.0329971,"Debolt Airport, DeBolt, AB T0H 1B0",Elevation: 2120 ft.,,ICAO: CFG4
+small,Del Bonita / Whetstone International Airport,48.99860001,-112.776001,"AB-62, Del Bonita, AB T0K 0S0",Elevation: 4335 ft.,,ICAO: CEQ4
+small,Doig Airport,56.95000076,-119.5169983,"Doig Airport, Clear Hills No. 21, AB T0H",Elevation: 3500 ft.,,ICAO: CFX3
+small,Edmonton / Gartner Airport,53.28170013,-113.4550018,"Township Rd 500, Rolly View, AB T0C 2K0",Elevation: 2390 ft.,,ICAO: CFQ7
+small,Edra Airport,57.84999847,-113.25,"Wood Buffalo, AB",Elevation: 2625 ft.,,ICAO: CEV2
+small,Empress McNeill Spectra Energy Airport,50.68249893,-110.0419998,"Township Rd 202, Cypress County, AB T0J",Elevation: 2395 ft.,,ICAO: CFL2
+small,Foremost Airport,49.48310089,-111.4940033,"Red Coat Trail, Foremost, AB T0K 0X0",Elevation: 2909 ft.,,ICAO: CFD4
+small,Fort Macleod (Alcock Farm) Airport,49.58330154,-113.3000031,"Range Rd 252, Fort MacLeod, AB T0L 0Z0",Elevation: 3340 ft.,,ICAO: CFM8
+small,Glendon Airport,54.27080154,-111.0670013,"Range Rd 80A, Glendon, AB T0A 1P0",Elevation: 1835 ft.,,ICAO: CFP5
+small,Gordon Lake Airport,56.61669922,-110.5,"Wood Buffalo, AB",Elevation: 1600 ft.,,ICAO: CFW2
+small,Grimshaw Airport,56.19611,-117.625278,"5731 56 St, Grimshaw, AB T0H 1W0",Elevation: 2050 ft.,,ICAO: CFD5
+small,Hespero Airport,52.29999924,-114.4639969,"Hespero Airport, Condor, AB T0M 0P0",Elevation: 3175 ft.,,ICAO: CFB3
+small,Hinton / Entrance Airport,53.38140106,-117.7009964,"Range Rd 260A, Yellowhead County, AB T0E",Elevation: 3450 ft.,,ICAO: CEE4
+small,Irma Airport,52.91220093,-111.1740036,"Irma Airport, Irma, AB T0B 2H0",Elevation: 2230 ft.,,ICAO: CFU8
+small,Jasper Airport,52.99670029,-118.0589981,"AB-16, Jasper, AB T0E 1E0",Elevation: 3350 ft.,,ICAO: CYJA
+small,Johnson Lake Airport,57.56669998,-110.3170013,"Wood Buffalo, AB",Elevation: 2000 ft.,,ICAO: CFL9
+small,Marek Farms Airport,53.03139877,-112.7779999,"47001-47031 Range Rd 200, Ohaton, AB T0B 3P0",Elevation: 2449 ft.,,ICAO: CFF9
+small,Schlenker Airport,49.96670151,-110.7170029,"Range Rd 61A, Redcliff, AB T0J 2P0",Elevation: 2365 ft.,,ICAO: CFZ3
+small,Milk River Airport,49.13330078,-112.0500031,"Range Rd 162, Milk River, AB T0K 1M0",Elevation: 3449 ft.,,ICAO: CEW5
+small,Milk River (Madge) Airport,49.1446991,-112.0839996,"296-320 AB-4, Milk River, AB T0K 1M0",Elevation: 3400 ft.,,ICAO: CFQ3
+small,Mobil Bistcho Airport,59.47473269,-119.0061378,"Unnamed Road, Clairmont, AB T0H",Elevation: 2000 ft.,,ICAO: CFV3
+small,Rimbey Airport,52.68190002,-114.237999,"AB-20, Rimbey, AB T0C 2J0",Elevation: 2963 ft.,,ICAO: CFC7
+small,Stony Plain (Lichtner Farms) Airport,53.53749847,-114.0680008,"Parkland Hwy, Carvel, AB T0E 0H0",Elevation: 2415 ft.,,ICAO: CSP3
+small,Strathmore (D.J. Murray) Airport,51.13190079,-113.5599976,"Range Rd 263, Lyalta, AB T0J 1Y0",Elevation: 3150 ft.,,ICAO: CDJ5
+small,Sundre / Goodwins Farm Airport,51.73980571,-114.6626008,"Range Rd 54, Mountain View County, AB T0M",Elevation: 3700 ft.,,ICAO: CFZ5
+small,Teepee Airport,56.45940018,-114.1190033,"Unnamed Road, Slave Lake, AB T0G",Elevation: 2565 ft.,,ICAO: CFM6
+small,Trout Lake Airport,56.5,-114.5500031,"AB-686, Slave Lake, AB T0G",Elevation: 2290 ft.,,ICAO: CFB4
+small,Turner Valley Bar N Ranch Airport,50.65439987,-114.3440018,"Turner Valley Bar N Ranch Airport, Turner Valley, AB T0L 2A0",Elevation: 4210 ft.,,ICAO: CFY6
+small,Viking (South) Airport,53.02560043,-111.9489975,"Range Rd 142, Viking, AB T0B 4N0",Elevation: 2242 ft.,,ICAO: CVS2
+small,Wainwright Field 21 Airport,52.83060074,-111.1009979,"Wainwright/Wainwright (Field 21) Airport, Wainwright, AB T0B 1B0",Elevation: 2260 ft.,,ICAO: CFP7
+small,Warburg / Zajes Airport,53.21777753,-114.3366051,"Township Rd 492, Warburg, AB T0C 2T0",Elevation: 2530 ft.,,ICAO: CFH8
+small,Edmonton/Morinville (Mike's Field),53.83694444,-113.5633333,"Township Rd 562, Legal, AB T0G 1L0",Elevation: 2302 ft.,,ICAO: CMN6
+small,Red Deer / South 40 Airstrip,52.261944,-113.951389,"Hwy 596, Penhold, AB T0M 1R0",Elevation: 3040 ft.,,ICAO: CRD4
+small,Edmonton/Morinville (Currie Field),53.819722,-113.760833,"Range Rd 262, Rivière Qui Barre, AB T0G 1Y0",Elevation: 2374 ft.,,ICAO: CCF6
+small,Edmonton / Goyer Field,53.57628922,-112.9820251,"Range Rd 211, Ardrossan, AB T8G 2B8",Elevation: 2400 ft.,,ICAO: CGF2
+small,Nampa / Hockey,55.91490057,-117.1361554,"AB-2, Jean Côté, AB T0H 2E0",Elevation: 2050 ft.,,ICAO: CNP6
+small,Alhambra / Ahlstrom,52.34619404,-114.6675253,"Township Rd 392, Alhambra, AB T0M 0C0",Elevation: 3212 ft.,,ICAO: CAM4
+small,Lethbridge (Mercer Field),49.55481129,-112.5615406,"Township Rd 72, Stirling, AB T0K 2E0",Elevation: 3085 ft.,,ICAO: CMF3
+small,Wildwood / Loche Mist Farms Airstrip,53.54652961,-115.2606583,"Range Rd 93, Wildwood, AB T0E 2M0",Elevation: 2880 ft.,,ICAO: cjj3
+small,Beaverlodge / Clanachan Field,55.23449274,-119.8415923,"Unnamed Road, Goodfare, AB T0H 1T0",Elevation: 2694 ft.,,ICAO: cln4
+small,Vulcan / Kirkcaldy Airport,50.33194444,-113.3577778,"Western Crescent, Vulcan, AB T0L 2B0",Elevation: 3418 ft.,,ICAO: CA-0497
+small,Red Deer / Truant Airfield,52.28704284,-113.9131808,"Township Rd 384, Blackfalds, AB T0M 0J0",Elevation: 3100 ft.,,ICAO: CRD5
+small,Olds / North 40 Ranch Airstrip,51.90017051,-114.1478205,"Range Rd 20, Bowden, AB T0M 0K0",Elevation: 3410 ft.,,ICAO: CTY4
+small,Lethbridge / J3 Airfield,49.74162147,-112.7383304,"Range Rd 211, Diamond City, AB T0K 0T0",Elevation: 2910 ft.,,ICAO: clj3
+small,Fort McMurray / Legend Airfield,57.19694444,-112.895556,"Unnamed Road, Slave Lake, AB T0G",Elevation: 2061 ft.,,ICAO: CLG7
+small,Fort McMurray / North Liege Airfield,57.13609959,-113.2900715,"Opportunity No. 17, AB",Elevation: 2236 ft.,,ICAO: CNL2
+small,Fort McMurray / South Liege Airfield,56.83235283,-113.0988407,"Opportunity No. 17, AB",Elevation: 1707 ft.,,ICAO: cls3
+small,Black Diamond/Flying R Ranch Airport,50.645,-114.203,"Range Rd 23, Black Diamond, AB T0L 0H0",Elevation: 4060 ft.,,ICAO: GIG
+small,Calgary / Christiansen Field,50.79947965,-114.0512609,"226039 32 St, De Winton, AB T0L 0X0",Elevation: 3820 ft.,,ICAO: CRS3
+small,Lethbridge / Anderson Field,49.65694444,-112.7727778,"3603 43 St S, Lethbridge, AB T1K 7C5",Elevation: 3020 ft.,,ICAO: cla5
+small,Appleton Field,50.9904,-113.3703,"Range Rd 251, Carseland, AB T0J 0M0",Elevation: 3080 ft.,,ICAO: CAP9
+small,Edmonton / Villeneuve (Rose Field),53.64555556,-113.8027778,"AB-44, Sturgeon County, AB T8T",Elevation: 2190 ft.,,ICAO: CRF3

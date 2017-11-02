@@ -1,0 +1,476 @@
+id,EconomicRegion,CSDUID,CSDNAME,CSDTYPE,PRUID,PRNAME,CDUID,CDNAME,CDTYPE,CMAUID,CMANAME,CMATYPE,CMAPUID,SACTYPE,SACCODE,ERUID,ERNAME,CCSUID,CCSNAME
+,Calgary,4806014,Rocky View County,MD,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,Calgary,4806804,Tsuu T'ina Nation 145 (Sarcee 145),IRI,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,Calgary,4806019,Cochrane,T,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,Calgary,4806017,Chestermere,T,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,Calgary,4806006,High River,T,48,Alberta,4806,Division No.  6,CDR,821,High River,D,48821,3,821,4830,Calgary,4806001,Foothills No. 31
+,Calgary,4815027,Ghost Lake,SV,48,Alberta,4815,Division No. 15,CDR,,,,,4,996,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Palliser,4802032,Tilley,VL,48,Alberta,4802,Division No.  2,CDR,806,Brooks,D,48806,3,806,4810,Lethbridge--Medicine Hat,4802031,Newell County No. 4
+,Calgary,4806001,Foothills No. 31,MD,48,Alberta,4806,Division No.  6,CDR,,,,,4,996,4830,Calgary,4806001,Foothills No. 31
+,South Central,4802011,Lethbridge County,MD,48,Alberta,4802,Division No.  2,CDR,810,Lethbridge,K,48810,2,810,4810,Lethbridge--Medicine Hat,4802011,Lethbridge County
+,Southwest,4803003,Improvement District No. 4 Waterton,ID,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Calgary,4805021,Standard,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805012,Wheatland County
+,Southwest,4815007,Crowsnest Pass,SM,48,Alberta,4815,Division No. 15,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4815007,Crowsnest Pass
+,South Central,4802008,Raymond,T,48,Alberta,4802,Division No.  2,CDR,,,,,4,996,4810,Lethbridge--Medicine Hat,4802001,Warner County No. 5
+,South Central,4802016,Barons,VL,48,Alberta,4802,Division No.  2,CDR,810,Lethbridge,K,48810,2,810,4810,Lethbridge--Medicine Hat,4802011,Lethbridge County
+,Southwest,4815045,Ranchland No. 66,MD,48,Alberta,4815,Division No. 15,CDR,,,,,7,999,4840,Banff--Jasper--Rocky Mountain House,4815045,Ranchland No. 66
+,Palliser,4801018,Redcliff,T,48,Alberta,4801,Division No.  1,CDR,805,Medicine Hat,K,48805,2,805,4810,Lethbridge--Medicine Hat,4801003,Cypress County
+,South Central,4802018,Picture Butte,T,48,Alberta,4802,Division No.  2,CDR,810,Lethbridge,K,48810,2,810,4810,Lethbridge--Medicine Hat,4802011,Lethbridge County
+,Palliser,4801009,Foremost,VL,48,Alberta,4801,Division No.  1,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4801008,Forty Mile County No. 8
+,South Central,4802006,Warner,VL,48,Alberta,4802,Division No.  2,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4802001,Warner County No. 5
+,South Central,4802002,Coutts,VL,48,Alberta,4802,Division No.  2,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4802001,Warner County No. 5
+,South Central,4805004,Champion,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Calgary,4815035,Banff,T,48,Alberta,4815,Division No. 15,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4815032,Improvement District No.  9 Banff
+,Palliser,4802036,Duchess,VL,48,Alberta,4802,Division No.  2,CDR,806,Brooks,D,48806,3,806,4810,Lethbridge--Medicine Hat,4802031,Newell County No. 4
+,Palliser,4802034,Brooks,CY,48,Alberta,4802,Division No.  2,CDR,806,Brooks,D,48806,3,806,4810,Lethbridge--Medicine Hat,4802031,Newell County No. 4
+,Palliser,4801003,Cypress County,MD,48,Alberta,4801,Division No.  1,CDR,805,Medicine Hat,K,48805,2,805,4810,Lethbridge--Medicine Hat,4801003,Cypress County
+,South Central,4802012,Lethbridge,CY,48,Alberta,4802,Division No.  2,CDR,810,Lethbridge,K,48810,2,810,4810,Lethbridge--Medicine Hat,4802011,Lethbridge County
+,South Central,4802014,Nobleford,VL,48,Alberta,4802,Division No.  2,CDR,810,Lethbridge,K,48810,2,810,4810,Lethbridge--Medicine Hat,4802011,Lethbridge County
+,Southwest,4803022,Claresholm,T,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803018,Willow Creek No. 26
+,South Central,4802013,Coalhurst,T,48,Alberta,4802,Division No.  2,CDR,810,Lethbridge,K,48810,2,810,4810,Lethbridge--Medicine Hat,4802011,Lethbridge County
+,South Central,4805009,Milo,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,South Central,4802001,Warner County No. 5,MD,48,Alberta,4802,Division No.  2,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4802001,Warner County No. 5
+,Calgary,4806011,Black Diamond,T,48,Alberta,4806,Division No.  6,CDR,,,,,4,996,4830,Calgary,4806001,Foothills No. 31
+,Central,4805042,Carbon,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805041,Kneehill County
+,South Central,4802029,Vauxhall,T,48,Alberta,4802,Division No.  2,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4802021,Taber
+,Palliser,4801008,Forty Mile County No. 8,MD,48,Alberta,4801,Division No.  1,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4801008,Forty Mile County No. 8
+,Calgary,4805022,Rockyford,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805012,Wheatland County
+,Palliser,4804014,Oyen,T,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804012,Special Area No. 3
+,Calgary,4815802,"Stoney 142, 143, 144",IRI,48,Alberta,4815,Division No. 15,CDR,,,,,5,997,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Calgary,4815802,"Stoney 142, 143, 144",IRI,48,Alberta,4815,Division No. 15,CDR,,,,,5,997,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Calgary,4815802,"Stoney 142, 143, 144",IRI,48,Alberta,4815,Division No. 15,CDR,,,,,5,997,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Southwest,4803004,Cardston,T,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,Calgary,4805012,Wheatland County,MD,48,Alberta,4805,Division No.  5,CDR,,,,,4,996,4820,Camrose--Drumheller,4805012,Wheatland County
+,Central,4805044,Acme,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805041,Kneehill County
+,Palliser,4804001,Acadia No. 34,MD,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804012,Special Area No. 3
+,Calgary,4805026,Drumheller,T,48,Alberta,4805,Division No.  5,CDR,,,,,6,998,4820,Camrose--Drumheller,4805026,Drumheller
+,Palliser,4802031,Newell County No. 4,MD,48,Alberta,4802,Division No.  2,CDR,806,Brooks,D,48806,3,806,4810,Lethbridge--Medicine Hat,4802031,Newell County No. 4
+,South Central,4805001,Vulcan County,MD,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Southwest,4803021,Granum,T,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803018,Willow Creek No. 26
+,Southwest,4803019,Fort Macleod,T,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803018,Willow Creek No. 26
+,South Central,4805006,Vulcan,T,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Calgary,4806021,Airdrie,CY,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,Southwest,4803026,Nanton,T,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803018,Willow Creek No. 26
+,South Central,4802004,Milk River,T,48,Alberta,4802,Division No.  2,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4802001,Warner County No. 5
+,South Central,4805011,Arrowwood,VL,48,Alberta,4805,Division No.  5,CDR,,,,,6,998,4820,Camrose--Drumheller,4805001,Vulcan County
+,South Central,4803803,Blood 148A,IRI,48,Alberta,4803,Division No.  3,CDR,,,,,7,999,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Palliser,4804006,Empress,VL,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804004,Special Area No. 2
+,Calgary,4806012,Okotoks,T,48,Alberta,4806,Division No.  6,CDR,820,Okotoks,D,48820,3,820,4830,Calgary,4806001,Foothills No. 31
+,Palliser,4802038,Rosemary,VL,48,Alberta,4802,Division No.  2,CDR,806,Brooks,D,48806,3,806,4810,Lethbridge--Medicine Hat,4802031,Newell County No. 4
+,Palliser,4801006,Medicine Hat,CY,48,Alberta,4801,Division No.  1,CDR,805,Medicine Hat,K,48805,2,805,4810,Lethbridge--Medicine Hat,4801003,Cypress County
+,South Central,4802023,Barnwell,VL,48,Alberta,4802,Division No.  2,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4802021,Taber
+,South Central,4805002,Carmangay,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Calgary,4806009,Turner Valley,T,48,Alberta,4806,Division No.  6,CDR,,,,,4,996,4830,Calgary,4806001,Foothills No. 31
+,Palliser,4801014,Bow Island,T,48,Alberta,4801,Division No.  1,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4801008,Forty Mile County No. 8
+,South Central,4805008,Lomond,VL,48,Alberta,4805,Division No.  5,CDR,,,,,6,998,4820,Camrose--Drumheller,4805001,Vulcan County
+,Southwest,4803024,Stavely,T,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803018,Willow Creek No. 26
+,Calgary,4805019,Hussar,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805012,Wheatland County
+,Calgary,4806022,Irricana,T,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,South Central,4802022,Taber,T,48,Alberta,4802,Division No.  2,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4802021,Taber
+,Calgary,4806026,Crossfield,T,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,Palliser,4802039,Bassano,T,48,Alberta,4802,Division No.  2,CDR,806,Brooks,D,48806,3,806,4810,Lethbridge--Medicine Hat,4802031,Newell County No. 4
+,Southwest,4803008,Hill Spring,VL,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,Calgary,4805018,Strathmore,T,48,Alberta,4805,Division No.  5,CDR,826,Strathmore,D,48826,3,826,4820,Camrose--Drumheller,4805012,Wheatland County
+,Calgary,4806008,Longview,VL,48,Alberta,4806,Division No.  6,CDR,,,,,4,996,4830,Calgary,4806001,Foothills No. 31
+,South Central,4802009,Stirling,VL,48,Alberta,4802,Division No.  2,CDR,,,,,4,996,4810,Lethbridge--Medicine Hat,4802001,Warner County No. 5
+,Southwest,4803014,Pincher Creek,T,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Calgary,4815013,Kananaskis,ID,48,Alberta,4815,Division No. 15,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4815013,Kananaskis
+,Southwest,4803002,Magrath,T,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,Southwest,4803006,Glenwood,VL,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,Calgary,4815023,Canmore,T,48,Alberta,4815,Division No. 15,CDR,828,Canmore,D,48828,3,828,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Calgary,4806016,Calgary,CY,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806016,Calgary
+,South Central,4802019,Coaldale,T,48,Alberta,4802,Division No.  2,CDR,810,Lethbridge,K,48810,2,810,4810,Lethbridge--Medicine Hat,4802011,Lethbridge County
+,South Central,4802021,"Taber, M.D.",MD,48,Alberta,4802,Division No.  2,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4802021,Taber
+,Calgary,4806024,Beiseker,VL,48,Alberta,4806,Division No.  6,CDR,825,Calgary,B,48825,1,825,4830,Calgary,4806014,Rocky View County
+,Southwest,4803016,Cowley,VL,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Southwest,4804016,Cereal,VL,48,Alberta,4804,Division No.  4,CDR,,,,,5,997,4820,Camrose--Drumheller,4804012,Special Area No. 3
+,Calgary,4815030,Waiparous,SV,48,Alberta,4815,Division No. 15,CDR,,,,,7,999,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Southwest,4803018,Willow Creek No. 26,MD,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803018,Willow Creek No. 26
+,Capital,4811023,Golden Days,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,North Central,4813047,Sunset Beach,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,North Central,4813005,Val Quentin,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Battle River,4807006,Hughenden,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807001,Provost No. 52
+,Capital,4811042,Lakeview,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Capital,4811056,Fort Saskatchewan,CY,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811052,Strathcona County
+,Central,4811002,Wetaskiwin,CY,48,Alberta,4811,Division No. 11,CDR,865,Wetaskiwin,D,48865,3,865,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Peace Country,4819826,Duncan's 151A,IRI,48,Alberta,4819,Division No. 19,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4819071,Peace No. 135
+,Slave Lake,4817031,Opportunity No. 17,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Battle River,4807052,Edgerton,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807049,Wainwright No. 61
+,Slave Lake,4817833,Sawridge 150H,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Peace Country,4817856,Woodland Cree 226,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Slave Lake,4817860,Loon Lake 235,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Slave Lake,4817860,Loon Lake 235,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Slave Lake,4817860,Loon Lake 235,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Slave Lake,4817860,Loon Lake 235,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,West Yellowhead,4815033,Jasper,SM,48,Alberta,4815,Division No. 15,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4815037,Improvement District No. 12 Jasper Park
+,North Central,4813036,Thorhild County No. 7,MD,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813036,Thorhild County No. 7
+,Central,4808042,Parkland Beach,SV,48,Alberta,4808,Division No.  8,CDR,,,,,7,999,4850,Red Deer,4808038,Ponoka County
+,Capital,4811059,Sturgeon County,MD,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,Central,4808012,Sylvan Lake,T,48,Alberta,4808,Division No.  8,CDR,831,Sylvan Lake,D,48831,3,831,4850,Red Deer,4808001,Red Deer County
+,Central,4809809,Sunchild 202,IRI,48,Alberta,4809,Division No.  9,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,North Central,4813019,Barrhead,T,48,Alberta,4813,Division No. 13,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4813018,Barrhead County No. 11
+,Northeast,4812020,Horseshoe Bay,SV,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812014,St. Paul County No. 19
+,Capital,4811024,Warburg,VL,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,Battle River,4810021,Holden,VL,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810016,Beaver County
+,Battle River,4807048,Hardisty,T,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Capital,4809005,Burnstick Lake,SV,48,Alberta,4809,Division No.  9,CDR,,,,,5,997,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,Peace Country,4817039,Nampa,VL,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Battle River,4807044,Sedgewick,T,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Wood Buffalo,4816859,Fort Mackay,S-É,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Peace Country,4819066,Fairview No. 136,MD,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819066,Fairview No. 136
+,North Central,4813002,Mayerthorpe,T,48,Alberta,4813,Division No. 13,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Northeast,4812806,Saddle Lake 125,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,7,999,4880,Wood Buffalo--Cold Lake,4812022,Smoky Lake County
+,Peace Country,4819038,Peace River,T,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819071,Peace No. 135
+,Northeast,4810031,Innisfree,VL,48,Alberta,4810,Division No. 10,CDR,,,,,6,998,4820,Camrose--Drumheller,4810026,Minburn County No. 27
+,West Yellowhead,4818002,Fox Creek,T,48,Alberta,4818,Division No. 18,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4818015,Greenview No. 16
+,Northeast,4812016,Elk Point,T,48,Alberta,4812,Division No. 12,CDR,,,,,7,999,4880,Wood Buffalo--Cold Lake,4812014,St. Paul County No. 19
+,Battle River,4810016,Beaver County,MD,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810016,Beaver County
+,Northeast,4810038,Paradise Valley,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810036,Vermilion River County
+,West Yellowhead,4813030,Whitecourt,T,48,Alberta,4813,Division No. 13,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4813029,Woodlands County
+,Mackenzie,4817838,Tall Cree 173,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Battle River,4807038,Heisler,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Battle River,4807036,Forestburg,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Slave Lake,4817033,Lesser Slave River No.124,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,North Central,4813044,Athabasca County,MD,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,North Central,4813008,Ross Haven,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Peace Country,4819042,McLennan,T,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819041,Smoky River No. 130
+,Peace Country,4817855,Desmarais,S-É,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Wood Buffalo,4816857,Namur River 174A,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Battle River,4804020,Special Area No. 4,SA,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804020,Special Area No. 4
+,Central,4811803,Louis Bull 138B,IRI,48,Alberta,4811,Division No. 11,CDR,,,,,5,997,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Peace Country,4819044,Donnelly,VL,48,Alberta,4819,Division No. 19,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4819041,Smoky River No. 130
+,Capital,4811805,Alexander 134,IRI,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,Central,4808004,Delburne,VL,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808001,Red Deer County
+,Northeast,4812815,Cold Lake 149B,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,7,999,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,Capital,4811048,Stony Plain,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Peace Country,4819071,Peace No. 135,MD,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819071,Peace No. 135
+,Northeast,4812004,Bonnyville No. 87,MD,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,Central,4808032,Clive,VL,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808022,Lacombe County
+,Peace Country,4819058,Spirit River,T,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819054,Spirit River No. 133
+,Wood Buffalo,4816821,Gregoire Lake 176,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,North Central,4813031,Westlock,T,48,Alberta,4813,Division No. 13,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4813028,Westlock County
+,Slave Lake,4817817,Jean Baptiste Gambler 183,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Northeast,4812024,Vilna,VL,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812022,Smoky Lake County
+,Northeast,4812009,Bonnyville,T,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,Central,4805046,Linden,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805041,Kneehill County
+,North Central,4813051,Island Lake South,SV,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,North Central,4813028,Westlock County,MD,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813028,Westlock County
+,Northeast,4812012,Glendon,VL,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,Battle River,4810002,Bashaw,T,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810001,Camrose County
+,Central,4811011,Millet,T,48,Alberta,4811,Division No. 11,CDR,,,,,4,996,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Northeast,4810034,Mannville,VL,48,Alberta,4810,Division No. 10,CDR,,,,,6,998,4820,Camrose--Drumheller,4810026,Minburn County No. 27
+,North Central,4813009,Castle Island,SV,48,Alberta,4813,Division No. 13,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Peace Country,4818015,Greenview No. 16,MD,48,Alberta,4818,Division No. 18,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4818015,Greenview No. 16
+,Peace Country,4819068,Fairview,T,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819066,Fairview No. 136
+,Battle River,4810003,Rosalind,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810001,Camrose County
+,Central,4809010,Caroline,VL,48,Alberta,4809,Division No.  9,CDR,,,,,7,999,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,Peace Country,4819012,Grande Prairie,CY,48,Alberta,4819,Division No. 19,CDR,850,Grande Prairie,D,48850,3,850,4870,Athabasca--Grande Prairie--Peace River,4819006,Grande Prairie County No. 1
+,Capital,4811804,Stony Plain 135,IRI,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Mackenzie,4817848,Bushe River 207,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Slave Lake,4817830,Kapawe'no First Nation (Pakashan 150D),IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,West Yellowhead,4818005,Grande Cache,T,48,Alberta,4818,Division No. 18,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4818015,Greenview No. 16
+,Peace Country,4817078,Manning,T,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817076,Northern Lights County
+,Battle River,4807001,Provost No. 52,MD,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807001,Provost No. 52
+,Central,4806031,Cremona,VL,48,Alberta,4806,Division No.  6,CDR,,,,,5,997,4830,Central,4806028,Mountain View County
+,Wood Buffalo,4816831,Chipewyan 201A,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Battle River,4810018,Tofield,T,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810016,Beaver County
+,Capital,4811013,Beaumont,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,Wood Buffalo,4816051,Improvement District No. 24 Wood Buffalo,ID,48,Alberta,4816,Division No. 16,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4816051,Improvement District No. 24 Wood Buffalo
+,Slave Lake,4817858,Kapawe'no First Nation (Grouard 230),IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,North Central,4813015,South View,SV,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Wood Buffalo,4816849,Old Fort 217,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,North Central,4813016,Sandy Beach,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Northeast,4812810,Cold Lake 149,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,4,996,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,North Central,4813013,Birch Cove,SV,48,Alberta,4813,Division No. 13,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Central,4806036,Sundre,T,48,Alberta,4806,Division No.  6,CDR,,,,,5,997,4830,Central,4806028,Mountain View County
+,Peace Country,4817076,Northern Lights County,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817076,Northern Lights County
+,Capital,4810061,Mundare,T,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810058,Lamont County
+,Central,4808013,Norglenwold,SV,48,Alberta,4808,Division No.  8,CDR,831,Sylvan Lake,D,48831,3,831,4850,Red Deer,4808001,Red Deer County
+,North Central,4813014,Onoway,T,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Battle River,4810011,Camrose,CY,48,Alberta,4810,Division No. 10,CDR,833,Camrose,D,48833,3,833,4820,Camrose--Drumheller,4810001,Camrose County
+,Peace Country,4819072,Berwyn,VL,48,Alberta,4819,Division No. 19,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4819071,Peace No. 135
+,West Yellowhead,4811032,Brazeau County,MD,48,Alberta,4811,Division No. 11,CDR,,,,,6,998,4860,Edmonton,4811032,Brazeau County
+,Peace Country,4818818,Sturgeon Lake 154A,IRI,48,Alberta,4818,Division No. 18,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4818015,Greenview No. 16
+,Battle River,4807008,Amisk,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807001,Provost No. 52
+,Central,4809015,Rocky Mountain House,T,48,Alberta,4809,Division No.  9,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,Battle River,4807046,Lougheed,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807031,Flagstaff County
+,North Central,4813006,West Cove,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Capital,4810059,Andrew,VL,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810058,Lamont County
+,Slave Lake,4817821,Wabasca 166B,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Capital,4811065,Redwater,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,West Yellowhead,4814028,Improvement District No. 25 Willmore Wilderness,ID,48,Alberta,4814,Division No. 14,CDR,,,,,7,999,4840,Banff--Jasper--Rocky Mountain House,4814003,Yellowhead County
+,Northeast,4810056,Willingdon,VL,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810048,Two Hills County No. 21
+,Battle River,4810012,Bittern Lake,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810001,Camrose County
+,Mackenzie,4817842,Boyer 164,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Battle River,4810001,Camrose County,MD,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810001,Camrose County
+,Central,4806034,Olds,T,48,Alberta,4806,Division No.  6,CDR,,,,,5,997,4830,Central,4806028,Mountain View County
+,Northeast,4812811,Kehewin 123,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,6,998,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,Mackenzie,4817840,Tall Cree 173A,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Wood Buffalo,4816037,Wood Buffalo,SM,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Peace Country,4819054,Spirit River No. 133,MD,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819054,Spirit River No. 133
+,Battle River,4807034,Galahad,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Capital,4811018,Devon,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,Capital,4811068,Morinville,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,Capital,4811066,Bon Accord,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,Peace Country,4819059,Saddle Hills County,MD,48,Alberta,4819,Division No. 19,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4819059,Saddle Hills County
+,Peace Country,4818816,Sturgeon Lake 154,IRI,48,Alberta,4818,Division No. 18,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4818015,Greenview No. 16
+,Battle River,4807012,Coronation,T,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807011,Paintearth County No. 18
+,Peace Country,4817062,Clear Hills,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817062,Clear Hills
+,Central,4807026,Stettler,T,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,Central,4808008,Innisfail,T,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808001,Red Deer County
+,Mackenzie,4817093,High Level,T,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Capital,4811016,Leduc,CY,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,Slave Lake,4817029,Slave Lake,T,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Slave Lake,4817823,Wabasca 166D,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Capital,4811034,Parkland County,MD,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Battle River,4810004,Ferintosh,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810001,Camrose County
+,Capital,4811039,Betula Beach,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Central,4808026,Bentley,T,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808022,Lacombe County
+,Slave Lake,4817843,Child Lake 164A,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Battle River,4807004,Czar,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807001,Provost No. 52
+,Slave Lake,4817854,Carcajou 187,S-É,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Peace Country,4817824,Utikoomak Lake 155,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Battle River,4804021,Veteran,VL,48,Alberta,4804,Division No.  4,CDR,,,,,7,999,4820,Camrose--Drumheller,4804020,Special Area No. 4
+,Northeast,4810051,Myrnam,VL,48,Alberta,4810,Division No. 10,CDR,,,,,7,999,4820,Camrose--Drumheller,4810048,Two Hills County No. 21
+,Mackenzie,4817835,Fox Lake 162,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,West Yellowhead,4813029,Woodlands County,MD,48,Alberta,4813,Division No. 13,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4813029,Woodlands County
+,Peace Country,4819046,Falher,T,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819041,Smoky River No. 130
+,Battle River,4807042,Killam,T,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807031,Flagstaff County
+,North Central,4813055,South Baptiste,SV,48,Alberta,4813,Division No. 13,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,North Central,4813011,Sunset Point,SV,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Peace Country,4819008,Hythe,VL,48,Alberta,4819,Division No. 19,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4819006,Grande Prairie County No. 1
+,Central,4808023,Birchcliff,SV,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808022,Lacombe County
+,Wood Buffalo,4816817,Janvier 194,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Slave Lake,4817828,Drift Pile River 150,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Northeast,4810041,Kitscoty,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810036,Vermilion River County
+,Central,4805048,Three Hills,T,48,Alberta,4805,Division No.  5,CDR,,,,,6,998,4820,Camrose--Drumheller,4805041,Kneehill County
+,Northeast,4810046,Dewberry,VL,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810036,Vermilion River County
+,North Central,4813046,Boyle,VL,48,Alberta,4813,Division No. 13,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,North Central,4813018,Barrhead County No. 11,MD,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813018,Barrhead County No. 11
+,Central,4808028,Gull Lake,SV,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808022,Lacombe County
+,Peace Country,4819009,Beaverlodge,T,48,Alberta,4819,Division No. 19,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4819006,Grande Prairie County No. 1
+,Northeast,4810028,Vegreville,T,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810026,Minburn County No. 27
+,Central,4808029,Blackfalds,T,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808022,Lacombe County
+,Wood Buffalo,4816822,Gregoire Lake 176A,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Mackenzie,4817837,John d'Or Prairie 215,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Peace Country,4817857,Woodland Cree 228,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Peace Country,4819014,Sexsmith,T,48,Alberta,4819,Division No. 19,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4819006,Grande Prairie County No. 1
+,Mackenzie,4817097,Rainbow Lake,T,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Central,4808027,Sunbreaker Cove,SV,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808022,Lacombe County
+,North Central,4813061,Whispering Hills,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,North Central,4813001,Lac Ste. Anne County,MD,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Battle River,4810019,Ryley,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810016,Beaver County
+,Central,4808024,Eckville,T,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808022,Lacombe County
+,Wood Buffalo,4816860,Thebathi 196,IRI,48,Alberta,4816,Division No. 16,CDR,,,,,7,999,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Battle River,4807032,Alliance,VL,48,Alberta,4807,Division No.  7,CDR,,,,,5,997,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Peace Country,4819048,Girouxville,VL,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819041,Smoky River No. 130
+,Northeast,4812813,Cold Lake 149A,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,7,999,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,West Yellowhead,4811031,Drayton Valley,T,48,Alberta,4811,Division No. 11,CDR,,,,,6,998,4860,Edmonton,4811032,Brazeau County
+,Northeast,4812011,Bonnyville Beach,SV,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,North Central,4813045,Mewatha Beach,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,Central,4807029,Donalda,VL,48,Alberta,4807,Division No.  7,CDR,,,,,5,997,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,Northeast,4810032,Minburn,VL,48,Alberta,4810,Division No. 10,CDR,,,,,7,999,4820,Camrose--Drumheller,4810026,Minburn County No. 27
+,Central,4808031,Lacombe,CY,48,Alberta,4808,Division No.  8,CDR,832,Lacombe,D,48832,3,832,4850,Red Deer,4808022,Lacombe County
+,Northeast,4810036,Vermilion River County,MD,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810036,Vermilion River County
+,Central,4807022,Gadsby,VL,48,Alberta,4807,Division No.  7,CDR,,,,,5,997,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,Wood Buffalo,4816858,Namur Lake 174B,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Peace Country,4817064,Hines Creek,VL,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817062,Clear Hills
+,Battle River,4807014,Castor,T,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807011,Paintearth County No. 18
+,Battle River,4807011,Paintearth County No. 18,MD,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807011,Paintearth County No. 18
+,Central,4807021,Big Valley,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,West Yellowhead,4811026,Breton,VL,48,Alberta,4811,Division No. 11,CDR,,,,,6,998,4860,Edmonton,4811032,Brazeau County
+,Northeast,4812840,Heart Lake 167,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,7,999,4880,Wood Buffalo--Cold Lake,4812037,Lac la Biche County
+,Peace Country,4819011,Wembley,T,48,Alberta,4819,Division No. 19,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4819006,Grande Prairie County No. 1
+,Peace Country,4819074,Grimshaw,T,48,Alberta,4819,Division No. 19,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4819071,Peace No. 135
+,North Central,4813003,Nakamun Park,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Mackenzie,4817849,Upper Hay River 212,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Central,4805036,Munson,VL,48,Alberta,4805,Division No.  5,CDR,,,,,7,999,4820,Camrose--Drumheller,4805031,Starland County
+,Battle River,4807051,Chauvin,VL,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807049,Wainwright No. 61
+,Northeast,4810042,Vermilion,T,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810036,Vermilion River County
+,Peace Country,4819815,Horse Lakes 152B,IRI,48,Alberta,4819,Division No. 19,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4819006,Grande Prairie County No. 1
+,Central,4811003,Argentia Beach,SV,48,Alberta,4811,Division No. 11,CDR,,,,,7,999,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Central,4811007,Norris Beach,SV,48,Alberta,4811,Division No. 11,CDR,,,,,7,999,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,West Yellowhead,4814024,Edson,T,48,Alberta,4814,Division No. 14,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4814003,Yellowhead County
+,Northeast,4812026,Waskatenau,VL,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812022,Smoky Lake County
+,North Central,4813048,Athabasca,T,48,Alberta,4813,Division No. 13,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,Peace Country,4819041,Smoky River No. 130,MD,48,Alberta,4819,Division No. 19,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4819041,Smoky River No. 130
+,Mackenzie,4817845,Hay Lake 209,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Central,4811001,Wetaskiwin County No. 10,MD,48,Alberta,4811,Division No. 11,CDR,,,,,4,996,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Central,4811006,Crystal Springs,SV,48,Alberta,4811,Division No. 11,CDR,,,,,7,999,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Central,4807027,White Sands,SV,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,Slave Lake,4817021,High Prairie,T,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Capital,4810062,Chipman,VL,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810058,Lamont County
+,Central,4806029,Carstairs,T,48,Alberta,4806,Division No.  6,CDR,,,,,4,996,4830,Calgary,4806028,Mountain View County
+,Northeast,4812018,St. Paul,T,48,Alberta,4812,Division No. 12,CDR,,,,,6,998,4880,Wood Buffalo--Cold Lake,4812014,St. Paul County No. 19
+,Central,4809810,Big Horn 144A,IRI,48,Alberta,4809,Division No.  9,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,Capital,4811064,Gibbons,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,Northeast,4812014,St. Paul County No. 19,MD,48,Alberta,4812,Division No. 12,CDR,,,,,6,998,4880,Wood Buffalo--Cold Lake,4812014,St. Paul County No. 19
+,Northeast,4812804,Puskiakiwenin 122,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,6,998,4880,Wood Buffalo--Cold Lake,4812014,St. Paul County No. 19
+,Northeast,4810044,Marwayne,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810036,Vermilion River County
+,Battle River,4807041,Strome,VL,48,Alberta,4807,Division No.  7,CDR,,,,,5,997,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Capital,4810058,Lamont County,MD,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810058,Lamont County
+,Northeast,4812029,Smoky Lake,T,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812022,Smoky Lake County
+,Northeast,4812037,Lac la Biche County,MD,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812037,Lac la Biche County
+,Central,4808011,Red Deer,CY,48,Alberta,4808,Division No.  8,CDR,830,Red Deer,K,48830,2,830,4850,Red Deer,4808001,Red Deer County
+,Central,4805049,Trochu,T,48,Alberta,4805,Division No.  5,CDR,,,,,6,998,4820,Camrose--Drumheller,4805041,Kneehill County
+,Battle River,4810006,Edberg,VL,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810001,Camrose County
+,Central,4811009,Silver Beach,SV,48,Alberta,4811,Division No. 11,CDR,,,,,7,999,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Battle River,4810008,New Norway,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810001,Camrose County
+,Central,4808034,Alix,VL,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808022,Lacombe County
+,Slave Lake,4817829,Sucker Creek 150A,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Capital,4811061,Edmonton,CY,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811061,Edmonton
+,North Central,4813032,Clyde,VL,48,Alberta,4813,Division No. 13,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4813028,Westlock County
+,Central,4811008,Ma-Me-O Beach,SV,48,Alberta,4811,Division No. 11,CDR,,,,,4,996,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Palliser,4804011,Hanna,T,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804004,Special Area No. 2
+,Northeast,4812828,Beaver Lake 131,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,6,998,4880,Wood Buffalo--Cold Lake,4812037,Lac la Biche County
+,Capital,4811022,Itaska Beach,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,North Central,4813033,Larkspur,SV,48,Alberta,4813,Division No. 13,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4813028,Westlock County
+,Capital,4811045,Wabamun,VL,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Northeast,4812802,Unipouheos 121,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,6,998,4880,Wood Buffalo--Cold Lake,4812014,St. Paul County No. 19
+,Peace Country,4819056,Rycroft,VL,48,Alberta,4819,Division No. 19,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4819054,Spirit River No. 133
+,Northeast,4810048,Two Hills County No. 21,MD,48,Alberta,4810,Division No. 10,CDR,,,,,6,998,4820,Camrose--Drumheller,4810048,Two Hills County No. 21
+,Central,4806032,Didsbury,T,48,Alberta,4806,Division No.  6,CDR,,,,,5,997,4830,Central,4806028,Mountain View County
+,Northeast,4812808,White Fish Lake 128,IRI,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812014,St. Paul County No. 19
+,Wood Buffalo,4816856,Fort McKay 174,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Central,4808038,Ponoka County,MD,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808038,Ponoka County
+,Central,4808813,Montana 139,IRI,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808038,Ponoka County
+,Central,4808001,Red Deer County,MD,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808001,Red Deer County
+,West Yellowhead,4814003,Yellowhead County,MD,48,Alberta,4814,Division No. 14,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4814003,Yellowhead County
+,Capital,4810066,Bruderheim,T,48,Alberta,4810,Division No. 10,CDR,835,Edmonton,B,48835,1,835,4820,Camrose--Drumheller,4810058,Lamont County
+,Northeast,4810805,Makaoo (Part) 120,IRI,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810036,Vermilion River County
+,Central,4808022,Lacombe County,MD,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808022,Lacombe County
+,North Central,4813017,Sunrise Beach,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Peace Country,4817825,Clear Hills 152C,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817062,Clear Hills
+,Northeast,4810052,Two Hills,T,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810048,Two Hills County No. 21
+,Capital,4811044,Kapasiwin,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Wood Buffalo,4816850,Allison Bay 219,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Slave Lake,4817852,Kapawe'no First Nation (Halcro 150C),IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Battle River,4807054,Wainwright,T,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807049,Wainwright No. 61
+,Northeast,4812022,Smoky Lake County,MD,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812022,Smoky Lake County
+,Capital,4811019,Calmar,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,North Central,4813057,West Baptiste,SV,48,Alberta,4813,Division No. 13,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,Central,4805034,Delia,VL,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805031,Starland County
+,Northeast,4810026,Minburn County No. 27,MD,48,Alberta,4810,Division No. 10,CDR,,,,,6,998,4820,Camrose--Drumheller,4810026,Minburn County No. 27
+,Battle River,4807002,Provost,T,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807001,Provost No. 52
+,Battle River,4810022,Viking,T,48,Alberta,4810,Division No. 10,CDR,,,,,5,997,4820,Camrose--Drumheller,4810016,Beaver County
+,Central,4808812,Samson 137A,IRI,48,Alberta,4808,Division No.  8,CDR,,,,,7,999,4850,Red Deer,4808038,Ponoka County
+,Central,4811801,Ermineskin 138,IRI,48,Alberta,4811,Division No. 11,CDR,,,,,5,997,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,North Central,4813012,Alberta Beach,VL,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Battle River,4804022,Consort,VL,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804020,Special Area No. 4
+,Slave Lake,4817836,Kapawe'no First Nation (Freeman 150B),IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Battle River,4810014,Hay Lakes,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810001,Camrose County
+,Capital,4811046,Spring Lake,VL,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Central,4808006,Bowden,T,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808001,Red Deer County
+,North Central,4813010,Silver Sands,SV,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Central,4811004,Grandview,SV,48,Alberta,4811,Division No. 11,CDR,,,,,4,996,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Slave Lake,4817819,Wabasca 166A,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Battle River,4807016,Halkirk,VL,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807011,Paintearth County No. 18
+,West Yellowhead,4814019,Hinton,T,48,Alberta,4814,Division No. 14,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4814003,Yellowhead County
+,Capital,4810064,Lamont,T,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810058,Lamont County
+,Wood Buffalo,4816855,Charles Lake 225,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Central,4807028,Rochon Sands,SV,48,Alberta,4807,Division No.  7,CDR,,,,,7,999,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,Peace Country,4819049,Birch Hills County,MD,48,Alberta,4819,Division No. 19,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4819049,Birch Hills County
+,West Yellowhead,4815037,Improvement District No. 12 Jasper Park,ID,48,Alberta,4815,Division No. 15,CDR,,,,,7,999,4840,Banff--Jasper--Rocky Mountain House,4815037,Improvement District No. 12 Jasper Park
+,Central,4808039,Ponoka,T,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808038,Ponoka County
+,Capital,4811052,Strathcona County,SM,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811052,Strathcona County
+,Central,4807024,Botha,VL,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,Wood Buffalo,4816852,Dog Head 218,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Capital,4811038,Seba Beach,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Peace Country,4817853,Little Buffalo,S-É,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Slave Lake,4817024,Swan Hills,T,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Battle River,4807031,Flagstaff County,MD,48,Alberta,4807,Division No.  7,CDR,,,,,5,997,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Central,4808025,Half Moon Bay,SV,48,Alberta,4808,Division No.  8,CDR,,,,,7,999,4850,Red Deer,4808022,Lacombe County
+,Central,4807019,Stettler County No. 6,MD,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807019,Stettler County No. 6
+,Capital,4811041,Point Alison,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Central,4808005,Jarvis Bay,SV,48,Alberta,4808,Division No.  8,CDR,831,Sylvan Lake,D,48831,3,831,4850,Red Deer,4808001,Red Deer County
+,Battle River,4807056,Irma,VL,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807049,Wainwright No. 61
+,Capital,4811062,St. Albert,CY,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,Mackenzie,4817095,Mackenzie County,SM,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Wood Buffalo,4816861,Thabacha Náre 196A,IRI,48,Alberta,4816,Division No. 16,CDR,860,Wood Buffalo,D,48860,3,860,4880,Wood Buffalo--Cold Lake,4816037,Wood Buffalo
+,Capital,4811020,Sundance Beach,SV,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,Peace Country,4817827,Utikoomak Lake 155A,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Northeast,4812002,Cold Lake,CY,48,Alberta,4812,Division No. 12,CDR,845,Cold Lake,D,48845,3,845,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,Central,4811005,Poplar Bay,SV,48,Alberta,4811,Division No. 11,CDR,,,,,7,999,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Central,4808002,Elnora,VL,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808001,Red Deer County
+,Central,4811802,Pigeon Lake 138A,IRI,48,Alberta,4811,Division No. 11,CDR,,,,,5,997,4860,Edmonton,4811001,Wetaskiwin County No. 10
+,Central,4808044,Rimbey,T,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808038,Ponoka County
+,North Central,4813049,Island Lake,SV,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,Capital,4810068,Improvement District No. 13 Elk Island,ID,48,Alberta,4810,Division No. 10,CDR,,,,,7,999,4820,Camrose--Drumheller,4810058,Lamont County
+,Capital,4811021,Thorsby,VL,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,Battle River,4810009,Bawlf,VL,48,Alberta,4810,Division No. 10,CDR,,,,,4,996,4820,Camrose--Drumheller,4810001,Camrose County
+,Capital,4811069,Legal,T,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811059,Sturgeon County
+,Capital,4811012,Leduc County,MD,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811012,Leduc County
+,Central,4809002,Clearwater County,MD,48,Alberta,4809,Division No.  9,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,Slave Lake,4817818,Wabasca 166,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,North Central,4813007,Yellowstone,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Central,4808009,Penhold,T,48,Alberta,4808,Division No.  8,CDR,,,,,4,996,4850,Red Deer,4808001,Red Deer County
+,North Central,4813053,Bondiss,SV,48,Alberta,4813,Division No. 13,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4813044,Athabasca County
+,Northeast,4812013,Pelican Narrows,SV,48,Alberta,4812,Division No. 12,CDR,,,,,5,997,4880,Wood Buffalo--Cold Lake,4812004,Bonnyville No. 87
+,Capital,4811049,Spruce Grove,CY,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Slave Lake,4817822,Wabasca 166C,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817031,Opportunity No. 17
+,Peace Country,4819006,Grande Prairie County No. 1,MD,48,Alberta,4819,Division No. 19,CDR,,,,,4,996,4870,Athabasca--Grande Prairie--Peace River,4819006,Grande Prairie County No. 1
+,Capital,4811807,Wabamun 133B,IRI,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Battle River,4807049,Wainwright No. 61,MD,48,Alberta,4807,Division No.  7,CDR,,,,,6,998,4820,Camrose--Drumheller,4807049,Wainwright No. 61
+,Peace Country,4818018,Valleyview,T,48,Alberta,4818,Division No. 18,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4818015,Greenview No. 16
+,Central,4805038,Morrin,VL,48,Alberta,4805,Division No.  5,CDR,,,,,6,998,4820,Camrose--Drumheller,4805031,Starland County
+,Mackenzie,4817859,Fort Vermilion 173B,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Calgary,4815032,Improvement District No.  9 Banff,ID,48,Alberta,4815,Division No. 15,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4815032,Improvement District No.  9 Banff
+,Central,4805041,Kneehill County,MD,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805041,Kneehill County
+,Central,4805031,Starland County,MD,48,Alberta,4805,Division No.  5,CDR,,,,,6,998,4820,Camrose--Drumheller,4805031,Starland County
+,Palliser,4804012,Special Area No. 3,SA,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804012,Special Area No. 3
+,Palliser,4804019,Youngstown,VL,48,Alberta,4804,Division No.  4,CDR,,,,,7,999,4820,Camrose--Drumheller,4804012,Special Area No. 3
+,Central,4806028,Mountain View County,MD,48,Alberta,4806,Division No.  6,CDR,,,,,5,997,4830,Calgary,4806028,Mountain View County
+,Palliser,4804004,Special Area No. 2,SA,48,Alberta,4804,Division No.  4,CDR,,,,,6,998,4820,Camrose--Drumheller,4804004,Special Area No. 2
+,South Central,4803802,Blood 148,IRI,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,South Central,4803802,Blood 148,IRI,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,South Central,4803802,Blood 148,IRI,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,Southwest,4803801,Piikani 147,IRI,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Southwest,4803801,Piikani 147,IRI,48,Alberta,4803,Division No.  3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Southwest,4803011,Pincher Creek No. 9,MD,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Southwest,4803011,Pincher Creek No. 9,MD,48,Alberta,4803,Division No.  3,CDR,,,,,6,998,4810,Lethbridge--Medicine Hat,4803011,Pincher Creek No. 9
+,Mackenzie,4817841,Beaver Ranch 163,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Mackenzie,4817841,Beaver Ranch 163,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Mackenzie,4817841,Beaver Ranch 163,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817095,Mackenzie County
+,Peace Country,4817026,Northern Sunrise County,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Peace Country,4817026,Northern Sunrise County,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817026,Northern Sunrise County
+,Slave Lake,4817027,Big Lakes,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Slave Lake,4817027,Big Lakes,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Slave Lake,4817027,Big Lakes,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Slave Lake,4817027,Big Lakes,MD,48,Alberta,4817,Division No. 17,CDR,,,,,6,998,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Slave Lake,4817832,Sawridge 150G,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Slave Lake,4817832,Sawridge 150G,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Slave Lake,4817832,Sawridge 150G,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Slave Lake,4817832,Sawridge 150G,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Slave Lake,4817832,Sawridge 150G,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Slave Lake,4817832,Sawridge 150G,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817033,Lesser Slave River No.124
+,Slave Lake,4817831,Swan River 150E,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Slave Lake,4817831,Swan River 150E,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Slave Lake,4817831,Swan River 150E,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,Slave Lake,4817831,Swan River 150E,IRI,48,Alberta,4817,Division No. 17,CDR,,,,,7,999,4870,Athabasca--Grande Prairie--Peace River,4817027,Big Lakes
+,North Central,4813811,Alexis 133,IRI,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,North Central,4813811,Alexis 133,IRI,48,Alberta,4813,Division No. 13,CDR,,,,,5,997,4870,Athabasca--Grande Prairie--Peace River,4813001,Lac Ste. Anne County
+,Capital,4811806,Wabamun 133A,IRI,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Capital,4811806,Wabamun 133A,IRI,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Capital,4811806,Wabamun 133A,IRI,48,Alberta,4811,Division No. 11,CDR,835,Edmonton,B,48835,1,835,4860,Edmonton,4811034,Parkland County
+,Northeast,4810039,Lloydminster (Part),CY,48,Alberta,4810,Division No. 10,CDR,840,Lloydminster (Alberta part / partie de l'Alberta),D,48840,3,840,4820,Camrose--Drumheller,4810036,Vermilion River County
+,Northeast,4810039,Lloydminster (Part),CY,48,Alberta,4810,Division No. 10,CDR,840,Lloydminster (Alberta part / partie de l'Alberta),D,48840,3,840,4820,Camrose--Drumheller,4810036,Vermilion River County
+,Battle River,4807039,Daysland,T,48,Alberta,4807,Division No.  7,CDR,,,,,5,997,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Battle River,4807039,Daysland,T,48,Alberta,4807,Division No.  7,CDR,,,,,5,997,4820,Camrose--Drumheller,4807031,Flagstaff County
+,Central,4809806,O'Chiese 203,IRI,48,Alberta,4809,Division No.  9,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,Central,4809806,O'Chiese 203,IRI,48,Alberta,4809,Division No.  9,CDR,,,,,6,998,4840,Banff--Jasper--Rocky Mountain House,4809002,Clearwater County
+,Central,4808811,Samson 137,IRI,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808038,Ponoka County
+,Central,4808811,Samson 137,IRI,48,Alberta,4808,Division No.  8,CDR,,,,,5,997,4850,Red Deer,4808038,Ponoka County
+,Calgary,4815015,Bighorn No. 8,MD,48,Alberta,4815,Division No. 15,CDR,,,,,4,996,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Calgary,4815015,Bighorn No. 8,MD,48,Alberta,4815,Division No. 15,CDR,,,,,4,996,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Calgary,4815015,Bighorn No. 8,MD,48,Alberta,4815,Division No. 15,CDR,,,,,4,996,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Calgary,4815015,Bighorn No. 8,MD,48,Alberta,4815,Division No. 15,CDR,,,,,4,996,4840,Banff--Jasper--Rocky Mountain House,4815015,Bighorn No. 8
+,Calgary,4806803,Eden Valley 216,IRI,48,Alberta,4806,Division No.  6,CDR,,,,,6,998,4830,Calgary,4806001,Foothills No. 31
+,Calgary,4806803,Eden Valley 216,IRI,48,Alberta,4806,Division No.  6,CDR,,,,,6,998,4830,Calgary,4806001,Foothills No. 31
+,Calgary,4805802,Siksika 146,IRI,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Calgary,4805802,Siksika 146,IRI,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Calgary,4805802,Siksika 146,IRI,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Calgary,4805802,Siksika 146,IRI,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Calgary,4805802,Siksika 146,IRI,48,Alberta,4805,Division No.  5,CDR,,,,,5,997,4820,Camrose--Drumheller,4805001,Vulcan County
+,Southwest,4803001,Cardston County,MD,48,Alberta,4803,Division No. 3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,Southwest,4803001,Cardston County,MD,48,Alberta,4803,Division No. 3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803001,Cardston County
+,Southwest,4803001,Cardston County,MD,48,Alberta,4803,Division No. 3,CDR,,,,,5,997,4810,Lethbridge--Medicine Hat,4803001,Cardston County

@@ -1,0 +1,466 @@
+body, html { 
+		margin: 0px;
+		padding: 0px;
+		font-family: Helvetica, Arial, Tahoma;
+		background: rgb(60,60,60);
+		height: 100%;
+	}
+
+a:hover {
+	text-decoration: underline;
+}	
+
+#header {
+	
+	background: rgba(255,255,255,1);
+	display: box;
+	min-width: 30%;
+	top: 5pt;
+	left: 45pt;
+	padding: 5pt 10pt 5pt 10pt;
+	font-family: Helvetica, Arial, Tahoma;
+	font-size: 18pt;
+	color: rgba(95,95,95,0.90);
+	text-shadow: 0px 0px 5px rgba(255,255,255,1);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	position: absolute;
+	z-index: 50;
+	border-radius: 2px;
+}
+	
+.subheader {
+	font-size: 1vw;
+}
+	
+#toolbar {
+	height: 100%;
+	width: 50px;
+	background: rgba(60,60,60,1);
+	font-family: Helvetica, Arial, Tahoma;
+	font-size: 2vw;
+	position: absolute;
+	z-index: 49;
+}
+
+#popuptxt {
+		font-size: 0.9vw;
+	}
+	
+#infobar {
+	height: 100%;
+	width: 35.0%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	float: right;
+	z-index: 49;
+	font-family: Helvetica, Arial, Tahoma;
+	color: #FFF;
+	background: rgb(60,60,60);
+	margin: 0;
+	padding: 25px 0 0 25px;
+	resize: both;
+}
+
+#form_box {
+	overflow: auto;
+	height: 70%;
+}
+
+.icon, .licon, .micon {
+	background: #FF005D;
+	border: 2px solid #FFF;
+	border-radius: 20px;
+}
+
+.micon {
+	background: #FF003F;
+}
+
+.licon {
+	background: #FF0000;
+}
+
+.air_icon {
+	background: #00BFFF;
+	border-radius: 2px;
+	border: 2px solid white;
+}
+
+.heli_icon {
+	background: #00FFBF;
+	border-radius: 2px;
+	border: 2px solid white;
+}
+
+.hosp_icon {
+	background: #BF00FF;
+	border-radius: 2px;
+	border: 2px solid white;
+}
+
+/*for custom datasets::maybe use javascript to dynamically write the CSS, that way
+user-defined colours can be better implemented, as well as shapes */
+
+.circle_custom_icon {
+	background: #FFE100;
+	border-radius: 20px;
+	border: 2px solid white;
+}
+
+.square_custom_icon {
+	background: #FFE100;
+	border-radius: 2px;
+	border: 2px solid white;
+}
+
+#locate {
+	font-size: 10pt;
+	color: #FF9000;
+	cursor: pointer;
+}
+	
+.tool_extension_off {
+	background: rgba(60,60,60,0.84);
+	top: 100px;
+	float: left;
+	position: absolute;
+	visibility: hidden;
+}
+	
+.tool_extension_on {
+	background: rgba(250,250,250,0.85);
+	top: 11.5%;
+	left: 0;
+	height: 65%;
+	width: 21%;
+	min-width: 18em;
+	line-height: 1.4;
+	padding: 16px;
+	padding-left: 70px;
+	float: left;
+	position: absolute;
+	z-index: 48;
+	visibility: visible;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+	
+.tool_extension_on a.close-button, #special_layer a.close-button {
+	position: absolute;
+	top: -12px;
+	right: -12px;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	font: 13pt Tahoma, Verdana, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	background: #ccc;
+	border-radius: 18px;
+	border: 2px solid white;
+	z-index: 50;
+}
+
+.tool_extension_on a.close-button:hover, #special_layer a.close-button:hover {
+	background-color: #D00;
+}	
+	
+.submitHeat{
+	border-radius: 0px !important;
+	border: none !important;
+	padding: 10px 20px;
+	background: rgb(200,15,0) !important;
+	color: white !important;
+	margin: auto;
+	}
+
+.submitHeat:hover{
+	background: rgb(230,40,0) !important;
+	text-align: middle;
+	}
+
+#additionalData {
+	cursor: pointer;
+	display: inline-block;
+}	
+	
+.remove {
+	height: 16px !important;
+	width: 120px !important;
+	bottom: -38vh;
+	padding: 8px 20px 12px 20px;
+	position: relative;
+}
+
+	
+:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+	background: #999;
+	color: #ddd;
+	}
+
+div#tabs a:visited, a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+	
+.business, .regional {
+	display: table-cell;
+	float: left;
+	width: 35%;
+	height: 30pt;
+	font-size: 12pt;
+	line-height: 35pt;
+	padding-left: 15pt;
+	border: 1px solid rgb(90,90,90);
+	background: rgb(75,75,75);
+}
+
+.business {
+	background: rgb(90,90,90);
+	border-top-left-radius: 2px;
+}
+
+.regional {
+	border-top-right-radius: 2px;
+}
+
+.regional_detail {
+	line-height: 1.3pt;
+	display:block;
+	background:#345;
+}
+
+
+#business_info {
+	display: block;
+}
+
+#regional_info {
+	display: none;
+}
+
+.dashhead {
+	display: block;
+	margin-bottom: 20px;
+	left: 0;
+	font-size: 20pt;
+}
+
+hr {
+	height: 1px;
+	border: 0px;
+	margin: 2px;
+	background: #858585;
+}
+
+d {
+	font-family: Courier;
+	text-align: right !important;
+	display: inline-block;
+}
+
+k {
+	font-size: 12pt;
+	display: inline-block;
+}
+
+.quarters {
+	width: 22vw;
+	display: inline-block;
+}
+
+.tenths {
+	width: 8vw;
+	display: inline-block;
+}
+
+#dataContent {
+	display: block;
+	overflow: hidden;
+	height: 75%;
+	width: 31.5vw;
+	background: rgb(90,90,90);
+	margin: 61px 0 0 0;
+	padding: 0 20px 0 20px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#regional_info, #business_info {
+	font-size: 1vw;
+	float: left;
+	margin-top: 14pt;
+}
+	
+div#dataContent a:visited, a:link {
+	color: #FF9000;
+	text-decoration: none;
+}
+	
+div#dataContent a:hover {
+	text-decoration: underline;
+}
+	
+div#dataContent p {
+	font-size: 1.5vh;
+	background: rgb(90,90,90);
+	padding: 0 1em 0 1em;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.dataContent_header  {
+	margin-left: 9pt;
+}
+
+#dropMenu:hover {
+	cursor: pointer;
+	cursor: hand;	
+}
+
+#dropMenu div:last-child {
+	display: none;
+	margin-left: 8px;
+	background: #FFF;
+	padding: 2px;
+	margin-right: 6px;
+	border-radius: 2px;
+}
+
+#dropMenu div:last-child:hover {
+	background: #FFF;
+	border-radius: 8px;
+}
+
+
+label:hover {
+	cursor: pointer;
+}
+
+#map { 
+	height: 100%;
+	width: 65%;
+	position: relative;
+	float: left;
+}
+
+.legend {
+	line-height: 14.5pt;
+	color: #000;
+	background: rgba(255,255,255,1);
+	padding: 20px 25px;
+	right: 50px;
+	bottom: 25px;
+	border-radius: 2px;
+	font-size: 16px;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	}	
+
+.legend div:first-child {
+	padding: 0px;
+	margin-top: 3px;
+	vertical-align: bottom;
+	float: left;
+	}
+
+.legend i {
+	width: 20px;
+	height: 18px;
+	float: left;
+	margin-right: 8px;
+	opacity: 1;
+	}
+	
+#pickLQ {
+	margin-bottom: -10px;
+	background: #FFF;
+	border-radius: 2px;
+	padding: 2px;
+}
+
+#special_layer {
+	z-index: 1000;
+	margin: auto;
+	padding: 10px 25px 5px 25px;
+	left: -100%;
+	top: 35%;
+	display: block;
+	color: black;
+	position: absolute;
+	background: rgba(255,255,255,0.85);
+	border: 2px solid white;
+	-webkit-transition: -webkit-transform 0.5s ease-out, opacity 0.5s ease-in;
+	-moz-transition: -moz-transform 0.5s ease-out, opacity 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-out, opacity 0.5s ease-in;
+	transition: transform 0.5s ease-out, opacity 0.5s ease-in;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+
+#special_layer button {
+	background: rgb(200,200,200);
+	border: none;
+	padding: 10px 20px;
+	color: white;
+}
+
+#special_layer button.display:hover {
+	background: rgb(200,15,0);
+}
+
+#special_layer button.cancel:hover {
+	background: rgb(75,75,75);
+}
+	
+input#myFile {
+	border: none;
+	padding: 5px;
+	background: rgb(255,255,255);
+	border: 2px solid rgba(200,200,255,0.0);
+	border-radius: 2px;
+	font-family: Courier;
+}
+
+input#myFile:hover {
+	border: 2px solid rgba(80,150,245,0.4);
+}
+
+#additionalData {
+	display: block;
+	width: 30%;
+	height: 20%;
+	background: white;
+	margin-top: 5%;
+	margin-right: 3%;
+	float: left;
+	text-align: center;
+}
+
+#additionalData:hover {
+	background: rgb(230,230,230);
+}
+	
+<!--marker cluster.css-->
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-out, opacity 0.3s ease-in;
+	transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+}
+
+#loading-screen {
+	position:absolute; top:0; bottom:0; width:100%; height: 100%; display: none;
+	background:rgba(255, 255, 255, .95);
+}

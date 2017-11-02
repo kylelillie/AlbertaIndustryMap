@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<!--
+to do: 
+-dashboard: toggle between region and cluster information: top clusters, or something
+		-click on CSD get CSD and economic region (and cluster info if cluster map is on)
+		-button to highlight a specific economic region
+-have the map display in the center of the screen, so differing screen heights won't screw it up
+-filter CSDs to only show wanted REIR?
+-region information dashboard: windows 10-like tiles that launch user into more specific data
+-toggle highlight of CSD layer or REIR
+	- requires a REIR shapefile
+-pollution heat map
+-->
+<html>
+<head>
+	<title>Alberta Industry Map</title>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="easy-button.css"/>
+	<link rel="stylesheet" href="leaflet.css" />	
+	<link rel="stylesheet" href="stylesheet.css"/> <!--main CSS-->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+	<!--<link rel="prefetch" href="data/NA_LQ_by_REIR.csv"/>-->
+	<link rel="prefetch" href="data/CAN_LQ_by_REIR.csv"/>
+	<link rel="prefetch" href="data/AB_LQ_by_REIR.csv"/>
+	<link rel="prefetch" href="newAB_mod.json"/>
+	
+	
+</head>
+<body>
+
+	<div id="header"></div>
+	<div id="toolbar"></div>
+	<div class="tool_extension_off"></div>
+	<div id="map"></div>
+	<div id="loading-screen">Loading</div>
+	<div id="infobar">
+		<div id="headinfo" class="dashhead">Information Dashboard</div>
+			<div id="tabs" class="dashhead">
+				<a id="btab" onClick="switchBusiness();" href=#><div class="business">Business Data</div></a>
+				<a id="rtab" onClick="switchRegional();" href=#><div class="regional">Regional Data</div></a>
+			</div>
+		<div id="dataContent">
+			<div id="business_info">
+				Viewing Business Information<hr>
+				<br>Begin by clicking <img src="./img/choroIcon.svg" style="border: 5px solid white; border-radius: 4px;"> on the toolbar.
+				<br>Next choose a cluster and click "Display Cluster Data".
+				<br>Then click a business marker to view it's associated information.
+				<br><br>
+				<br>Viewing Regional Information<hr>
+				<br>Clicking any location on the map will display the name of the economic region, census subdivision, and their respective cluster information under the 'Regional Data' tab.
+				<br>
+				<br>You can switch between the Business and Regional tabs.
+			</div>
+			<div id="regional_info">
+				<br>Click an area of the map to view data.
+				<br><br>You can switch between the Business and Regional tabs, as you've discovered.
+			</div>
+		</div>
+		<div style="margin: 2vh 4vh 0 1vh; display: inline-block; position: absolute; font-size: 1.5vh;">*Location Quotient (LQ) is a way of quantifying how concentrated a particular industry or cluster is in a region as compared to the nation. Values greater than 1.0 reveal what makes a particular region “unique” in comparison to a regional average.</div>
+
+		<!-- features: search for specific company -->
+	</div>
+	
+	
+	<!--load dependent scripts-->
+<script src="leaflet-src.js"></script>
+<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="leaflet-search.js"></script>
+<script src="easy-button.js"></script>
+
+<script src='leaflet.markercluster.js'></script>
+<link href='MarkerCluster.Default.css' rel='stylesheet' />
+
+<script>
+//-1-Some global variables I want to use--------------------------------------------------------------------------------------------------------------------1-//
+	var all_layers_switch = true;
+	var lastLat,
+		lastLong,
+		numWorkers, //to determine icon size
+		customIcon,
+		highlightRegion,
+		choroBool;	//to determine if choropleth is active or not
+	var $choroCluster,
+		$LQ_type = "./data/CAN_LQ_by_REIR.csv"; //default choropleth data
+	var legend,
+		toolSlide,
+		er_lq_data={};
+	var mapHeader = "Alberta Industry Explorer"; //because this needs to be dynamic
+	
+//-2-Initialize map----------------------------------------------------------------------------------------------------------------------------------------2-//
+		var lat = 55;
+		var lng = -117.5;
+		
+		var map = L.map('map').setView([lat,lng], 6);
+		
+		$("#loading-screen").css('display','block'); //start the loading screen
+		
+		var mapLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia3lsZWxpbGxpZSIsImEiOiJjaWp6MWxsMWcyYW52dmJsemZqaHJ4aHUzIn0.Zv0mlfOL5b8hGDBSQQCfuA', {
+				maxBounds: L.latLngBounds(L.latLng(42.103402, -131.255344),L.latLng(62.813334, -92.091430)),
+				maxZoom: 16,
+				minZoom: 5,
+				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+					'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+					'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+				id: 'mapbox.outdoors',
+			
+		}).addTo(map);
+
+		//////////////////////////////////////////////
+		
+		//Set header
+		d3.select("#header").html(mapHeader);
+		
+		$("#loading-screen").css('display','none'); //start the loading screen
+		
+		//Create Pins
+		var regIcon = L.divIcon({
+			className: "icon",
+			iconSize: [12,12],
+			iconAnchor: [8, 8],
+			offset: [0,0],
+			popupAnchor: [0, 0],
+		});
+		
+		var medIcon = L.divIcon({
+			className: "micon",
+			iconSize: [16,16],
+			iconAnchor: [8, 8],
+			popupAnchor: [0, 0],
+		});
+		
+		var lrgIcon = L.divIcon({
+			className: "licon",
+			iconSize: [22,22],
+			iconAnchor: [8, 8],
+			popupAnchor: [0, 0],
+		});
+
+//-3-Overlay topoJSON CSD layer----------------------------------------------------------------------------------------------------------------------------3-//
+		var CSDLayers = new L.layerGroup();
+		
+		var customLayer = L.geoJson(null, {
+			style: function(feature) {
+			return { 
+				color: "#555",
+				fillColor: "#F00",
+				fillOpacity: 0.00,
+				weight: 0.5,
+				opacity: 0.5
+				};
+			},
+		});
+		//different styles used for customLayer
+		var normalStyle = {   //add switch if choropleth is on or not
+				color: "#555",
+				fillColor: "#F00",
+				fillOpacity: 0.0,
+				weight: 0.5,
+				opacity: 0.5
+		};
+		
+		var highlightStyle = {
+				color: '#F00', 
+				weight: 1.5,
+				opacity: 0.4,
+				fillOpacity: 0.05,
+				fillColor: '#F00'
+			};
+			
+		var choroHighlightStyle = {
+			color: '#000', 
+			opacity: 1,
+			weight: 1.5
+			};
+			
+		//all the magic starts here
+		var CSDLayer = omnivore.topojson('newAB_mod.json',null,customLayer)
+			.on('mouseover', csdOn)
+			.on('mouseout',csdOff)
+			.on('click',showRegionData);
+		
+		var CSDLayers = new L.layerGroup();
+		
+		CSDLayers.addLayer(CSDLayer);
+		
+		//display regional information when csd area clicked on
+		function showRegionData(e){
+		
+			d3.select(".business").style("background","rgb(75,75,75)");
+			d3.select("#business_info").style("display","none");
+			d3.select(".regional").style("background","rgb(90,90,90)");
+			d3.select("#regional_info").style("display","block");
+			document.getElementById("regional_info").innerHTML = "<span id=\"highlight_region\">"+e.layer.feature.properties.EconomicRegion+" Economic Region</span><br><font size=\"3.75pt\">"+e.layer.feature.properties.CSDNAME+"</font>";
+
+			//to add: top 5 companies in the region -> by employment -> by revenue :: expand into full list
+			
+			//sort d&b data by economic region, which you can't do yet. how to filter by lat/long and figure out what's in CSD area? start with LQ data for comparison..
+			
+			//only display this if the choropleth is active
+			if (choroBool){
+					tempLQ = +er_lq_data[e.layer.feature.properties.EconomicRegion]
+					document.getElementById("regional_info").innerHTML += "<br><br><k class='quarters'>Active Cluster</k><k class='tenths'>LQ</k><hr><k class='quarters'>"+mapHeader+"</k><k class='tenths'><d>"+tempLQ.toFixed(3)+"</d></k><br>";
+				}
+				
+				//display top 10 clusters in given region
+				var regionalData = {};
+				
+				d3.csv([$LQ_type], function (error, data){
+					//sort by LQ
+					data.sort(function(a,b){
+							return b.LQ-a.LQ
+						});
+						
+						document.getElementById("regional_info").innerHTML += "<br><br><br><div class='quarters'>Top 10 Clusters for "+e.layer.feature.properties.EconomicRegion+"</div><div class='tenths'>"+(choroBool ? "":"LQ")+"</div><hr>";//add in a toggled LQ column header?
+						//create an array of cluster LQ in matched CSD, in order large->small
+						var j = 0;
+						
+						for (i=0, n=data.length; i <n; i++){
+							if (data[i].REIR === e.layer.feature.properties.EconomicRegion){
+							
+								var tempLQ = +data[i].LQ;
+								//could move this out into a new array that only runs 10 times; put it after, so this current formular will make a whole li
+								document.getElementById("regional_info").innerHTML += "<k class='quarters'>"+(j+1)+". "+data[i].Cluster+"</k><k class='tenths'><d> "+tempLQ.toFixed(3)+"</d></k><br>";
+								
+								if (j === 9)
+									break;						
+								
+								j++;
+							}		
+						}
+											
+						});
+				
+				//highlight/outline cluster user clicked on..nothing here yet
+
+			};
+		
+		function csdOff(e){
+		d3.select('#header').html(mapHeader)
+		if (!choroBool)
+			e.layer.setStyle(normalStyle)
+		else
+			e.layer.setStyle({color: '#555', opacity: 0.4, weight: 1})
+		};
+		
+		function csdOn(e){
+		$('#header').append('<br><div class=\'subheader\'>'+e.layer.feature.properties.EconomicRegion+' - '+e.layer.feature.properties.CSDNAME+'</div>');
+		if (!choroBool)//dont change heat map colours!!!!
+			e.layer.setStyle(highlightStyle)
+		else
+			e.layer.setStyle(choroHighlightStyle)
+		};
+		
+		CSDLayers.addTo(map);
+//-4-Heat Map Section /SLASH/ CSS stuff for the map---------------------------------------------------------------------------------------------------------------4-//
+//-4a-Assign Location Quotient Data Choropleth color functions-----------------------//
+	function getColor(d) {
+
+		return d > 10 ? '#000050':
+			   d > 5 ? '#023858' :
+			   d > 4 ? '#045a8d' :
+			   d > 3  ? '#0570b0' :
+			   d > 2  ? '#3690c0' :
+			   d > 1  ? '#74a9cf' :
+			   d > 0.75   ? '#a6bddb' :
+			   d > 0.50   ? '#d0d1e6' :
+			   d > 0.25 ? '#ece7f2' :
+			   d > 0.01? '#f2f2f2' :
+						 '#ffffff';
+	}
+	
+	function choroLayer(lqdata) {
+		return {
+			color: '#555',
+			weight: 1,
+			opacity: 0.5,
+			fillColor: getColor(lqdata),
+			fillOpacity: 0.6
+			};
+	}
+//-4b-Display Location Quotient Heat Map Data--------------------------------------------------//
+	function choropleth() {
+
+	// create a new marker group based on selected cluster
+    //var clusterGroup = new L.MarkerClusterGroup();
+	var custom_pin;
+	var layerCSD;
+
+	pinCluster.clearLayers();
+	
+	if (!choroBool)
+		showLegend();
+
+	choroBool = true;
+		
+		CSDLayer.eachLayer(function (layer) {	
+			console.log($LQ_type);
+			d3.csv([$LQ_type], function (error, data){ //open up the cluster data file
+
+					data.forEach(function(d){
+						//if the economic region in the file matches the user-defined cluster...
+						if (d.REIR == layer.feature.properties.EconomicRegion && d.Cluster == $choroCluster) {
+							layer.setStyle(choroLayer(d.LQ));
+							
+							er_lq_data[d.REIR]=d.LQ;//also create global data to show info on the economic region							
+							}
+					});
+				});
+			});
+	
+
+		for (i=0; i < allPins.length; i++){
+	
+				if (allPins[i].options.cluster == $choroCluster)
+					pinCluster.addLayer(allPins[i]);
+			}
+			
+			
+	//filter business pins based on selected cluster
+	//clear current pins
+	
+	map.removeLayer(pinCluster);
+	map.addLayer(pinCluster);
+
+	}
+//-4c-set up a legend-----------------------------------------------------------------//	
+	function showLegend(){
+	
+		legend = L.control({position: 'bottomright'});
+		
+		legend.onAdd = function (map) {
+
+			var div = L.DomUtil.create('div', 'info legend'),
+				grades = [0.01, 0.25, 0.50, 0.75, 1, 2, 3, 4, 5, 10],
+				labels = [];
+			
+			div.innerHTML += 'Location Quotient<p>';
+			
+			// loop through our density intervals and generate a label with a coloured square for each interval
+			for (var i = 0, n=grades.length; i < n; i++) {
+				div.innerHTML +=
+					'<div><i style="background:' + getColor(grades[i] + 0.01) + '"></i> ' +
+					grades[i] + (grades[i+1] ? '&ndash;' + grades[i + 1] + '</div>' : '+');
+			}
+
+			return div;
+			
+			};
+		
+		map.addControl(legend);
+		
+		marker_legend = L.control({position: 'bottomright'});
+		
+		marker_legend.onAdd = function (map) {
+
+			var div = L.DomUtil.create('div', 'info legend'),
+				grades = [1,2,9,10,100],
+				labels = [];
+			
+			
+			//create five circles, fuschia(1), green(2-9), yellow(10-99), orange(100-999), red(1000+)
+			div.innerHTML += '&nbsp&nbsp&nbspBusiness Size&nbsp&nbsp&nbsp<p>'+
+			'<div class="marker-cluster-small">&nbsp<i style="width:8px; height: 8px; border-radius:30px; background: #FF005D"></i>Small</div>'+
+			'<div class="marker-cluster-small"><i style="width:10px; height: 10px; border-radius:30px; background: #FF003F"></i>Medium</div>'+
+			'<div class="marker-cluster-small"><i style="width:12px; height: 12px; border-radius:30px; background: #FF0000"></i>Large</div>'
+		/*	'<p>Business Counts<p>'+
+			'<div style="padding: 2px 0 2px 0"><i style="width: 20px; border-radius:30px; background: #FF005D"></i>1</div>'+
+			'<div style="padding: 2px 0 2px 0"><i style="width: 20px; border-radius:30px; background: rgba(0, 200, 80, 1)"></i>2-9</div>'+
+			'<div style="padding: 2px 0 2px 0"><i style="width: 20px; border-radius:30px; background: rgba(255, 204, 0, 1)"></i>10-99</div>'+
+			'<div style="padding: 2px 0 2px 0"><i style="width: 20px; border-radius:30px; background: rgba(240, 120, 0, 1)"></i>100-999</div>'+
+			'<div style="padding: 2px 0 2px 0"><i style="width: 20px; border-radius:30px; background: rgba(240,50,0,1)"></i>1000+</div>'*/;
+
+
+			return div;
+			
+			};
+			
+		map.addControl(marker_legend);
+			
+	}
+//-4d-Show the menu-----------------------------------------------------------------//	
+	function showChoroMenu(){
+	
+		d3.selectAll(".tool_extension_off").attr({"class":"tool_extension_on"});
+
+		d3.select(".tool_extension_on").html(
+			"<a a href=# class=\"close-button\">‹</a>"+
+			"<b>Select Cluster</b><p>"+
+			"<div id=\"form_box\" class=\"scrollbar\"><form id=\"selectCluster\">"+
+			
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Agriculture and Fishing</label>"+
+				"<div><label for=\"1\"><input id=\"1\" type=\"radio\" name=\"cluster\" value=\"Agricultural Inputs and Services\">Agricultural Inputs and Services</label></br>"+
+						"<label for=\"2\"><input id=\"2\" type=\"radio\" name=\"cluster\" value=\"Fishing and Fishing Products\">Fishing and Fishing Products</label></br>"+
+						"<label for=\"3\"><input id=\"3\" type=\"radio\" name=\"cluster\" value=\"Food Processing and Manufacturing\">Food Processing and Manufacturing</label></br>"+
+						"<label for=\"4\"><input id=\"4\" type=\"radio\" name=\"cluster\" value=\"Leather and Related Products\">Leather and Related Products</label></br>"+
+						"<label for=\"5\"><input id=\"5\" type=\"radio\" name=\"cluster\" value=\"Livestock Processing\">Livestock Processing</label></br>"+
+					//	"<label for=\"6\"><input id=\"6\" type=\"radio\" name=\"cluster\" value=\"Tobacco\">Tobacco</br></label>"+//doesnt work
+						"</div></div>"+
+										
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Arts, Education and Hospitality"+
+				"<div><label for=\"7\"><input type=\"radio\" id=\"7\" name=\"cluster\" value=\"Education and Knowledge Creation\">Education and Knowledge Creation</label></br>"+
+						"<label for=\"8\"><input type=\"radio\" id=\"8\" name=\"cluster\" value=\"Hospitality and Tourism\">Hospitality and Tourism</label></br>"+
+						"<label for=\"9\"><input type=\"radio\" id=\"9\" name=\"cluster\" value=\"Music and Sound Recording\">Music and Sound Recording</label></br>"+
+						"<label for=\"10\"><input type=\"radio\" id=\"10\" name=\"cluster\" value=\"Performing Arts\">Performing Arts</label></br>"+
+						"<label for=\"11\"><input type=\"radio\" id=\"11\" name=\"cluster\" value=\"Video Production and Distribution\">Video Production and Distribution</label></br>"+
+						"</div></div>"+
+			
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Chemicals and Allied Industries"+
+				"<div><label for=\"12\"><input id=\"12\" type=\"radio\" name=\"cluster\" value=\"Biopharmaceuticals\">Biopharmaceuticals</label></br>"+
+						"<label for=\"13\"><input id=\"13\" type=\"radio\" name=\"cluster\" value=\"Downstream Chemical Products\">Downstream Chemical Products</label></br>"+
+						"<label for=\"14\"><input id=\"14\" type=\"radio\" name=\"cluster\" value=\"Upstream Chemical Products\">Upstream Chemical Products</label></br>"+
+						"<label for=\"15\"><input id=\"15\" type=\"radio\" name=\"cluster\" value=\"Plastics\">Plastics</label></br>"+
+						"<label for=\"16\"><input id=\"16\" type=\"radio\" name=\"cluster\" value=\"Vulcanized and Fired Materials\">Vulcanized and Fired Materials</label></br>"+
+						"</div></div>"+
+						
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Clothing and Textiles"+
+						"<div><label for=\"17\"><input id=\"17\" type=\"radio\" name=\"cluster\" value=\"Footwear\">Footwear</label></br>"+
+							"<label for=\"18\"><input id=\"18\" type=\"radio\" name=\"cluster\" value=\"Apparel\">Apparel</label></br>"+
+							"<label for=\"19\"><input id=\"19\" type=\"radio\" name=\"cluster\" value=\"Textile Manufacturing\">Textile Manufacturing</label></br>"+
+							"</div></div>"+
+							
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Distribution and Transportation"+
+						"<div><label for=\"20\"><input id=\"20\" type=\"radio\" name=\"cluster\" value=\"Distribution and Electronic Commerce\">Distribution and Electronic Commerce</label></br>"+
+							"<label for=\"21\"><input id=\"21\" type=\"radio\" name=\"cluster\" value=\"Transportation and Logistics\">Transportation and Logistics</label></br>"+
+							"<label for=\"22\"><input id=\"22\" type=\"radio\" name=\"cluster\" value=\"Water Transportation\">Water Transportation</label></br>"+
+							"</div></div>"+			
+							
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Energy"+
+					"<div><label for=\"23\"><input id=\"23\" type=\"radio\" name=\"cluster\" value=\"Oil and Gas Production and Transportation\">Oil and Gas Production and Transportation</label></br>"+
+					"<label for=\"24\"><input id=\"24\" type=\"radio\" name=\"cluster\" value=\"Electric Power Generation and Transmission\">Electric Power Generation and Transmission</label></br>"+
+					"</div></div>"+
+				
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Local Industries"+
+						"<div><label for=\"25\"><input id=\"25\" type=\"radio\" name=\"cluster\" value=\"Local Commercial Services\">Commercial Services</label></br>"+
+							"<label for=\"26\"><input id=\"26\" type=\"radio\" name=\"cluster\" value=\"Local Community and Civic Organizations\">Community and Civic Organizations</label></br>"+
+							"<label for=\"27\"><input id=\"27\" type=\"radio\" name=\"cluster\" value=\"Local Education and Training\">Education and Training</label></br>"+
+							"<label for=\"28\"><input id=\"28\" type=\"radio\" name=\"cluster\" value=\"Local Entertainment and Media\">Entertainment and Media</label></br>"+
+							"<label for=\"29\"><input id=\"29\" type=\"radio\" name=\"cluster\" value=\"Local Financial Services\">Financial Services</label></br>"+
+							"<label for=\"30\"><input id=\"30\" type=\"radio\" name=\"cluster\" value=\"Local Food and Beverage Processing and Distribution\">Food and Beverage Processing</label></br>"+//doesn't work
+							"<label for=\"31\"><input id=\"31\" type=\"radio\" name=\"cluster\" value=\"Local Health Services\">Health Services</label></br>"+
+							"<label for=\"32\"><input id=\"32\" type=\"radio\" name=\"cluster\" value=\"Local Hospitality Establishments\">Hospitality Establishments</label></br>"+
+							"<label for=\"33\"><input id=\"33\" type=\"radio\" name=\"cluster\" value=\"Local Household Goods and Services\">Household Goods and Services</label></br>"+
+							"<label for=\"34\"><input id=\"34\" type=\"radio\" name=\"cluster\" value=\"Local Industrial Products and Services\">Industrial Products and Services</label></br>"+
+							"<label for=\"35\"><input id=\"35\" type=\"radio\" name=\"cluster\" value=\"Local Logistical Services\">Logistical Services</label></br>"+
+							"<label for=\"36\"><input id=\"36\" type=\"radio\" name=\"cluster\" value=\"Local Motor Vehicle Products and Services\">Motor Vehicle Products and Services</label></br>"+
+							"<label for=\"37\"><input id=\"37\" type=\"radio\" name=\"cluster\" value=\"Local Personal Services (Non-Medical)\">Personal Services (Non-Medical)</label></br>"+
+							"<label for=\"38\"><input id=\"38\" type=\"radio\" name=\"cluster\" value=\"Local Real Estate, Construction, and Development\">Real Estate, Construction, and Development</label></br>"+
+							"<label for=\"39\"><input id=\"39\" type=\"radio\" name=\"cluster\" value=\"Local Retailing of Clothing and General Merchandise\">Retailing of Clothing and General Merchandise</label></br>"+
+							"<label for=\"40\"><input id=\"40\" type=\"radio\" name=\"cluster\" value=\"Local Utilities\">Utilities</label></br>"+
+							"</div></div>"+		
+
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Machinery and Electrical"+
+						"<div><label for=\"41\"><input id=\"41\" type=\"radio\" name=\"cluster\" value=\"Automotive\">Automotive</label></br>"+
+							"<label for=\"42\"><input id=\"42\" type=\"radio\" name=\"cluster\" value=\"Communications Equipment and Services\">Communications Equipment and Services</label></br>"+
+							"<label for=\"43\"><input id=\"43\" type=\"radio\" name=\"cluster\" value=\"Construction Products and Services\">Construction Products and Services</label></br>"+
+							"<label for=\"44\"><input id=\"44\" type=\"radio\" name=\"cluster\" value=\"Information Technology and Analytical Instruments\">I.T. and Analytical Instruments</label></br>"+
+							"<label for=\"45\"><input id=\"45\" type=\"radio\" name=\"cluster\" value=\"Lighting and Electrical Equipment\">Lighting and Electrical Equipment</label></br>"+
+							"<label for=\"46\"><input id=\"46\" type=\"radio\" name=\"cluster\" value=\"Medical Devices\">Medical Devices</label></br>"+
+							"<label for=\"47\"><input id=\"47\" type=\"radio\" name=\"cluster\" value=\"Lighting and Electrical Equipment\">Lighting and Electrical Equipment</label></br>"+
+							"<label for=\"48\"><input id=\"48\" type=\"radio\" name=\"cluster\" value=\"Production Technology and Heavy Machinery\">Production Technology and Heavy Machinery</label></br>"+
+							"<label for=\"49\"><input id=\"49\" type=\"radio\" name=\"cluster\" value=\"Recreational and Small Electric Goods\">Recreational and Small Electric Goods</label></br>"+
+							"<label for=\"50\"><input id=\"50\" type=\"radio\" name=\"cluster\" value=\"Trailers, Motor Homes, and Appliances\">Trailers, Motor Homes, and Appliances</label></br>"+
+							"</div></div>"+	
+
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Metal and Mineral Products"+
+						"<div><label for=\"51\"><input id=\"51\" type=\"radio\" name=\"cluster\" value=\"Coal Mining\">Coal Mining</label></br>"+
+							"<label for=\"52\"><input id=\"52\" type=\"radio\" name=\"cluster\" value=\"Downstream Metal Products\">Downstream Metal Products</label></br>"+
+							"<label for=\"53\"><input id=\"53\" type=\"radio\" name=\"cluster\" value=\"Jewelry and Precious Metals\">Jewelry and Precious Metals</label></br>"+
+							"<label for=\"54\"><input id=\"54\" type=\"radio\" name=\"cluster\" value=\"Metal Mining\">Metal Mining</label></br>"+
+							"<label for=\"55\"><input id=\"55\" type=\"radio\" name=\"cluster\" value=\"Metalworking Technology\">Metalworking Technology</label></br>"+
+							"<label for=\"56\"><input id=\"56\" type=\"radio\" name=\"cluster\" value=\"Nonmetal Mining\">Non-metal Mining</label></br>"+
+							"</div></div>"+	
+
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Professional and Business Services"+
+						"<div><label for=\"57\"><input id=\"57\" type=\"radio\" name=\"cluster\" value=\"Business Services\">Business Services</label></br>"+
+							"<label for=\"58\"><input id=\"58\" type=\"radio\" name=\"cluster\" value=\"Environmental Services\">Environmental Services</label></br>"+
+							"<label for=\"59\"><input id=\"59\" type=\"radio\" name=\"cluster\" value=\"Financial Services\">Financial Services</label></br>"+
+							"<label for=\"60\"><input id=\"60\" type=\"radio\" name=\"cluster\" value=\"Insurance Services\">Insurance Services</label></br>"+
+							"<label for=\"61\"><input id=\"61\" type=\"radio\" name=\"cluster\" value=\"Marketing, Design, and Publishing\">Marketing, Design, and Publishing</label></br>"+
+							"<label for=\"62\"><input id=\"62\" type=\"radio\" name=\"cluster\" value=\"Printing Services\">Printing Services</label></br>"+
+							"</div></div>"+					
+
+			"<div id=\"dropMenu\"><n>+</n>&nbsp;Forestry and Wood Products"+
+						"<div><label for=\"63\"><input id=\"63\" type=\"radio\" name=\"cluster\" value=\"Forestry\">Forestry</label></br>"+
+							"<label for=\"64\"><input id=\"64\" type=\"radio\" name=\"cluster\" value=\"Furniture\">Furniture</label></br>"+
+							"<label for=\"65\"><input id=\"65\" type=\"radio\" name=\"cluster\" value=\"Paper and Packaging\">Paper and Packaging</label></br>"+
+							"<label for=\"66\"><input id=\"66\" type=\"radio\" name=\"cluster\" value=\"Wood Products\">Wood Products</label></br>"+
+							"</div></div>"+									
+
+
+			"</form></div>"+
+			"<p><form id=\"pickLQ\"><b>Choose Location Quotient Type:</b><br>"+
+			"<label for=\"can\"><input id=\"can\" type=\"radio\" name=\"lq\" checked=\"checked\" value=\"./data/CAN_LQ_by_REIR.csv\">National</label>"+
+			"<br><label for=\"ab\"><input id=\"ab\" type=\"radio\" name=\"lq\" value=\"./data/AB_LQ_by_REIR.csv\">Provincial</label></form><br>"+
+			"<button disabled=\"disabled\" class=\"submitHeat\" onClick=\"choropleth()\">Display Cluster Data</button><br>"
+		);
+//-4e--some technical doodad stuff----------------------------------------------------------//
+		
+		//toggle 2-digit NAICS cluster groups		
+		$(document).on("click touchend", "#dropMenu", function(){
+
+			if ($(this).children(":last-child").css("display").length == 4){
+				$(this).children(":last-child").slideDown(300);
+				$(this).children(":first").html("-");
+				}
+				
+			else if ($(this).children(":last-child").css("display").length > 0){
+				$(this).children(":last-child").slideUp(300);
+				$(this).children(":first").html("+");
+				}
+		
+			//stop box from sliding up when child div is clicked
+			}).on("click", "div", function() { event.cancelBubble = true();});
+		
+		//toggle display heat map
+		$('#selectCluster input').on('change', function() {		
+			$('button').attr('disabled',false);
+			$choroCluster = $("form input[type='radio']:checked").val();
+		});
+		
+		//lq type
+		$('#pickLQ input').on('change', function() {		
+			$LQ_type = $("form input[name='lq']:checked").val();
+			console.log($LQ_type);
+		});
+		
+		//slide in, slide out
+		$('.close-button').click(function() {
+			if (!toolSlide) { 
+				$(".tool_extension_on").animate({left: '-=22vw'},450,"swing");
+				d3.select('.close-button').html("›");
+				toolSlide = true;
+				}
+				
+			else {
+				$('.tool_extension_on').animate({left: '+=22vw'},550,"swing");
+				d3.select('.close-button').html("‹");
+				toolSlide = false;
+			}
+			
+		});
+		
+		//show on the map the cluster name of data
+		$('.submitHeat').on('click', function(){
+			mapHeader=$choroCluster;
+			d3.select("#header").html(mapHeader);
+			showPins.state('remove-markers');
+			allLayers.state('remove-markers');
+		});
+	
+	};
+//-Show Additional Data---------------------------------------------------------------------------------------------------------------------------------------//
+
+function showAdditionalData(){
+
+	var on_off = false;
+	
+	var add_pinCluster = new L.layerGroup(); //marker clustering active
+	
+	d3.selectAll('.tool_extension_off').attr({'class':'tool_extension_on'});
+
+		d3.select('.tool_extension_on').html(
+			"<a href=# class=\"close-button\">‹</a>"+
+			"<b>Supplemental Data</b><br>"+
+			"Click to display<br>"+
+			"<div id=\"additionalData\" class=\"airport\">Airports</div>"+
+			"<div id=\"additionalData\" class=\"heliport\">Heliports</div>"+
+			"<div id=\"additionalData\" class=\"hospital\">Hospitals</div>"+
+			"<p>"+
+			"<div id=\"additionalData\" class=\"submitHeat remove\">Clear Markers</div>"
+		);
+		
+		function clearCustomPins(){
+			if (on_off){
+				add_pinCluster.clearLayers();
+				console.log('ok');
+				on_off = false;
+			}
+		};
+		
+		//clear everything
+		$(document).on('click', '.remove', clearCustomPins);
+		
+		//make it so that if you click tile twice, it turns off
+		
+		$(document).on('click', '#additionalData', function(){
+		
+			var file = $(this).attr('class');//class of the div is the filename of the custom data to display
+			var newLayer = file+"layer";
+			
+			//make below a function that starts when the page is loaded?
+		
+			//decide which icon to use
+			var icon_src, icon_size;
+			
+			if (file === 'airport')
+				icon_src = 'air_icon';
+					
+			else if (file === 'heliport')
+				icon_src = 'heli_icon';
+					
+			else if  (file === 'hospital')
+				icon_src = 'hosp_icon';
+	
+			//Use D3 to load pins and data
+			d3.csv("./custom/"+file+".csv", function(error, data){ //select data source
+			
+				data.forEach(function data(d,i) {
+
+				//see how big to make each icon
+				if (d.icon_size === "large")
+					icon_size = [18,18];
+				else if (d.icon_size === "medium")
+					icon_size = [12,12];
+				else if (d.icon_size === "small")
+					icon_size = [6,6];
+					
+				customIcon = L.divIcon({
+					className: icon_src,
+					iconSize: icon_size,
+					iconAnchor: [8, 8],
+					popupAnchor: [0, 0],
+				});
+			
+				//add feature to filter pins based on cluster 
+				var add_pin = L.marker([d.latitude,d.longitude], {cluster: d.special, icon: customIcon}).on('click', onClick);
+
+				add_pinCluster.addLayer(add_pin);
+				//edit code above this line
+				
+				var options = { //options for popup
+					offset: new L.Point(1,-22),
+					riseOnHover: true,
+					closeButton: true
+					};			
+			
+				function onClick(e) {
+					
+					lastLat = d.latitude;
+					lastLong = d.longitude;
+									
+					var popup = L.popup(options)
+						.setLatLng(e.latlng)
+						.setContent('<div id=\"popuptxt\">'+d.name+'</div>')
+						.openOn(map);
+						
+					//add code to update sidebar
+					d3.select(".regional").style("background","rgb(75,75,75)");
+					d3.select("#regional_info").style("display","none");
+					d3.select(".business").style("background","rgb(90,90,90)");
+					d3.select("#business_info").style("display","block");
+					d3.select("#business_info").html("<div class=\"dataContent_header\"><u>"+d.name+"</u>"+"&nbsp&nbsp&nbsp&nbsp&nbsp"+"<a onclick=\"locate();\" id=\"locate\">Zoom To</a></div><p class=\"dataContent_contact\">");
+						
+						//make it all conditional incase someone forgets to input a fieldset
+						if (d.address)
+							$(".dataContent_contact").append(d.address+"<p/>");
+							
+						if (d.special)
+							$(".dataContent_contact").append(d.special+"<br/>");
+							
+						if (d.special_1)
+							$(".dataContent_contact").append(d.special_1+"<br/>");
+							
+						if (d.special_2)
+							$(".dataContent_contact").append(d.special_2+"<br/>");
+
+					//end D3
+							
+				}; //end onClick
+					
+			});
+				
+		}); //end D3 pins*/		
+
+			map.addLayer(add_pinCluster);
+			
+			on_off = true;
+
+		});
+		
+		//slide in, slide out
+		$(".close-button").click(function() {
+			if (!toolSlide) { 
+				$(".tool_extension_on").animate({left: '-=22%'},450,"swing");
+				d3.select(".close-button").html("›");
+				toolSlide = true;
+				}
+				
+			else {
+				$(".tool_extension_on").animate({left: '+=22%'},550,"swing");
+				d3.select(".close-button").html("‹");
+				toolSlide = false;
+			}
+			
+		});
+		
+};
+
+//-5-Custom Layer------------------------------------------------------------------------------------------------------------------------------------------------6-//
+
+function addCustomLayer(){
+
+	document.getElementById("infobar").innerHTML += ("<div id=\"special_layer\"><a a href=# class=\"close-button\">×</a>"+
+		"<p>Upload and display custom markers"+
+		"<form action=\"getfile.php\" id=\"file\" enctype=\"multipart/form-data\" method=\"post\">"+
+		"<p><input type=\"file\" required=\"required\" accept=\".csv\" name=\"myFile\" id=\"myFile\" size=\"50\">"+
+		"<div style=\"margin:auto; width: 68%;\"><p><button type=\"submit\" name=\"submit\" class=\"display\" type=\"submit\">Display</button>&nbsp<button class=\"cancel\">Cancel</button></div>"+
+		"</form>"+
+		"<font size=\"2pt\">Template File: <a href=\"custom/marker_template.csv\">Download</a></font>"+
+		"</div>");
+
+	$("#infobar").css("overflow","visible");
+	
+	
+	$(".close-button").click(function() {
+		$("#special_layer").remove();
+		$("#infobar").css("overflow","hidden");
+		specialLayers.state('add-markers');
+	});
+	
+	$(".cancel").click(function() {
+		$("#special_layer").remove();
+		$("#infobar").css("overflow","hidden");
+		specialLayers.state('add-markers');
+	});
+	
+	$(':file').change(function(){
+		var file = this.files[0];
+		var name = file.name;
+		var size = file.size;
+		var type = file.type;
+	});
+	
+	
+	$("#myFile").on("submit", function(e){
+		
+		/*hard code just to get it in right now----need to work in AJAX uploading of file*/
+		/*insert ajax code here*/
+		
+		var formData = new FormData($('form')[0]);
+			$.ajax({
+				url: 'getfile.php',  //Server script to process data
+				type: 'POST',
+				xhr: function() {  // Custom XMLHttpRequest
+					var myXhr = $.ajaxSettings.xhr();
+					if(myXhr.upload){ // Check if upload property exists
+						myXhr.upload.addEventListener('progress',progressHandlingFunction, false); // For handling the progress of the upload
+					}
+					return myXhr;
+				},
+				//Ajax events
+				beforeSend: beforeSendHandler,
+				success: completeHandler,
+				error: errorHandler,
+				// Form data
+				data: formData,
+				//Options to tell jQuery not to process data or worry about content-type.
+				cache: false,
+				contentType: false,
+				processData: false
+			});
+		
+		
+		var specialPins = new L.MarkerClusterGroup(); //marker clustering active
+
+		d3.csv("./custom/locs.csv", function(error, data){
+			data.forEach(function data(d,i) {
+				
+				var specialIcon;
+				
+				if (d.special === "Mine"){
+					specialIcon = L.icon({
+						iconUrl: './img/custom_layer_bw.svg',
+						iconSize: [40,40],
+						iconAnchor: [8, 8],
+						popupAnchor: [0, 0],
+					});
+				}
+				
+				else {
+					specialIcon = L.icon({
+					iconUrl: './img/custom_layer.svg',
+					iconSize: [55,35],
+					iconAnchor: [8, 8],
+					popupAnchor: [0, 0],
+				});
+				}
+				
+				var pin = L.marker([d.Latitude,d.Longitude], {cluster: d.special, icon: specialIcon}).on('click', onClick);
+			
+				specialPins.addLayer(pin);
+				
+				console.log(specialPins.options.maxClusterRadius);
+				
+				specialPins.options.maxClusterRadius = 0;
+				
+				var options = { //options for popup
+					offset: new L.Point(0,-22),
+					riseOnHover: true,
+					closeButton: true
+				};			
+			
+				function onClick(e) {
+
+					var popup = L.popup(options)
+						.setLatLng(e.latlng)
+						.setContent('<div id=\"popuptxt\">'+d.special+'</div>')
+						.openOn(map);
+				}
+			});
+		});
+
+		map.addLayer(specialPins);
+		
+		//turn off the pop up div
+		$("#special_layer").remove();
+		$("#infobar").css("overflow","hidden");
+		
+		return false;
+	});
+}
+
+//-6-Additional controls-----------------------------------------------------------------------------------------------------------------------------------------5-//
+		
+		//-6a-home button------------------------------------------------------------------------------6a//
+		var home = [lat,lng];
+
+		L.easyButton('<img src="img/center.svg"/>', function(btn, map){
+			map.setView(home, 6);
+			title: 'Re-focus Map';
+		}).addTo(map);
+		
+		//-6d-toggle LQ choropleth--------------------------------------------------------------------6d//
+		var lqChoro = L.easyButton({
+		  states: [{
+			stateName: 'add-markers',
+			icon: '<img src="img/choro_bw.svg"/>',
+			title: 'Show Cluster Heat Map',
+			onClick: function(control) {
+				control.state('remove-markers');
+			//	additionalData.state('add-markers');
+				showChoroMenu();
+			}
+		  }, {
+			icon: '<img src="img/choro.svg"/>',
+			stateName: 'remove-markers',
+			onClick: function(control) {
+				mapHeader = "Alberta Industry Explorer";
+				d3.select("#header").html(mapHeader);
+				d3.selectAll(".tool_extension_on").attr({"class":"tool_extension_off"});
+				CSDLayer.setStyle(normalStyle);
+				choroBool = false;
+				control.state('add-markers');
+				map.removeControl(legend);
+				
+				allLayers.state('add-markers');
+				
+				//reset the pins !!modify so it doesnt try to display all of them after
+				pinCluster.clearLayers();
+				map.removeLayer(pinCluster);
+				
+				for (i=0; i < allPins.length; i++){
+					pinCluster.addLayer(allPins[i]);
+					}
+			},
+			title: 'Turn off Heat Map'
+		  }]
+		});
+		lqChoro.addTo(map);
+		
+		//-6c-addtional data---------------------------------------------------------------------------6g//
+		var additionalData = L.easyButton({
+		  states: [{
+			stateName: 'add-markers',
+			icon: '<img src="img/more.svg"/>',
+			title: 'Show Additional Data',
+			onClick: function(control) {
+				showAdditionalData();
+				lqChoro.state('add-markers');
+				control.state('remove-markers');
+			}
+		  }, {
+			icon: '<img src="img/more_c.svg"/>',
+			stateName: 'remove-markers',
+			onClick: function(control) {
+				d3.selectAll(".tool_extension_on").attr({"class":"tool_extension_off"});
+				control.state('add-markers');
+			},
+			title: 'Hide Additional Data'
+		  }]
+		});
+		additionalData.addTo(map);
+		
+		//-6c-toggle all pins---------------------------------------------------------------------------6c//
+		var showPins = L.easyButton({
+		  states: [{
+			stateName: 'add-markers',
+			icon: '<img src="img/showPin_bw.svg"/>',
+			title: 'Show All Pins',
+			onClick: function(control) {
+			  map.addLayer(pinCluster);
+			  control.state('remove-markers');
+			}
+		  }, {
+			icon: '<img src="img/showPin.svg"/>',
+			stateName: 'remove-markers',
+			onClick: function(control) {
+			  map.removeLayer(pinCluster);
+			  control.state('add-markers');
+			},
+			title: 'Hide All Pins'
+		  }]
+		});
+		showPins.addTo(map);
+		
+		//-6b-toggle all layers-------------------------------------------------------------------------6b//
+		var allLayers = L.easyButton({
+		  states: [{
+			stateName: 'add-markers',
+			icon: '<img src="img/all_layers_bw.svg"/>',
+			title: 'Show CSD Layer',
+			onClick: function(control) {
+			  map.addLayer(CSDLayers);
+			  control.state('remove-markers');
+			}
+		  }, {
+			icon: '<img src="img/all_layers.svg"/>',
+			stateName: 'remove-markers',
+			onClick: function(control) {
+			  map.removeLayer(CSDLayers);
+			  control.state('add-markers');
+			},
+			title: 'Hide CSD Layers'
+		  }]
+		});
+		allLayers.addTo(map);		
+
+		//-6e-Locate business----------------------------------------------------------------------------6e//
+		function locate(){
+			map.setView([lastLat,lastLong],12)
+		};
+		
+		//-6f-toggle custom layer/data points ------------------------------------------------------------6f//
+		var specialLayers = L.easyButton({
+		  states: [{
+			stateName: 'add-markers',
+			icon: '<img src="img/custom_layer_bw.svg"/>',
+			title: 'Show Custom Layer',
+			onClick: function(control) {
+				addCustomLayer();
+				control.state('remove-markers');
+			}
+		  }, {
+			icon: '<img src="img/custom_layer.svg"/>',
+			stateName: 'remove-markers',
+			onClick: function(control) {
+				$("#special_layer").remove();
+				control.state('add-markers');
+			},
+			title: 'Hide Custom Layer'
+		  }]
+		});
+		specialLayers.addTo(map);
+	
+		//-6d-tabs for dashboard data-----------------------------------------------------------------------6d//
+		//data dashboard tabs
+		function switchBusiness(){
+			$(".regional").css("background","rgb(75,75,75)");
+			$("#regional_info").css("display","none");
+			$(".business").css("background","rgb(90,90,90)");
+			$("#business_info").css("display","block");
+		}
+		
+		function switchRegional(){
+			$(".business").css("background","rgb(75,75,75)");
+			$("#business_info").css("display","none");
+			$(".regional").css("background","rgb(90,90,90)");
+			$("#regional_info").css("display","block");
+		}
+		
+		
+//-7-Add business pins-------------------------------------------------------------------------------------------------------------------------------------7-//
+		var pinCluster = new L.MarkerClusterGroup(); //marker clustering active
+		var allPins = [];
+		//make below a function that starts when the page is loaded?
+		
+		//Use D3 to load pins and data
+		d3.csv("./data/all_business_data.csv", function(error, data){ //select data source--------^^^^^!@#$%^&*---//
+			
+			data.forEach(function data(d,i) {
+			
+			numWorkers = d.EmployeesThisLocation;
+			
+			if (numWorkers >= 200){
+				customIcon = lrgIcon;
+				}
+				
+			else if (numWorkers >= 49 && numWorkers < 200){
+				customIcon = medIcon;
+				}
+				
+			else customIcon = regIcon;
+			
+			//add feature to filter pins based on cluster 
+			var pin = L.marker([d.Latitude,d.Longitude], {cluster: d.Cluster, icon: customIcon}).on('click', onClick);
+			
+			allPins[i] = pin;
+
+			pinCluster.addLayer(pin);
+			//edit code above this line
+			
+			var options = { //options for popup
+				offset: new L.Point(0,-22),
+				riseOnHover: true,
+				closeButton: true
+				};			
+			
+			function onClick(e) {
+				
+				lastLat = d.Latitude;
+				lastLong = d.Longitude;
+				
+				var nameToUse;
+				
+				if (d.OperatingAs)
+					nameToUse = d.OperatingAs;
+				else 
+					nameToUse = d.CompanyName;
+				
+				var popup = L.popup(options)
+					.setLatLng(e.latlng)
+					.setContent('<div id=\"popuptxt\">'+nameToUse+'</div>')
+					.openOn(map);
+				
+				//add code to update sidebar
+				d3.select(".regional").style("background","rgb(75,75,75)");
+				d3.select("#regional_info").style("display","none");
+				d3.select(".business").style("background","rgb(90,90,90)");
+				d3.select("#business_info").style("display","block");
+				d3.select("#business_info").html(
+						"<div class=\"dataContent_header\"><u>"+d.CompanyName+"</u>"+"&nbsp&nbsp&nbsp&nbsp&nbsp"+"<a onclick=\"locate();\" id=\"locate\">Zoom To</a></div>"+
+						"<p><p class=\"dataContent_contact\">"+d.FullAddress+"<br/>"+
+						"Phone:&nbsp&nbsp"+d.PhoneNumber+"<br/>"+
+						"Fax: &nbsp&nbsp&nbsp&nbsp&nbsp"+d.FAXNumber+"<br/>"+
+						"<hr>"+
+						"<p>Industry: "+d.PrimaryIndustry+"<br/>"+
+						"Primary Business: "+d.LineOfBusiness+"<br/>"+
+						"NAICS: &nbsp&nbsp"+d.PrimaryNAICS+"<br/>"+
+						"SIC: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+d.PrimarySIC+"<br/>"+
+						"<hr>"+
+						"<p>Manufactures: "+d.IsManufacturing+"<br/>"+
+						"Exports: "+d.IsExporter+"<br/>"+
+						"Imports: "+d.IsImporter+"<br/>"+
+						"<hr>"+
+						"<p>Parent: "+d.UltimateParent+"<br/>"+
+						"Market Value: $"+d.MarketValue+"M<br/>"+
+						"<hr>"+
+						"<p>Site Employees: "+d.EmployeesThisLocation+"<br/>"+
+						"Total Employees: "+d.TotalEmployees+"<br/>"+
+						"Facility Size: "+d.FacilitySize+" Sq.Ft.<br/>"+
+						"Latitude: &nbsp"+d.Latitude+"<br/>"+
+						"Longitude: "+d.Longitude+"<br/>"
+						); //end D3
+								
+				if (d.OperatingAs) {//if business as an operating as designation, post it
+						d3.select(".dataContent_header").html(
+						"<u>"+d.CompanyName+"</u>&nbsp&nbsp&nbsp&nbsp&nbsp"+"<a onclick=\"locate();\" id=\"locate\">Zoom To</a>"+
+						"<br><k>Operating as</k><br>"+d.OperatingAs)};
+				
+				if (d.WebAddress){
+						$(".dataContent_contact").append("<a target=\"new\" href=\"http://"+d.WebAddress+"\">"+d.WebAddress+"</a>")};
+						
+			}; //end onClick
+					
+			});
+				
+		}); //end D3 pins*/		
+
+	</script>
+
+</body>
+</html>>

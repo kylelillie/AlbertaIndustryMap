@@ -1,0 +1,967 @@
+REIR,Cluster,LQ
+Calgary,Oil and Gas Production and Transportation,6.730534175
+Calgary,Communications Equipment and Services,2.691955747
+Calgary,Performing Arts,1.907491099
+Calgary,Local Utilities,1.84795248
+Calgary,Business Services,1.838759741
+Calgary,Construction Products and Services,1.582274246
+Calgary,Livestock Processing,1.550003519
+Calgary,Agricultural Inputs and Services,1.434156564
+Calgary,Electric Power Generation and Transmission,1.201988166
+Calgary,"Local Real Estate, Construction, and Development",1.199170188
+Calgary,Production Technology and Heavy Machinery,1.196768912
+Calgary,Local Commercial Services,1.142923478
+Calgary,Local Household Goods and Services,1.068651694
+Calgary,Local Entertainment and Media,1.048526087
+Calgary,Distribution and Electronic Commerce,1.003291869
+Calgary,Local Personal Services (Non-Medical),1.001728749
+Calgary,Grand Total,1
+Calgary,Financial Services,0.995233139
+Calgary,Hospitality and Tourism,0.994855161
+Calgary,Local Hospitality Establishments,0.965951062
+Calgary,Medical Devices,0.934536247
+Calgary,Local Motor Vehicle Products and Services,0.831514867
+Calgary,Downstream Metal Products,0.826918369
+Calgary,#N/A,0.826588034
+Calgary,Transportation and Logistics,0.822133595
+Calgary,Local Retailing of Clothing and General Merchandise,0.80582619
+Calgary,Local Financial Services,0.767376852
+Calgary,Local Logistical Services,0.759412766
+Calgary,Environmental Services,0.747549993
+Calgary,Local Food and Beverage Processing and Distribution,0.740901388
+Calgary,"Marketing, Design, and Publishing",0.737185675
+Calgary,Local Health Services,0.716243364
+Calgary,Printing Services,0.713979046
+Calgary,Information Technology and Analytical Instruments,0.712005487
+Calgary,Local Industrial Products and Services,0.703287195
+Calgary,Furniture,0.666994994
+Calgary,Local Community and Civic Organizations,0.664034106
+Calgary,Upstream Metal Manufacturing,0.654456738
+Calgary,Education and Knowledge Creation,0.624106689
+Calgary,Downstream Chemical Products,0.609312795
+Calgary,Nonmetal Mining,0.606678455
+Calgary,Local Education and Training,0.582626474
+Calgary,Plastics,0.524098549
+Calgary,Lighting and Electrical Equipment,0.511419366
+Calgary,Coal Mining,0.485256118
+Calgary,Food Processing and Manufacturing,0.46547171
+Calgary,Jewelry and Precious Metals,0.402325424
+Calgary,Insurance Services,0.38388664
+Calgary,Recreational and Small Electric Goods,0.369002305
+Calgary,Leather and Related Products,0.367576239
+Calgary,Wood Products,0.35252808
+Calgary,Vulcanized and Fired Materials,0.335387717
+Calgary,Upstream Chemical Products,0.324708248
+Calgary,Metalworking Technology,0.318504942
+Calgary,Footwear,0.238009858
+Calgary,Music and Sound Recording,0.236272265
+Calgary,Video Production and Distribution,0.200214997
+Calgary,Textile Manufacturing,0.198678055
+Calgary,Apparel,0.117386275
+Calgary,Paper and Packaging,0.108889785
+Calgary,Aerospace Vehicles and Defense,0.102809067
+Calgary,Forestry,0.055622519
+Calgary,Biopharmaceuticals,0.047261331
+Calgary,Automotive,0.03642578
+Calgary,"Trailers, Motor Homes, and Appliances",0.030143906
+Calgary,Water Transportation,0.005173616
+Calgary,Fishing and Fishing Products,0.001910339
+Calgary,Metal Mining,0.001784021
+Calgary,Tobacco,0
+Palliser,Livestock Processing,12.10689177
+Palliser,Oil and Gas Production and Transportation,7.015066821
+Palliser,Upstream Chemical Products,4.964903572
+Palliser,Vulcanized and Fired Materials,3.661394724
+Palliser,Construction Products and Services,2.406186999
+Palliser,"Trailers, Motor Homes, and Appliances",2.379403496
+Palliser,Agricultural Inputs and Services,2.304024584
+Palliser,Furniture,2.264686582
+Palliser,Local Education and Training,1.58021152
+Palliser,Local Motor Vehicle Products and Services,1.513362518
+Palliser,Environmental Services,1.345443656
+Palliser,Local Retailing of Clothing and General Merchandise,1.25896395
+Palliser,Local Household Goods and Services,1.226195368
+Palliser,Local Personal Services (Non-Medical),1.169385605
+Palliser,Local Commercial Services,1.169233181
+Palliser,Recreational and Small Electric Goods,1.149755025
+Palliser,Local Logistical Services,1.142322623
+Palliser,"Local Real Estate, Construction, and Development",1.127837296
+Palliser,Local Industrial Products and Services,1.102113039
+Palliser,Hospitality and Tourism,1.095243782
+Palliser,Local Entertainment and Media,1.047369534
+Palliser,Local Hospitality Establishments,1.006346332
+Palliser,Grand Total,1
+Palliser,Distribution and Electronic Commerce,0.97715008
+Palliser,Local Food and Beverage Processing and Distribution,0.91420018
+Palliser,Coal Mining,0.905119316
+Palliser,Local Utilities,0.755549955
+Palliser,#N/A,0.745386263
+Palliser,Financial Services,0.723148562
+Palliser,Local Health Services,0.721183459
+Palliser,Transportation and Logistics,0.648363906
+Palliser,Local Community and Civic Organizations,0.644687388
+Palliser,Insurance Services,0.627858593
+Palliser,Downstream Metal Products,0.613275954
+Palliser,Education and Knowledge Creation,0.487301127
+Palliser,Lighting and Electrical Equipment,0.470620622
+Palliser,Local Financial Services,0.461488309
+Palliser,Production Technology and Heavy Machinery,0.445934942
+Palliser,Printing Services,0.437258803
+Palliser,"Marketing, Design, and Publishing",0.425330701
+Palliser,Communications Equipment and Services,0.399526706
+Palliser,Food Processing and Manufacturing,0.38617158
+Palliser,Downstream Chemical Products,0.356755973
+Palliser,Business Services,0.348500385
+Palliser,Nonmetal Mining,0.340705489
+Palliser,Metalworking Technology,0.301693529
+Palliser,Wood Products,0.287293452
+Palliser,Performing Arts,0.283007614
+Palliser,Medical Devices,0.278484471
+Palliser,Aerospace Vehicles and Defense,0.248087393
+Palliser,Electric Power Generation and Transmission,0.157630767
+Palliser,Information Technology and Analytical Instruments,0.123479801
+Palliser,Plastics,0.112826236
+Palliser,Video Production and Distribution,0.106145818
+Palliser,Textile Manufacturing,0.022765086
+Palliser,Metal Mining,0.015842406
+Palliser,Apparel,0
+Palliser,Automotive,0
+Palliser,Biopharmaceuticals,0
+Palliser,Fishing and Fishing Products,0
+Palliser,Footwear,0
+Palliser,Forestry,0
+Palliser,Jewelry and Precious Metals,0
+Palliser,Leather and Related Products,0
+Palliser,Music and Sound Recording,0
+Palliser,Paper and Packaging,0
+Palliser,Tobacco,0
+Palliser,Upstream Metal Manufacturing,0
+Palliser,Water Transportation,0
+South Central,Agricultural Inputs and Services,3.671646781
+South Central,Food Processing and Manufacturing,3.542630826
+South Central,Furniture,3.18422203
+South Central,Livestock Processing,3.035997188
+South Central,"Trailers, Motor Homes, and Appliances",2.660747834
+South Central,Environmental Services,1.646467874
+South Central,Education and Knowledge Creation,1.631390448
+South Central,Downstream Metal Products,1.607397027
+South Central,Jewelry and Precious Metals,1.464892066
+South Central,Leather and Related Products,1.460037936
+South Central,Local Motor Vehicle Products and Services,1.45984954
+South Central,Local Education and Training,1.339760103
+South Central,Local Retailing of Clothing and General Merchandise,1.325588399
+South Central,Transportation and Logistics,1.203794454
+South Central,Local Community and Civic Organizations,1.190397963
+South Central,"Local Real Estate, Construction, and Development",1.137645547
+South Central,Local Entertainment and Media,1.111400918
+South Central,#N/A,1.104671222
+South Central,Local Hospitality Establishments,1.092841575
+South Central,Local Health Services,1.091139538
+South Central,Local Personal Services (Non-Medical),1.074454107
+South Central,Local Household Goods and Services,1.047233069
+South Central,Total,1
+South Central,Construction Products and Services,0.92476626
+South Central,Oil and Gas Production and Transportation,0.903799205
+South Central,Distribution and Electronic Commerce,0.890402543
+South Central,Hospitality and Tourism,0.868472273
+South Central,Local Food and Beverage Processing and Distribution,0.848791296
+South Central,Local Logistical Services,0.826694633
+South Central,Local Commercial Services,0.824096525
+South Central,Production Technology and Heavy Machinery,0.754806801
+South Central,Wood Products,0.731151352
+South Central,Medical Devices,0.68510839
+South Central,Local Industrial Products and Services,0.655635408
+South Central,Business Services,0.633886494
+South Central,Insurance Services,0.618851094
+South Central,Local Financial Services,0.574177679
+South Central,Downstream Chemical Products,0.531919132
+South Central,Nonmetal Mining,0.492113415
+South Central,Printing Services,0.488960957
+South Central,"Marketing, Design, and Publishing",0.459444824
+South Central,Automotive,0.389871608
+South Central,Plastics,0.378500953
+South Central,Aerospace Vehicles and Defense,0.377293415
+South Central,Financial Services,0.350362828
+South Central,Local Utilities,0.334825726
+South Central,Performing Arts,0.279239004
+South Central,Metalworking Technology,0.253024678
+South Central,Coal Mining,0.146687249
+South Central,Video Production and Distribution,0.079131109
+South Central,Upstream Metal Manufacturing,0.037701913
+South Central,Forestry,0.021041566
+South Central,Information Technology and Analytical Instruments,0.020921249
+South Central,Water Transportation,0.019571388
+South Central,Apparel,0.019427763
+South Central,Communications Equipment and Services,0.016546939
+South Central,Biopharmaceuticals,0
+South Central,Electric Power Generation and Transmission,0
+South Central,Fishing and Fishing Products,0
+South Central,Footwear,0
+South Central,Lighting and Electrical Equipment,0
+South Central,Metal Mining,0
+South Central,Music and Sound Recording,0
+South Central,Paper and Packaging,0
+South Central,Recreational and Small Electric Goods,0
+South Central,Textile Manufacturing,0
+South Central,Tobacco,0
+South Central,Upstream Chemical Products,0
+South Central,Vulcanized and Fired Materials,0
+Southwest,Nonmetal Mining,4.852174097
+Southwest,Livestock Processing,4.454480347
+Southwest,Environmental Services,2.224813058
+Southwest,Local Education and Training,2.14122158
+Southwest,Hospitality and Tourism,1.78966425
+Southwest,Local Motor Vehicle Products and Services,1.741122929
+Southwest,Local Health Services,1.685842222
+Southwest,Local Community and Civic Organizations,1.670789587
+Southwest,Oil and Gas Production and Transportation,1.647586701
+Southwest,Local Utilities,1.500910242
+Southwest,#N/A,1.355860615
+Southwest,Upstream Chemical Products,1.338848192
+Southwest,Production Technology and Heavy Machinery,1.21730428
+Southwest,Transportation and Logistics,1.158014998
+Southwest,Local Hospitality Establishments,1.139506675
+Southwest,Electric Power Generation and Transmission,1.131498595
+Southwest,Grand Total,1
+Southwest,Local Food and Beverage Processing and Distribution,0.972940816
+Southwest,Local Household Goods and Services,0.938913995
+Southwest,Local Retailing of Clothing and General Merchandise,0.914607047
+Southwest,"Local Real Estate, Construction, and Development",0.895695458
+Southwest,Local Entertainment and Media,0.848882247
+Southwest,Local Personal Services (Non-Medical),0.844793051
+Southwest,Education and Knowledge Creation,0.824205304
+Southwest,Performing Arts,0.817035836
+Southwest,Construction Products and Services,0.805659556
+Southwest,Agricultural Inputs and Services,0.741010704
+Southwest,Plastics,0.731721305
+Southwest,Forestry,0.692620931
+Southwest,Coal Mining,0.643796556
+Southwest,Local Commercial Services,0.617503605
+Southwest,Local Financial Services,0.56871434
+Southwest,Wood Products,0.555663133
+Southwest,Local Logistical Services,0.550331536
+Southwest,Food Processing and Manufacturing,0.513930368
+Southwest,Apparel,0.456785494
+Southwest,Distribution and Electronic Commerce,0.445767275
+Southwest,"Marketing, Design, and Publishing",0.375296912
+Southwest,Printing Services,0.351280368
+Southwest,Local Industrial Products and Services,0.214643384
+Southwest,Business Services,0.195948178
+Southwest,Furniture,0.180948442
+Southwest,Financial Services,0.127519035
+Southwest,Information Technology and Analytical Instruments,0.098380068
+Southwest,Medical Devices,0.097625856
+Southwest,Textile Manufacturing,0.079805563
+Southwest,Downstream Chemical Products,0.059554671
+Southwest,Upstream Metal Manufacturing,0.059096483
+Southwest,Communications Equipment and Services,0.038905158
+Southwest,Automotive,0.027160474
+Southwest,Downstream Metal Products,0.022630607
+Southwest,Aerospace Vehicles and Defense,0
+Southwest,Biopharmaceuticals,0
+Southwest,Fishing and Fishing Products,0
+Southwest,Footwear,0
+Southwest,Insurance Services,0
+Southwest,Jewelry and Precious Metals,0
+Southwest,Leather and Related Products,0
+Southwest,Lighting and Electrical Equipment,0
+Southwest,Metal Mining,0
+Southwest,Metalworking Technology,0
+Southwest,Music and Sound Recording,0
+Southwest,Paper and Packaging,0
+Southwest,Recreational and Small Electric Goods,0
+Southwest,Tobacco,0
+Southwest,"Trailers, Motor Homes, and Appliances",0
+Southwest,Video Production and Distribution,0
+Southwest,Vulcanized and Fired Materials,0
+Southwest,Water Transportation,0
+Battle River,Environmental Services,12.7076674
+Battle River,Oil and Gas Production and Transportation,6.44229675
+Battle River,Construction Products and Services,5.307867729
+Battle River,Agricultural Inputs and Services,3.998932374
+Battle River,Upstream Metal Manufacturing,3.556094685
+Battle River,Metalworking Technology,3.046339709
+Battle River,Nonmetal Mining,2.388575404
+Battle River,Local Utilities,1.904429829
+Battle River,Local Logistical Services,1.83138217
+Battle River,Local Motor Vehicle Products and Services,1.690238909
+Battle River,Coal Mining,1.669073033
+Battle River,Downstream Metal Products,1.642785741
+Battle River,Local Health Services,1.309339939
+Battle River,Local Retailing of Clothing and General Merchandise,1.229762866
+Battle River,Local Education and Training,1.209860117
+Battle River,Livestock Processing,1.162773106
+Battle River,#N/A,1.098332634
+Battle River,Grand Total,1
+Battle River,Hospitality and Tourism,0.988362247
+Battle River,Local Household Goods and Services,0.985262912
+Battle River,"Local Real Estate, Construction, and Development",0.934264764
+Battle River,Distribution and Electronic Commerce,0.907304485
+Battle River,Local Financial Services,0.893918216
+Battle River,Local Personal Services (Non-Medical),0.819834389
+Battle River,Local Commercial Services,0.815711968
+Battle River,Local Food and Beverage Processing and Distribution,0.813445416
+Battle River,Local Community and Civic Organizations,0.744237721
+Battle River,Food Processing and Manufacturing,0.742306467
+Battle River,Local Hospitality Establishments,0.729793331
+Battle River,Local Entertainment and Media,0.693583636
+Battle River,Transportation and Logistics,0.647172643
+Battle River,Local Industrial Products and Services,0.643006031
+Battle River,Performing Arts,0.64103544
+Battle River,Textile Manufacturing,0.571696534
+Battle River,Production Technology and Heavy Machinery,0.477321813
+Battle River,Vulcanized and Fired Materials,0.457453293
+Battle River,Leather and Related Products,0.437183255
+Battle River,"Marketing, Design, and Publishing",0.411749735
+Battle River,Business Services,0.382826676
+Battle River,Printing Services,0.366027378
+Battle River,Forestry,0.362280775
+Battle River,Furniture,0.291655224
+Battle River,Medical Devices,0.279741719
+Battle River,Recreational and Small Electric Goods,0.192490953
+Battle River,Education and Knowledge Creation,0.168213436
+Battle River,Financial Services,0.141287629
+Battle River,Information Technology and Analytical Instruments,0.103364387
+Battle River,"Trailers, Motor Homes, and Appliances",0.099589399
+Battle River,Plastics,0.094446335
+Battle River,Insurance Services,0.084656796
+Battle River,Upstream Chemical Products,0.063939976
+Battle River,Lighting and Electrical Equipment,0.026263627
+Battle River,Automotive,0.01297115
+Battle River,Electric Power Generation and Transmission,0.012566858
+Battle River,Aerospace Vehicles and Defense,0
+Battle River,Apparel,0
+Battle River,Biopharmaceuticals,0
+Battle River,Communications Equipment and Services,0
+Battle River,Downstream Chemical Products,0
+Battle River,Fishing and Fishing Products,0
+Battle River,Footwear,0
+Battle River,Jewelry and Precious Metals,0
+Battle River,Metal Mining,0
+Battle River,Music and Sound Recording,0
+Battle River,Paper and Packaging,0
+Battle River,Tobacco,0
+Battle River,Video Production and Distribution,0
+Battle River,Water Transportation,0
+Battle River,Wood Products,0
+Central,Oil and Gas Production and Transportation,5.918636546
+Central,Upstream Chemical Products,4.056881768
+Central,Construction Products and Services,3.306697404
+Central,Environmental Services,2.841858297
+Central,Livestock Processing,2.009813366
+Central,Local Motor Vehicle Products and Services,1.824323486
+Central,Agricultural Inputs and Services,1.821990421
+Central,Production Technology and Heavy Machinery,1.787099048
+Central,"Local Real Estate, Construction, and Development",1.563511412
+Central,Local Logistical Services,1.248381712
+Central,Local Household Goods and Services,1.187302591
+Central,Local Retailing of Clothing and General Merchandise,1.152626664
+Central,Local Education and Training,1.141262597
+Central,Distribution and Electronic Commerce,1.065783226
+Central,Local Personal Services (Non-Medical),1.060795157
+Central,Local Health Services,1.052590359
+Central,Downstream Metal Products,1.050538961
+Central,Nonmetal Mining,1.020545523
+Central,Grand Total,1
+Central,Local Hospitality Establishments,0.955059732
+Central,Local Entertainment and Media,0.947457576
+Central,Upstream Metal Manufacturing,0.943583946
+Central,Hospitality and Tourism,0.934263721
+Central,Local Commercial Services,0.876151318
+Central,Financial Services,0.850338076
+Central,Local Food and Beverage Processing and Distribution,0.778739004
+Central,Local Community and Civic Organizations,0.770438554
+Central,Forestry,0.733562929
+Central,#N/A,0.689320449
+Central,Transportation and Logistics,0.666141921
+Central,Wood Products,0.657264354
+Central,Furniture,0.653064177
+Central,Local Industrial Products and Services,0.625113725
+Central,Local Utilities,0.583994445
+Central,Coal Mining,0.525464283
+Central,Local Financial Services,0.523895259
+Central,Performing Arts,0.518008502
+Central,Education and Knowledge Creation,0.507409752
+Central,Business Services,0.443145338
+Central,Metalworking Technology,0.42824093
+Central,Food Processing and Manufacturing,0.401563876
+Central,Lighting and Electrical Equipment,0.387139269
+Central,Jewelry and Precious Metals,0.383343642
+Central,"Marketing, Design, and Publishing",0.358058453
+Central,Textile Manufacturing,0.341969222
+Central,Printing Services,0.329069123
+Central,Plastics,0.298614063
+Central,Downstream Chemical Products,0.279497692
+Central,Medical Devices,0.278886474
+Central,Vulcanized and Fired Materials,0.267117774
+Central,Information Technology and Analytical Instruments,0.250929482
+Central,Insurance Services,0.248672611
+Central,Recreational and Small Electric Goods,0.238507338
+Central,Water Transportation,0.201875751
+Central,Biopharmaceuticals,0.142957248
+Central,Apparel,0.121168635
+Central,Music and Sound Recording,0.083379592
+Central,Automotive,0.076203445
+Central,Aerospace Vehicles and Defense,0.014196887
+Central,Communications Equipment and Services,0.01190784
+Central,Electric Power Generation and Transmission,0.008053996
+Central,Video Production and Distribution,0.006327324
+Central,Fishing and Fishing Products,0
+Central,Footwear,0
+Central,Leather and Related Products,0
+Central,Metal Mining,0
+Central,Paper and Packaging,0
+Central,Tobacco,0
+Central,"Trailers, Motor Homes, and Appliances",0
+Northeast,Oil and Gas Production and Transportation,9.433307599
+Northeast,Construction Products and Services,2.866883816
+Northeast,Nonmetal Mining,2.82133451
+Northeast,Local Logistical Services,2.206866865
+Northeast,Local Motor Vehicle Products and Services,2.073822463
+Northeast,Agricultural Inputs and Services,1.966006558
+Northeast,Production Technology and Heavy Machinery,1.879437011
+Northeast,Environmental Services,1.73741167
+Northeast,Local Retailing of Clothing and General Merchandise,1.330518086
+Northeast,"Local Real Estate, Construction, and Development",1.247820104
+Northeast,Local Education and Training,1.24735441
+Northeast,Local Household Goods and Services,1.167040569
+Northeast,Local Commercial Services,1.160182765
+Northeast,Local Industrial Products and Services,1.0451851
+Northeast,"Trailers, Motor Homes, and Appliances",1.043894443
+Northeast,Forestry,1.015397393
+Northeast,Grand Total,1
+Northeast,Downstream Metal Products,0.996927291
+Northeast,Transportation and Logistics,0.971295775
+Northeast,Distribution and Electronic Commerce,0.947714421
+Northeast,Local Personal Services (Non-Medical),0.932542832
+Northeast,Coal Mining,0.932309796
+Northeast,Local Utilities,0.931814976
+Northeast,Local Hospitality Establishments,0.890264684
+Northeast,Local Entertainment and Media,0.875487763
+Northeast,Local Health Services,0.872932065
+Northeast,Local Food and Beverage Processing and Distribution,0.798961911
+Northeast,Hospitality and Tourism,0.781439764
+Northeast,#N/A,0.777179161
+Northeast,Upstream Chemical Products,0.670217784
+Northeast,Medical Devices,0.659755826
+Northeast,Local Community and Civic Organizations,0.635536364
+Northeast,Metalworking Technology,0.554254599
+Northeast,Education and Knowledge Creation,0.512212645
+Northeast,Local Financial Services,0.490613984
+Northeast,Business Services,0.40648005
+Northeast,Livestock Processing,0.367030078
+Northeast,Food Processing and Manufacturing,0.360805276
+Northeast,"Marketing, Design, and Publishing",0.352892707
+Northeast,Electric Power Generation and Transmission,0.329313992
+Northeast,Printing Services,0.287751973
+Northeast,Wood Products,0.286853502
+Northeast,Communications Equipment and Services,0.262921175
+Northeast,Financial Services,0.197888849
+Northeast,Insurance Services,0.173776849
+Northeast,Textile Manufacturing,0.119850274
+Northeast,Plastics,0.108898343
+Northeast,Performing Arts,0.080339731
+Northeast,Furniture,0.067936117
+Northeast,Water Transportation,0.057588498
+Northeast,Apparel,0.045732707
+Northeast,Downstream Chemical Products,0.04471896
+Northeast,Information Technology and Analytical Instruments,0.024624177
+Northeast,Vulcanized and Fired Materials,0.015983393
+Northeast,Video Production and Distribution,0.015522802
+Northeast,Metal Mining,0.013900794
+Northeast,Aerospace Vehicles and Defense,0
+Northeast,Automotive,0
+Northeast,Biopharmaceuticals,0
+Northeast,Fishing and Fishing Products,0
+Northeast,Footwear,0
+Northeast,Jewelry and Precious Metals,0
+Northeast,Leather and Related Products,0
+Northeast,Lighting and Electrical Equipment,0
+Northeast,Music and Sound Recording,0
+Northeast,Paper and Packaging,0
+Northeast,Recreational and Small Electric Goods,0
+Northeast,Tobacco,0
+Northeast,Upstream Metal Manufacturing,0
+Capital,Construction Products and Services,4.454848266
+Capital,Oil and Gas Production and Transportation,2.519696034
+Capital,Local Utilities,2.20773324
+Capital,Downstream Metal Products,1.970928878
+Capital,Coal Mining,1.719718484
+Capital,Production Technology and Heavy Machinery,1.641211803
+Capital,Electric Power Generation and Transmission,1.577565853
+Capital,"Local Real Estate, Construction, and Development",1.453823034
+Capital,Agricultural Inputs and Services,1.399254649
+Capital,Local Personal Services (Non-Medical),1.370806523
+Capital,Leather and Related Products,1.333796766
+Capital,Upstream Chemical Products,1.308293952
+Capital,Local Commercial Services,1.21923426
+Capital,Local Industrial Products and Services,1.185762134
+Capital,Local Motor Vehicle Products and Services,1.151219669
+Capital,Hospitality and Tourism,1.072365444
+Capital,Transportation and Logistics,1.059262877
+Capital,Local Logistical Services,1.04854331
+Capital,Distribution and Electronic Commerce,1.035531303
+Capital,Performing Arts,1.028882347
+Capital,Local Hospitality Establishments,1.010019805
+Capital,Grand Total,1
+Capital,Business Services,0.988671758
+Capital,Financial Services,0.983592688
+Capital,Local Retailing of Clothing and General Merchandise,0.963352029
+Capital,Local Household Goods and Services,0.938444493
+Capital,"Trailers, Motor Homes, and Appliances",0.907456896
+Capital,Metalworking Technology,0.905326041
+Capital,Local Entertainment and Media,0.845424707
+Capital,Environmental Services,0.829852231
+Capital,Education and Knowledge Creation,0.828031428
+Capital,Medical Devices,0.819321994
+Capital,Local Community and Civic Organizations,0.803252492
+Capital,Local Food and Beverage Processing and Distribution,0.799858774
+Capital,Local Health Services,0.787938399
+Capital,Local Financial Services,0.756655898
+Capital,Insurance Services,0.719735607
+Capital,#N/A,0.681653045
+Capital,Downstream Chemical Products,0.680297958
+Capital,Printing Services,0.663820996
+Capital,Plastics,0.61739892
+Capital,Local Education and Training,0.612836532
+Capital,Upstream Metal Manufacturing,0.549350584
+Capital,Lighting and Electrical Equipment,0.511746752
+Capital,Nonmetal Mining,0.509021524
+Capital,"Marketing, Design, and Publishing",0.468587965
+Capital,Information Technology and Analytical Instruments,0.456784154
+Capital,Wood Products,0.456083445
+Capital,Food Processing and Manufacturing,0.425664924
+Capital,Furniture,0.393712209
+Capital,Livestock Processing,0.35152396
+Capital,Music and Sound Recording,0.349288185
+Capital,Biopharmaceuticals,0.323932549
+Capital,Jewelry and Precious Metals,0.31630919
+Capital,Vulcanized and Fired Materials,0.287811645
+Capital,Textile Manufacturing,0.209301792
+Capital,Apparel,0.198777093
+Capital,Forestry,0.181329626
+Capital,Automotive,0.179399932
+Capital,Recreational and Small Electric Goods,0.1519067
+Capital,Video Production and Distribution,0.121686639
+Capital,Communications Equipment and Services,0.089185696
+Capital,Paper and Packaging,0.072665807
+Capital,Footwear,0.04318244
+Capital,Water Transportation,0.039334155
+Capital,Aerospace Vehicles and Defense,0.006082429
+Capital,Metal Mining,0.005394622
+Capital,Fishing and Fishing Products,0.003851059
+Capital,Tobacco,0
+West Yellowhead,Forestry,8.487206854
+West Yellowhead,Coal Mining,7.953588261
+West Yellowhead,Oil and Gas Production and Transportation,7.454618984
+West Yellowhead,Paper and Packaging,7.260995245
+West Yellowhead,Wood Products,6.02921353
+West Yellowhead,Environmental Services,5.255816413
+West Yellowhead,Upstream Chemical Products,3.475654559
+West Yellowhead,Local Logistical Services,3.326580024
+West Yellowhead,Hospitality and Tourism,2.65813195
+West Yellowhead,Construction Products and Services,2.494674767
+West Yellowhead,Local Industrial Products and Services,2.12121608
+West Yellowhead,Nonmetal Mining,1.695650495
+West Yellowhead,Local Motor Vehicle Products and Services,1.658012342
+West Yellowhead,Electric Power Generation and Transmission,1.289370689
+West Yellowhead,Local Education and Training,1.262411037
+West Yellowhead,Transportation and Logistics,1.233266065
+West Yellowhead,Local Household Goods and Services,1.150314895
+West Yellowhead,Local Commercial Services,1.062271895
+West Yellowhead,"Local Real Estate, Construction, and Development",1.029578798
+West Yellowhead,Local Hospitality Establishments,1.027235026
+West Yellowhead,Grand Total,1
+West Yellowhead,Local Utilities,0.945442285
+West Yellowhead,Local Entertainment and Media,0.872851555
+West Yellowhead,Local Retailing of Clothing and General Merchandise,0.867464512
+West Yellowhead,Distribution and Electronic Commerce,0.829164061
+West Yellowhead,Local Food and Beverage Processing and Distribution,0.775626392
+West Yellowhead,Local Health Services,0.573496979
+West Yellowhead,Local Personal Services (Non-Medical),0.558815105
+West Yellowhead,Metalworking Technology,0.49334758
+West Yellowhead,Local Community and Civic Organizations,0.493112304
+West Yellowhead,Financial Services,0.475042196
+West Yellowhead,Local Financial Services,0.388805116
+West Yellowhead,Business Services,0.339121433
+West Yellowhead,#N/A,0.328126574
+West Yellowhead,Downstream Chemical Products,0.309208265
+West Yellowhead,Printing Services,0.290157973
+West Yellowhead,Downstream Metal Products,0.264371104
+West Yellowhead,"Marketing, Design, and Publishing",0.230402183
+West Yellowhead,Automotive,0.22033964
+West Yellowhead,Performing Arts,0.142033116
+West Yellowhead,Education and Knowledge Creation,0.12915561
+West Yellowhead,Agricultural Inputs and Services,0.096183318
+West Yellowhead,Furniture,0.095416503
+West Yellowhead,Communications Equipment and Services,0.063123704
+West Yellowhead,Information Technology and Analytical Instruments,0.03830925
+West Yellowhead,Production Technology and Heavy Machinery,0.037422546
+West Yellowhead,Medical Devices,0.031679633
+West Yellowhead,Textile Manufacturing,0.02589694
+West Yellowhead,Food Processing and Manufacturing,0.024405458
+West Yellowhead,Video Production and Distribution,0.020124764
+West Yellowhead,Water Transportation,0.01493229
+West Yellowhead,Livestock Processing,0.008978142
+West Yellowhead,Aerospace Vehicles and Defense,0
+West Yellowhead,Apparel,0
+West Yellowhead,Biopharmaceuticals,0
+West Yellowhead,Fishing and Fishing Products,0
+West Yellowhead,Footwear,0
+West Yellowhead,Insurance Services,0
+West Yellowhead,Jewelry and Precious Metals,0
+West Yellowhead,Leather and Related Products,0
+West Yellowhead,Lighting and Electrical Equipment,0
+West Yellowhead,Metal Mining,0
+West Yellowhead,Music and Sound Recording,0
+West Yellowhead,Plastics,0
+West Yellowhead,Recreational and Small Electric Goods,0
+West Yellowhead,Tobacco,0
+West Yellowhead,"Trailers, Motor Homes, and Appliances",0
+West Yellowhead,Upstream Metal Manufacturing,0
+West Yellowhead,Vulcanized and Fired Materials,0
+North Central,Paper and Packaging,9.513559091
+North Central,Forestry,5.167446152
+North Central,Oil and Gas Production and Transportation,4.793375613
+North Central,Nonmetal Mining,3.615004919
+North Central,"Trailers, Motor Homes, and Appliances",3.118661443
+North Central,Agricultural Inputs and Services,2.533043689
+North Central,Local Logistical Services,2.509978489
+North Central,Local Motor Vehicle Products and Services,2.137593458
+North Central,Construction Products and Services,1.569192736
+North Central,Environmental Services,1.521043798
+North Central,"Local Real Estate, Construction, and Development",1.390001877
+North Central,Education and Knowledge Creation,1.286808362
+North Central,Local Utilities,1.267993074
+North Central,Local Education and Training,1.252407045
+North Central,Local Health Services,1.167079122
+North Central,Transportation and Logistics,1.096663287
+North Central,Local Community and Civic Organizations,1.060114258
+North Central,Local Household Goods and Services,1.018904447
+North Central,Grand Total,1
+North Central,Local Commercial Services,0.995099633
+North Central,Local Food and Beverage Processing and Distribution,0.962042107
+North Central,#N/A,0.946235819
+North Central,Local Personal Services (Non-Medical),0.883157535
+North Central,Distribution and Electronic Commerce,0.863559094
+North Central,Hospitality and Tourism,0.80850956
+North Central,Production Technology and Heavy Machinery,0.784785475
+North Central,Downstream Chemical Products,0.678598309
+North Central,Local Hospitality Establishments,0.635135513
+North Central,Local Entertainment and Media,0.63367354
+North Central,Upstream Metal Manufacturing,0.631291376
+North Central,Wood Products,0.581214478
+North Central,Furniture,0.531564247
+North Central,Coal Mining,0.523983435
+North Central,Local Retailing of Clothing and General Merchandise,0.504902151
+North Central,Local Financial Services,0.503319649
+North Central,Plastics,0.45068273
+North Central,Jewelry and Precious Metals,0.445973867
+North Central,"Marketing, Design, and Publishing",0.433412547
+North Central,Food Processing and Manufacturing,0.419561127
+North Central,Livestock Processing,0.41377803
+North Central,Downstream Metal Products,0.370681575
+North Central,Medical Devices,0.347625655
+North Central,Business Services,0.300235885
+North Central,Textile Manufacturing,0.284171246
+North Central,Performing Arts,0.249368321
+North Central,Local Industrial Products and Services,0.222342132
+North Central,Financial Services,0.167097442
+North Central,Apparel,0.065060779
+North Central,Recreational and Small Electric Goods,0.057408493
+North Central,Biopharmaceuticals,0.04989403
+North Central,Metalworking Technology,0.047074622
+North Central,Printing Services,0.045484995
+North Central,Video Production and Distribution,0.044166448
+North Central,Lighting and Electrical Equipment,0.039164315
+North Central,Insurance Services,0.021040032
+North Central,Aerospace Vehicles and Defense,0
+North Central,Automotive,0
+North Central,Communications Equipment and Services,0
+North Central,Electric Power Generation and Transmission,0
+North Central,Fishing and Fishing Products,0
+North Central,Footwear,0
+North Central,Information Technology and Analytical Instruments,0
+North Central,Leather and Related Products,0
+North Central,Metal Mining,0
+North Central,Music and Sound Recording,0
+North Central,Tobacco,0
+North Central,Upstream Chemical Products,0
+North Central,Vulcanized and Fired Materials,0
+North Central,Water Transportation,0
+Wood Buffalo,Oil and Gas Production and Transportation,27.29370808
+Wood Buffalo,Environmental Services,2.017066909
+Wood Buffalo,Construction Products and Services,1.752306216
+Wood Buffalo,"Local Real Estate, Construction, and Development",1.584547261
+Wood Buffalo,Distribution and Electronic Commerce,1.562233089
+Wood Buffalo,Local Logistical Services,1.456552198
+Wood Buffalo,Transportation and Logistics,1.379696248
+Wood Buffalo,Local Commercial Services,1.24603073
+Wood Buffalo,Upstream Chemical Products,1.071027085
+Wood Buffalo,Local Motor Vehicle Products and Services,0.999762423
+Wood Buffalo,Hospitality and Tourism,0.882963718
+Wood Buffalo,Electric Power Generation and Transmission,0.842005003
+Wood Buffalo,Local Food and Beverage Processing and Distribution,0.75039668
+Wood Buffalo,Local Hospitality Establishments,0.708523937
+Wood Buffalo,Local Personal Services (Non-Medical),0.687354135
+Wood Buffalo,Local Retailing of Clothing and General Merchandise,0.686638424
+Wood Buffalo,Local Entertainment and Media,0.621801934
+Wood Buffalo,Business Services,0.619878992
+Wood Buffalo,Local Household Goods and Services,0.587591406
+Wood Buffalo,#N/A,0.521342446
+Wood Buffalo,Local Education and Training,0.510129647
+Wood Buffalo,Education and Knowledge Creation,0.449886461
+Wood Buffalo,Local Community and Civic Organizations,0.448623565
+Wood Buffalo,"Marketing, Design, and Publishing",0.346203217
+Wood Buffalo,Coal Mining,0.282030652
+Wood Buffalo,Medical Devices,0.260323106
+Wood Buffalo,Printing Services,0.255464355
+Wood Buffalo,Local Health Services,0.246036218
+Wood Buffalo,Local Industrial Products and Services,0.187316133
+Wood Buffalo,Local Financial Services,0.179624117
+Wood Buffalo,Local Utilities,0.160874151
+Wood Buffalo,Wood Products,0.138909108
+Wood Buffalo,Downstream Metal Products,0.126725309
+Wood Buffalo,Nonmetal Mining,0.099526994
+Wood Buffalo,Performing Arts,0.085590117
+Wood Buffalo,Furniture,0.066344574
+Wood Buffalo,Financial Services,0.055765645
+Wood Buffalo,Insurance Services,0.051207156
+Wood Buffalo,Production Technology and Heavy Machinery,0.034168303
+Wood Buffalo,Recreational and Small Electric Goods,0.021495475
+Wood Buffalo,Food Processing and Manufacturing,0.01671238
+Wood Buffalo,Lighting and Electrical Equipment,0.014664303
+Wood Buffalo,Fishing and Fishing Products,0.010571874
+Wood Buffalo,Forestry,0.008794764
+Wood Buffalo,Aerospace Vehicles and Defense,0
+Wood Buffalo,Agricultural Inputs and Services,0
+Wood Buffalo,Apparel,0
+Wood Buffalo,Automotive,0
+Wood Buffalo,Biopharmaceuticals,0
+Wood Buffalo,Communications Equipment and Services,0
+Wood Buffalo,Downstream Chemical Products,0
+Wood Buffalo,Footwear,0
+Wood Buffalo,Information Technology and Analytical Instruments,0
+Wood Buffalo,Jewelry and Precious Metals,0
+Wood Buffalo,Leather and Related Products,0
+Wood Buffalo,Livestock Processing,0
+Wood Buffalo,Metal Mining,0
+Wood Buffalo,Metalworking Technology,0
+Wood Buffalo,Music and Sound Recording,0
+Wood Buffalo,Paper and Packaging,0
+Wood Buffalo,Plastics,0
+Wood Buffalo,Textile Manufacturing,0
+Wood Buffalo,Tobacco,0
+Wood Buffalo,"Trailers, Motor Homes, and Appliances",0
+Wood Buffalo,Upstream Metal Manufacturing,0
+Wood Buffalo,Video Production and Distribution,0
+Wood Buffalo,Vulcanized and Fired Materials,0
+Wood Buffalo,Water Transportation,0
+Wood Buffalo,Grand Total,1
+Slave Lake,Oil and Gas Production and Transportation,7.904150812
+Slave Lake,Forestry,6.927734981
+Slave Lake,Wood Products,6.789112863
+Slave Lake,Environmental Services,4.62686789
+Slave Lake,Local Logistical Services,2.812561975
+Slave Lake,Construction Products and Services,2.36185323
+Slave Lake,Local Motor Vehicle Products and Services,1.991894947
+Slave Lake,Paper and Packaging,1.736359511
+Slave Lake,Nonmetal Mining,1.552446322
+Slave Lake,Transportation and Logistics,1.377077471
+Slave Lake,#N/A,1.351867633
+Slave Lake,Distribution and Electronic Commerce,1.332630074
+Slave Lake,Hospitality and Tourism,1.291189074
+Slave Lake,"Local Real Estate, Construction, and Development",1.138731724
+Slave Lake,Local Education and Training,1.077424604
+Slave Lake,Local Commercial Services,1.066051638
+Slave Lake,Coal Mining,1.004161316
+Slave Lake,Grand Total,1
+Slave Lake,Education and Knowledge Creation,0.9962126
+Slave Lake,Local Household Goods and Services,0.896614638
+Slave Lake,Local Entertainment and Media,0.87206085
+Slave Lake,Local Food and Beverage Processing and Distribution,0.868305953
+Slave Lake,Local Community and Civic Organizations,0.745726879
+Slave Lake,Local Retailing of Clothing and General Merchandise,0.724448829
+Slave Lake,Local Health Services,0.713608301
+Slave Lake,Upstream Chemical Products,0.696089238
+Slave Lake,Local Hospitality Establishments,0.565736757
+Slave Lake,Local Utilities,0.520231979
+Slave Lake,Agricultural Inputs and Services,0.462316412
+Slave Lake,Local Personal Services (Non-Medical),0.461746025
+Slave Lake,Recreational and Small Electric Goods,0.419114577
+Slave Lake,Printing Services,0.365272905
+Slave Lake,Business Services,0.331871025
+Slave Lake,Local Industrial Products and Services,0.324644749
+Slave Lake,Financial Services,0.323540329
+Slave Lake,Downstream Metal Products,0.141192306
+Slave Lake,Production Technology and Heavy Machinery,0.13324138
+Slave Lake,Local Financial Services,0.120570157
+Slave Lake,"Marketing, Design, and Publishing",0.031641576
+Slave Lake,Insurance Services,0.015360418
+Slave Lake,Aerospace Vehicles and Defense,0
+Slave Lake,Apparel,0
+Slave Lake,Automotive,0
+Slave Lake,Biopharmaceuticals,0
+Slave Lake,Communications Equipment and Services,0
+Slave Lake,Downstream Chemical Products,0
+Slave Lake,Electric Power Generation and Transmission,0
+Slave Lake,Fishing and Fishing Products,0
+Slave Lake,Food Processing and Manufacturing,0
+Slave Lake,Footwear,0
+Slave Lake,Furniture,0
+Slave Lake,Information Technology and Analytical Instruments,0
+Slave Lake,Jewelry and Precious Metals,0
+Slave Lake,Leather and Related Products,0
+Slave Lake,Lighting and Electrical Equipment,0
+Slave Lake,Livestock Processing,0
+Slave Lake,Medical Devices,0
+Slave Lake,Metal Mining,0
+Slave Lake,Metalworking Technology,0
+Slave Lake,Music and Sound Recording,0
+Slave Lake,Performing Arts,0
+Slave Lake,Plastics,0
+Slave Lake,Textile Manufacturing,0
+Slave Lake,Tobacco,0
+Slave Lake,"Trailers, Motor Homes, and Appliances",0
+Slave Lake,Upstream Metal Manufacturing,0
+Slave Lake,Video Production and Distribution,0
+Slave Lake,Vulcanized and Fired Materials,0
+Slave Lake,Water Transportation,0
+Peace Country,Oil and Gas Production and Transportation,7.563043329
+Peace Country,Environmental Services,5.492522684
+Peace Country,Construction Products and Services,3.409233866
+Peace Country,Paper and Packaging,3.404417906
+Peace Country,Forestry,2.977003793
+Peace Country,Local Logistical Services,2.338395306
+Peace Country,Nonmetal Mining,2.047664699
+Peace Country,Wood Products,1.969641274
+Peace Country,Local Motor Vehicle Products and Services,1.851749993
+Peace Country,Local Household Goods and Services,1.838459397
+Peace Country,Transportation and Logistics,1.576609441
+Peace Country,Distribution and Electronic Commerce,1.3632209
+Peace Country,"Local Real Estate, Construction, and Development",1.359672181
+Peace Country,Agricultural Inputs and Services,1.291000601
+Peace Country,Local Commercial Services,1.242803348
+Peace Country,Downstream Chemical Products,1.170026784
+Peace Country,Upstream Chemical Products,1.042208801
+Peace Country,Local Entertainment and Media,1.00655611
+Peace Country,Grand Total,1
+Peace Country,Local Retailing of Clothing and General Merchandise,0.955087332
+Peace Country,Hospitality and Tourism,0.954916521
+Peace Country,Downstream Metal Products,0.914380182
+Peace Country,Local Education and Training,0.903833193
+Peace Country,Local Personal Services (Non-Medical),0.823026268
+Peace Country,Local Hospitality Establishments,0.804507866
+Peace Country,Coal Mining,0.77559699
+Peace Country,Local Food and Beverage Processing and Distribution,0.773843811
+Peace Country,#N/A,0.74223059
+Peace Country,Local Health Services,0.636400965
+Peace Country,Business Services,0.625925735
+Peace Country,Local Financial Services,0.527033586
+Peace Country,Local Community and Civic Organizations,0.521621183
+Peace Country,Local Utilities,0.447272819
+Peace Country,Upstream Metal Manufacturing,0.438122681
+Peace Country,Insurance Services,0.42163269
+Peace Country,Education and Knowledge Creation,0.387122444
+Peace Country,"Marketing, Design, and Publishing",0.385390707
+Peace Country,Financial Services,0.3753182
+Peace Country,Performing Arts,0.356944849
+Peace Country,Local Industrial Products and Services,0.339959189
+Peace Country,Electric Power Generation and Transmission,0.27311635
+Peace Country,Printing Services,0.248590538
+Peace Country,Communications Equipment and Services,0.22353369
+Peace Country,Production Technology and Heavy Machinery,0.2208679
+Peace Country,Metalworking Technology,0.220524323
+Peace Country,Plastics,0.190599356
+Peace Country,Food Processing and Manufacturing,0.137071304
+Peace Country,Livestock Processing,0.128199192
+Peace Country,Furniture,0.117380783
+Peace Country,Textile Manufacturing,0.073956658
+Peace Country,Medical Devices,0.018094182
+Peace Country,Water Transportation,0.017057494
+Peace Country,Automotive,0.012584949
+Peace Country,Vulcanized and Fired Materials,0.011835551
+Peace Country,Video Production and Distribution,0.011494488
+Peace Country,Lighting and Electrical Equipment,0.010192663
+Peace Country,Aerospace Vehicles and Defense,0.006447668
+Peace Country,Information Technology and Analytical Instruments,0.003646794
+Peace Country,Apparel,0
+Peace Country,Biopharmaceuticals,0
+Peace Country,Fishing and Fishing Products,0
+Peace Country,Footwear,0
+Peace Country,Jewelry and Precious Metals,0
+Peace Country,Leather and Related Products,0
+Peace Country,Metal Mining,0
+Peace Country,Music and Sound Recording,0
+Peace Country,Recreational and Small Electric Goods,0
+Peace Country,Tobacco,0
+Peace Country,"Trailers, Motor Homes, and Appliances",0
+Mackenzie,Forestry,23.20641601
+Mackenzie,Wood Products,9.459781024
+Mackenzie,Oil and Gas Production and Transportation,6.433836429
+Mackenzie,Environmental Services,6.076657549
+Mackenzie,Local Logistical Services,3.293738915
+Mackenzie,Local Education and Training,3.019701396
+Mackenzie,Local Motor Vehicle Products and Services,1.913297748
+Mackenzie,#N/A,1.322659846
+Mackenzie,Local Community and Civic Organizations,1.288979239
+Mackenzie,"Local Real Estate, Construction, and Development",1.283274188
+Mackenzie,Construction Products and Services,1.282380458
+Mackenzie,Hospitality and Tourism,1.246374995
+Mackenzie,Transportation and Logistics,1.051495914
+Mackenzie,Grand Total,1
+Mackenzie,Local Food and Beverage Processing and Distribution,0.966618364
+Mackenzie,Furniture,0.70507866
+Mackenzie,Local Utilities,0.611597913
+Mackenzie,Textile Manufacturing,0.592320254
+Mackenzie,Local Household Goods and Services,0.568870145
+Mackenzie,Agricultural Inputs and Services,0.549981271
+Mackenzie,Local Hospitality Establishments,0.537757993
+Mackenzie,Local Commercial Services,0.505320323
+Mackenzie,Local Entertainment and Media,0.500998832
+Mackenzie,Local Retailing of Clothing and General Merchandise,0.49203438
+Mackenzie,Performing Arts,0.476462992
+Mackenzie,Distribution and Electronic Commerce,0.464765971
+Mackenzie,Local Health Services,0.398624881
+Mackenzie,Local Personal Services (Non-Medical),0.329581636
+Mackenzie,Local Industrial Products and Services,0.289653136
+Mackenzie,"Marketing, Design, and Publishing",0.271018656
+Mackenzie,Local Financial Services,0.254080925
+Mackenzie,Metalworking Technology,0.245303252
+Mackenzie,Livestock Processing,0.205349945
+Mackenzie,Food Processing and Manufacturing,0.186068921
+Mackenzie,Business Services,0.182893725
+Mackenzie,Financial Services,0.113574199
+Mackenzie,Water Transportation,0.068306896
+Mackenzie,Communications Equipment and Services,0.057751145
+Mackenzie,Printing Services,0.047403958
+Mackenzie,Education and Knowledge Creation,0.03659915
+Mackenzie,Downstream Metal Products,0.033593064
+Mackenzie,Production Technology and Heavy Machinery,0.019020808
+Mackenzie,Aerospace Vehicles and Defense,0
+Mackenzie,Apparel,0
+Mackenzie,Automotive,0
+Mackenzie,Biopharmaceuticals,0
+Mackenzie,Coal Mining,0
+Mackenzie,Downstream Chemical Products,0
+Mackenzie,Electric Power Generation and Transmission,0
+Mackenzie,Fishing and Fishing Products,0
+Mackenzie,Footwear,0
+Mackenzie,Information Technology and Analytical Instruments,0
+Mackenzie,Insurance Services,0
+Mackenzie,Jewelry and Precious Metals,0
+Mackenzie,Leather and Related Products,0
+Mackenzie,Lighting and Electrical Equipment,0
+Mackenzie,Medical Devices,0
+Mackenzie,Metal Mining,0
+Mackenzie,Music and Sound Recording,0
+Mackenzie,Nonmetal Mining,0
+Mackenzie,Paper and Packaging,0
+Mackenzie,Plastics,0
+Mackenzie,Recreational and Small Electric Goods,0
+Mackenzie,Tobacco,0
+Mackenzie,"Trailers, Motor Homes, and Appliances",0
+Mackenzie,Upstream Chemical Products,0
+Mackenzie,Upstream Metal Manufacturing,0
+Mackenzie,Video Production and Distribution,0
+Mackenzie,Vulcanized and Fired Materials,0

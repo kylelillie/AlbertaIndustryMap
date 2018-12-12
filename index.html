@@ -271,10 +271,10 @@ to do:
 			   d > 3  ? '#0570b0' :
 			   d > 2  ? '#3690c0' :
 			   d > 1  ? '#74a9cf' :
-			   d > 0.75   ? '#a6bddb' :
-			   d > 0.50   ? '#d0d1e6' :
+			   d > 0.75 ? '#a6bddb' :
+			   d > 0.50 ? '#d0d1e6' :
 			   d > 0.25 ? '#ece7f2' :
-			   d > 0.01? '#f2f2f2' :
+			   d > 0.01 ? '#f2f2f2' :
 						 '#ffffff';
 	}
 	
@@ -558,278 +558,8 @@ to do:
 		});
 	
 	};
-//-Show Additional Data---------------------------------------------------------------------------------------------------------------------------------------//
-
-function showAdditionalData(){
-
-	var on_off = false;
 	
-	var add_pinCluster = new L.layerGroup(); //marker clustering active
-	
-	d3.selectAll('.tool_extension_off').attr({'class':'tool_extension_on'});
-
-		d3.select('.tool_extension_on').html(
-			"<a href=# class=\"close-button\">‹</a>"+
-			"<b>Supplemental Data</b><br>"+
-			"Click to display<br>"+
-			"<div id=\"additionalData\" class=\"airport\">Airports</div>"+
-			"<div id=\"additionalData\" class=\"heliport\">Heliports</div>"+
-			"<div id=\"additionalData\" class=\"hospital\">Hospitals</div>"+
-			"<p>"+
-			"<div id=\"additionalData\" class=\"submitHeat remove\">Clear Markers</div>"
-		);
-		
-		function clearCustomPins(){
-			if (on_off){
-				add_pinCluster.clearLayers();
-				console.log('ok');
-				on_off = false;
-			}
-		};
-		
-		//clear everything
-		$(document).on('click', '.remove', clearCustomPins);
-		
-		//make it so that if you click tile twice, it turns off
-		
-		$(document).on('click', '#additionalData', function(){
-		
-			var file = $(this).attr('class');//class of the div is the filename of the custom data to display
-			var newLayer = file+"layer";
-			
-			//make below a function that starts when the page is loaded?
-		
-			//decide which icon to use
-			var icon_src, icon_size;
-			
-			if (file === 'airport')
-				icon_src = 'air_icon';
-					
-			else if (file === 'heliport')
-				icon_src = 'heli_icon';
-					
-			else if  (file === 'hospital')
-				icon_src = 'hosp_icon';
-	
-			//Use D3 to load pins and data
-			d3.csv("./custom/"+file+".csv", function(error, data){ //select data source
-			
-				data.forEach(function data(d,i) {
-
-				//see how big to make each icon
-				if (d.icon_size === "large")
-					icon_size = [18,18];
-				else if (d.icon_size === "medium")
-					icon_size = [12,12];
-				else if (d.icon_size === "small")
-					icon_size = [6,6];
-					
-				customIcon = L.divIcon({
-					className: icon_src,
-					iconSize: icon_size,
-					iconAnchor: [8, 8],
-					popupAnchor: [0, 0],
-				});
-			
-				//add feature to filter pins based on cluster 
-				var add_pin = L.marker([d.latitude,d.longitude], {cluster: d.special, icon: customIcon}).on('click', onClick);
-
-				add_pinCluster.addLayer(add_pin);
-				//edit code above this line
-				
-				var options = { //options for popup
-					offset: new L.Point(1,-22),
-					riseOnHover: true,
-					closeButton: true
-					};			
-			
-				function onClick(e) {
-					
-					lastLat = d.latitude;
-					lastLong = d.longitude;
-									
-					var popup = L.popup(options)
-						.setLatLng(e.latlng)
-						.setContent('<div id=\"popuptxt\">'+d.name+'</div>')
-						.openOn(map);
-						
-					//add code to update sidebar
-					d3.select(".regional").style("background","rgb(75,75,75)");
-					d3.select("#regional_info").style("display","none");
-					d3.select(".business").style("background","rgb(90,90,90)");
-					d3.select("#business_info").style("display","block");
-					d3.select("#business_info").html("<div class=\"dataContent_header\"><u>"+d.name+"</u>"+"&nbsp&nbsp&nbsp&nbsp&nbsp"+"<a onclick=\"locate();\" id=\"locate\">Zoom To</a></div><p class=\"dataContent_contact\">");
-						
-						//make it all conditional incase someone forgets to input a fieldset
-						if (d.address)
-							$(".dataContent_contact").append(d.address+"<p/>");
-							
-						if (d.special)
-							$(".dataContent_contact").append(d.special+"<br/>");
-							
-						if (d.special_1)
-							$(".dataContent_contact").append(d.special_1+"<br/>");
-							
-						if (d.special_2)
-							$(".dataContent_contact").append(d.special_2+"<br/>");
-
-					//end D3
-							
-				}; //end onClick
-					
-			});
-				
-		}); //end D3 pins*/		
-
-			map.addLayer(add_pinCluster);
-			
-			on_off = true;
-
-		});
-		
-		//slide in, slide out
-		$(".close-button").click(function() {
-			if (!toolSlide) { 
-				$(".tool_extension_on").animate({left: '-=22%'},450,"swing");
-				d3.select(".close-button").html("›");
-				toolSlide = true;
-				}
-				
-			else {
-				$(".tool_extension_on").animate({left: '+=22%'},550,"swing");
-				d3.select(".close-button").html("‹");
-				toolSlide = false;
-			}
-			
-		});
-		
-};
-
-//-5-Custom Layer------------------------------------------------------------------------------------------------------------------------------------------------6-//
-
-function addCustomLayer(){
-
-	document.getElementById("infobar").innerHTML += ("<div id=\"special_layer\"><a a href=# class=\"close-button\">×</a>"+
-		"<p>Upload and display custom markers"+
-		"<form action=\"getfile.php\" id=\"file\" enctype=\"multipart/form-data\" method=\"post\">"+
-		"<p><input type=\"file\" required=\"required\" accept=\".csv\" name=\"myFile\" id=\"myFile\" size=\"50\">"+
-		"<div style=\"margin:auto; width: 68%;\"><p><button type=\"submit\" name=\"submit\" class=\"display\" type=\"submit\">Display</button>&nbsp<button class=\"cancel\">Cancel</button></div>"+
-		"</form>"+
-		"<font size=\"2pt\">Template File: <a href=\"custom/marker_template.csv\">Download</a></font>"+
-		"</div>");
-
-	$("#infobar").css("overflow","visible");
-	
-	
-	$(".close-button").click(function() {
-		$("#special_layer").remove();
-		$("#infobar").css("overflow","hidden");
-		specialLayers.state('add-markers');
-	});
-	
-	$(".cancel").click(function() {
-		$("#special_layer").remove();
-		$("#infobar").css("overflow","hidden");
-		specialLayers.state('add-markers');
-	});
-	
-	$(':file').change(function(){
-		var file = this.files[0];
-		var name = file.name;
-		var size = file.size;
-		var type = file.type;
-	});
-	
-	
-	$("#myFile").on("submit", function(e){
-		
-		/*hard code just to get it in right now----need to work in AJAX uploading of file*/
-		/*insert ajax code here*/
-		
-		var formData = new FormData($('form')[0]);
-			$.ajax({
-				url: 'getfile.php',  //Server script to process data
-				type: 'POST',
-				xhr: function() {  // Custom XMLHttpRequest
-					var myXhr = $.ajaxSettings.xhr();
-					if(myXhr.upload){ // Check if upload property exists
-						myXhr.upload.addEventListener('progress',progressHandlingFunction, false); // For handling the progress of the upload
-					}
-					return myXhr;
-				},
-				//Ajax events
-				beforeSend: beforeSendHandler,
-				success: completeHandler,
-				error: errorHandler,
-				// Form data
-				data: formData,
-				//Options to tell jQuery not to process data or worry about content-type.
-				cache: false,
-				contentType: false,
-				processData: false
-			});
-		
-		
-		var specialPins = new L.MarkerClusterGroup(); //marker clustering active
-
-		d3.csv("./custom/locs.csv", function(error, data){
-			data.forEach(function data(d,i) {
-				
-				var specialIcon;
-				
-				if (d.special === "Mine"){
-					specialIcon = L.icon({
-						iconUrl: './img/custom_layer_bw.svg',
-						iconSize: [40,40],
-						iconAnchor: [8, 8],
-						popupAnchor: [0, 0],
-					});
-				}
-				
-				else {
-					specialIcon = L.icon({
-					iconUrl: './img/custom_layer.svg',
-					iconSize: [55,35],
-					iconAnchor: [8, 8],
-					popupAnchor: [0, 0],
-				});
-				}
-				
-				var pin = L.marker([d.Latitude,d.Longitude], {cluster: d.special, icon: specialIcon}).on('click', onClick);
-			
-				specialPins.addLayer(pin);
-				
-				console.log(specialPins.options.maxClusterRadius);
-				
-				specialPins.options.maxClusterRadius = 0;
-				
-				var options = { //options for popup
-					offset: new L.Point(0,-22),
-					riseOnHover: true,
-					closeButton: true
-				};			
-			
-				function onClick(e) {
-
-					var popup = L.popup(options)
-						.setLatLng(e.latlng)
-						.setContent('<div id=\"popuptxt\">'+d.special+'</div>')
-						.openOn(map);
-				}
-			});
-		});
-
-		map.addLayer(specialPins);
-		
-		//turn off the pop up div
-		$("#special_layer").remove();
-		$("#infobar").css("overflow","hidden");
-		
-		return false;
-	});
-}
-
-//-6-Additional controls-----------------------------------------------------------------------------------------------------------------------------------------5-//
+//-5-Additional controls-----------------------------------------------------------------------------------------------------------------------------------------5-//
 		
 		//-6a-home button------------------------------------------------------------------------------6a//
 		var home = [lat,lng];
@@ -876,29 +606,6 @@ function addCustomLayer(){
 		  }]
 		});
 		lqChoro.addTo(map);
-		
-		//-6c-addtional data---------------------------------------------------------------------------6g//
-		var additionalData = L.easyButton({
-		  states: [{
-			stateName: 'add-markers',
-			icon: '<img src="img/more.svg"/>',
-			title: 'Show Additional Data',
-			onClick: function(control) {
-				showAdditionalData();
-				lqChoro.state('add-markers');
-				control.state('remove-markers');
-			}
-		  }, {
-			icon: '<img src="img/more_c.svg"/>',
-			stateName: 'remove-markers',
-			onClick: function(control) {
-				d3.selectAll(".tool_extension_on").attr({"class":"tool_extension_off"});
-				control.state('add-markers');
-			},
-			title: 'Hide Additional Data'
-		  }]
-		});
-		additionalData.addTo(map);
 		
 		//-6c-toggle all pins---------------------------------------------------------------------------6c//
 		var showPins = L.easyButton({
@@ -948,28 +655,6 @@ function addCustomLayer(){
 		function locate(){
 			map.setView([lastLat,lastLong],12)
 		};
-		
-		//-6f-toggle custom layer/data points ------------------------------------------------------------6f//
-		var specialLayers = L.easyButton({
-		  states: [{
-			stateName: 'add-markers',
-			icon: '<img src="img/custom_layer_bw.svg"/>',
-			title: 'Show Custom Layer',
-			onClick: function(control) {
-				addCustomLayer();
-				control.state('remove-markers');
-			}
-		  }, {
-			icon: '<img src="img/custom_layer.svg"/>',
-			stateName: 'remove-markers',
-			onClick: function(control) {
-				$("#special_layer").remove();
-				control.state('add-markers');
-			},
-			title: 'Hide Custom Layer'
-		  }]
-		});
-		specialLayers.addTo(map);
 	
 		//-6d-tabs for dashboard data-----------------------------------------------------------------------6d//
 		//data dashboard tabs
@@ -988,7 +673,7 @@ function addCustomLayer(){
 		}
 		
 		
-//-7-Add business pins-------------------------------------------------------------------------------------------------------------------------------------7-//
+//-6-Add business pins-------------------------------------------------------------------------------------------------------------------------------------7-//
 		var pinCluster = new L.MarkerClusterGroup(); //marker clustering active
 		var allPins = [];
 		//make below a function that starts when the page is loaded?

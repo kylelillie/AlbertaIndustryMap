@@ -749,14 +749,15 @@ to do:
 						"Latitude: &nbsp"+d.Latitude+"<br/>"+
 						"Longitude: "+d.Longitude+"<br/>"
 						); //end D3
-								
-				if (d.OperatingAs) {//if business as an operating as designation, post it
+				
+				//if business as an operating as designation, post it				
+				if (d.OperatingAs) {
 						d3.select(".dataContent_header").html(
 						"<u>"+d.CompanyName+"</u>&nbsp&nbsp&nbsp&nbsp&nbsp"+"<a onclick=\"locate();\" id=\"locate\">Zoom To</a>"+
 						"<br><k>Operating as</k><br>"+d.OperatingAs)};
-				
+				//if there's a website
 				if (d.WebAddress){
-						$(".dataContent_contact").append("<a target=\"new\" href=\"http://"+d.WebAddress+"\">"+d.WebAddress+"</a>")};
+						$(".dataContent_contact").append("<br><a target=\"new\" href=\"http://"+d.WebAddress+"\">"+d.WebAddress+"</a>")};
 						
 			}; //end onClick
 					

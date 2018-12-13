@@ -220,20 +220,19 @@ to do:
 							return b.LQ-a.LQ
 						});
 						
-						document.getElementById("regional_info").innerHTML += "<br><br><br><div class='quarters'>Top 10 Clusters for "+e.layer.feature.properties.EconomicRegion+"</div><div class='tenths'>"+(choroBool ? "":"LQ")+"</div><hr>";//add in a toggled LQ column header?
+						document.getElementById("regional_info").innerHTML += "<br><br><br><div class='quarters'>Top 10 Industry Clusters in "+e.layer.feature.properties.EconomicRegion+"</div><div class='tenths'>"+(choroBool ? "":"LQ")+"</div><hr>";//add in a toggled LQ column header?
 						//create an array of cluster LQ in matched CSD, in order large->small
 						var j = 0;
 						
-						for (i=0, n=data.length; i <n; i++){
+						for (i=0, n=data.length; i < n; i++){
 							if (data[i].REIR === e.layer.feature.properties.EconomicRegion){
 							
 								var tempLQ = +data[i].LQ;
 								//could move this out into a new array that only runs 10 times; put it after, so this current formular will make a whole li
-								document.getElementById("regional_info").innerHTML += "<k class='quarters'>"+(j+1)+". "+data[i].Cluster+"</k><k class='tenths'><d> "+tempLQ.toFixed(3)+"</d></k><br>";
+								document.getElementById("regional_info").innerHTML += "<k class='quarters'>"+(j+1)+". "+data[i].Cluster+"</k><k class='tenths'><d> "+tempLQ.toFixed(2)+"</d></k><br>";
 								
 								if (j === 9)
 									break;						
-								
 								j++;
 							}		
 						}

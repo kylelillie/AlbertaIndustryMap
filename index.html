@@ -229,7 +229,7 @@ to do:
 							
 								var tempLQ = +data[i].LQ;
 								//could move this out into a new array that only runs 10 times; put it after, so this current formular will make a whole li
-								document.getElementById("regional_info").innerHTML += "<k class='quarters'>"+(j+1)+". "+data[i].Cluster+"</k><k class='tenths'><d> "+tempLQ.toFixed(3)+"</d></k><br>";
+								document.getElementById("regional_info").innerHTML += "<k class='quarters'>"+(j+1)+". "+data[i].Cluster+"</k><k class='tenths'><d> "+tempLQ.toFixed(2)+"</d></k><br>";
 								
 								if (j === 9)
 									break;						
@@ -746,8 +746,8 @@ to do:
 						"<hr>"+
 						"<p>Employees: "+d.EmployeesThisLocation+"<br/>"+
 						"Facility Size: "+d.FacilitySize+" Sq.Ft.<br/>"+
-						"Latitude: &nbsp"+d.Latitude+"<br/>"+
-						"Longitude: "+d.Longitude+"<br/>"
+						"Latitude: &nbsp"+d.Latitude.toFixed(4)+"<br/>"+
+						"Longitude: "+d.Longitude.toFixed(4)+"<br/>"
 						); //end D3
 				
 				//if business as an operating as designation, post it				
